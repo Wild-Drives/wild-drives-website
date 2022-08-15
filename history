@@ -1,0 +1,20 @@
+Sat Aug 12 2022
+Done:
+  - Established local dir structure
+  - Exported all PNGs from Figma file, converted to JPGs
+  - Created favicon(s) based on mark found in Figma file
+  - Created GitHub repo
+  - Created CodePen for homepage (https://codepen.io/haems/pen/wvmYgdY)
+
+To-Do:
+  - Determine appropriate photo dimensions
+  - Color correct photos (if possible; check ownership and rights)
+  - Convert images to WebP format
+  
+Ask Lewis:
+  - How does he want the favicon to look in dark mode / light mode? Is the favicon meant to be B&W or color?
+  - What do these pages look like on tablets and mobile viewports? Ultrawide display (is there a max-width?)
+  - What parts of the UI need animation?
+  - Is he set on Recoleta font? I'd need to license it. (https://www.myfonts.com/products/recoleta-complete-family-package-203125/licenses)
+  - Lots of colors going on here. Not a question, just an observation. 
+  - What happens when the user clicks the "Book Your Trip" link? I don't have the skill to code a webapp that could handle that.
