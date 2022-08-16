@@ -34,6 +34,10 @@
 - Fixed background issue with the green and purple squares -- used an SVG for the body background instead
 - Imported more icons to iconfont
 - Tweaked link styles
+- Began work on eve.html
+  - Exported Eve body background-image from Figma
+- Created vector version of postcard background
+- Exported the remainder of the images
   
 ### To-Do:
 
@@ -45,8 +49,12 @@
 - [x] Export SVG background (from Figma) for footer
 - [x] Implement SVG background for footer
 - [x] Export lightning bolt image (from Figma) for .hero
+- [ ] Add icons to iconfont for Eve page
+- [ ] Fix weird image rotations (postcard, goodies)-- unclear what is causing this; devcon doesn't offer any insight at this time
+- [ ] Fix vector paths for pizza, charge, sink, and shower icons
   
 ## Ask Lewis:
   - What color space is he using in Figma? sRGB or unmanaged? The colors look muddier in unmanaged. This will depend on browser as well -- we can't control which browsers / monitors users choose, so don't go too hard on this
   - Repost: How does he want the favicon to look in dark mode / light mode? Is the favicon meant to be B&W or color? Current favicon doesn't look so hot in dark mode
   - There are (at time of counting) 3 different email icons. Is this intentional?
+  - I suggest keeping the alignment of hero section items consistent between pages (where applicable). Eve page, for example, should match range page. 
