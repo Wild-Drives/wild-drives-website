@@ -16,11 +16,11 @@
   
 ### Ask Lewis:
   - How does he want the favicon to look in dark mode / light mode? Is the favicon meant to be B&W or color?
-  - What do these pages look like on tablets and mobile viewports? Ultrawide display (is there a max-width?)
+  - What do these pages look like on tablets and mobile viewports? Ultrawide display (is there a max-width)?
   - What parts of the UI need animation?
   - Is he set on Recoleta font? I'd need to license it. (https://www.myfonts.com/products/recoleta-complete-family-package-203125/licenses)
-  - Lots of colors going on here. Not a question, just an observation. 
-  - What happens when the user clicks the "Book Your Trip" link? I don't have the skill to code a webapp that could handle that.
+  - Lots of colors going on here. Not a question, just an observation
+  - What happens when the user clicks the "Book Your Trip" link? I don't have the skill to code a webapp that could handle that
 
 
 ## Mon Aug 14 2022
@@ -36,6 +36,10 @@
 - Tweaked link styles
 - Began work on eve.html
   - Exported Eve body background-image from Figma
+  - Added all copy
+  - Added styles to CSS
+  - Added copy
+  - Arranged (loosely) elements
 - Created vector version of postcard background
 - Exported the remainder of the images
   
@@ -57,4 +61,4 @@
   - What color space is he using in Figma? sRGB or unmanaged? The colors look muddier in unmanaged. This will depend on browser as well -- we can't control which browsers / monitors users choose, so don't go too hard on this
   - Repost: How does he want the favicon to look in dark mode / light mode? Is the favicon meant to be B&W or color? Current favicon doesn't look so hot in dark mode
   - There are (at time of counting) 3 different email icons. Is this intentional?
-  - I suggest keeping the alignment of hero section items consistent between pages (where applicable). Eve page, for example, should match range page. 
+  - I suggest keeping the alignment of hero section items consistent between pages (where applicable). Eve page, for example, should match range page
