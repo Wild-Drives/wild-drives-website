@@ -69,3 +69,4 @@
 - Can we not have the newsletter div on the Eve page overlap the footer? It's inconsistent. Also, consider adding the newsletter div to the Range page. 
 - Does the range page not have a background at the top? Seems a bit inconsistent
 - What to do about the inconsistent use of hyphens with compound modifiers? On homepage: "nature-friendly" and "pop-up roof" vs. "150 mile range" and "Pop Up Roof" on Eve page. Also, "Mile Range" ought to be capitalized (Eve page) to match consistency
+- Eve page should probably have top nav, yes?
