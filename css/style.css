@@ -66,10 +66,10 @@ html {
   --twitter: #1DA1F2;
   --gradient: linear-gradient(102.52deg, #48305A 15.85%, #D24B5B 40.2%, #DF6C48 64.91%, #F9B653 86.67%);
   --gradient2: linear-gradient(159.06deg, #405DE6 3.19%, #5851DB 21.49%, #833AB4 40.75%, #C13584 60.49%, #E1306C 78.78%, #FD1D1D 95.64%);
+  --airmail: repeating-linear-gradient(135deg, #583f72 0px, #583f72 30px, transparent 30px, transparent 60px, #E24654 60px, #E24654 90px, transparent 90px, transparent 120px);
 }
 
 body {
-  background: #F9E9CC url("../img/homepage-bg.svg") no-repeat 100% top;
   font-family: 'Bitter', serif;
   color: var(--color-neutrals-900);
   overflow-x: hidden;
@@ -123,7 +123,7 @@ body {
   color: var(--purple-50);
 }
 
-.color-purple-900 {
+.color-purple-100 {
   color: var(--purple-100);
 }
 
@@ -288,7 +288,7 @@ body {
 }
 
 .color-green-100 {
-  color: var9--green-100);
+  color: var(--green-100);
 }
 
 .color-green-200 {
@@ -387,6 +387,10 @@ body {
   transform: rotate(2.17deg)
 }
 
+.rotate-143 {
+    transform: rotate(-1.43deg)
+  }
+
 main {
   padding: 0 1em;
 }
@@ -428,9 +432,18 @@ main a {
   z-index: -99;
 }
 
+.homepage-background {
+    background: #F9E9CC url("../img/homepage-background.svg") no-repeat 100% top;
+}
+
+.eve-background {
+    background: #F9E9CC url("../img/eve-background.svg") no-repeat 100% top;
+}
+
 img {
   border-radius: 5vw;
   vertical-align: middle;
+  width: 100%;
 }
 
 i {
@@ -523,6 +536,10 @@ p {
   padding: 1em;
 }
 
+.flex-child-66 {
+    flex: 66%;
+  }
+
 .flex-child-60 {
   flex: 60%;
 }
@@ -539,9 +556,13 @@ p {
   flex: 33%;
 }
 
+.flex-child-25 {
+    flex: 25%;
+}
+
 .yellow-400-hr {
   width: 200px;
-  height: 12px;
+  height: 11px;
   background-color: var(--yellow-400);
   border: 1px solid var(--yellow-400);
   border-radius: 1em;
@@ -550,13 +571,31 @@ p {
 
 .yellow-500-hr {
     width: 200px;
-    height: 8px;
+    height: 7px;
     background-color: var(--yellow-500);
     border: 1px solid var(--yellow-500);
     border-radius: 1em;
     margin: 1.5em 0 0 0;
 }
-  
+
+.yellow-500-hr-short {
+    width: 200px;
+    height: 3px;
+    background-color: var(--yellow-500);
+    border: 1px solid var(--yellow-500);
+    border-radius: 1em;
+    margin: -0.5em 0 1em 0;
+}
+
+.green-500-hr {
+    width: 200px;
+    height: 7px;
+    background-color: var(--green-500);
+    border: 1px solid var(--green-500);
+    border-radius: 1em;
+    margin: 1.5em 0 0 0;
+}
+
 blockquote {
   font-family: 'Playfair Display', serif;
   font-weight: 700;
@@ -598,7 +637,7 @@ blockquote span {
   transform: rotate(-0.74deg);
   border-radius: 2em;
   margin: 5em auto 8em auto;
-  padding: 0 3em;
+  padding: 3em;
 }
 
 .newsletter div {
@@ -636,6 +675,96 @@ blockquote span {
     color: var(--green-200);
     text-decoration: none;
     text-transform: none;
+}
+
+.specs {
+    display: flex;
+    align-items: center;
+}
+  
+.specs-child {
+    display: inline-block;
+    margin-bottom: 1em;
+}
+
+.specs-child span {
+    display: block;
+}
+
+.specs-child span:first-child {
+    font-family: "Playfair Display", Serif;
+    color: var(--purple-900);
+    font-weight: 900;
+}
+
+.specs-child span:last-child {
+    color: var(--neutral-500);
+}
+
+.anxiety {
+    background-color: var(--green-700);
+    border-radius: 3em;
+    padding: 1em 2em;
+    margin-top: 4em;
+}
+
+.anxiety div {
+    transform: rotate(-2.62deg);
+}
+
+.anxiety ul {
+    list-style: none;
+    padding-inline-start: 0;
+  }
+  
+.anxiety ul li:before {
+    display: inline-block;
+    content: '✓';
+    color: var(--yellow-50);
+    background-color: var(--yellow-600);
+    height: 20px;
+    width: 20px;
+    padding: 0.25em;
+    text-align: center;
+    border-radius: 12em; 
+  }
+
+.anxiety ul li {
+    padding: 0 0 0.2em 0.5em;
+    color: var(--yellow-50);
+}
+
+.anxiety ul li span {
+    padding-left: 0.5em;
+}
+.postcard {
+    /* background: var(--yellow-50) url("../img/postcard-background.svg") no-repeat top; */
+    background: var(--yellow-50);
+    box-shadow: 0 2px 2px #CCB68D;
+    border-radius: 2.5em;
+    background-image: var(--airmail);
+    padding: 1em;
+}
+
+.postcard div {
+    background-color: var(--yellow-50);
+
+    border-radius: 2.5em;
+    height: 100%;
+    width: 100%;
+}
+
+.postcard img {
+    border-radius: 1.625em;
+    width: 100%;
+}
+
+.postcard hr, h3, span {
+
+}
+
+.text-align-center {
+    text-align: center;
 }
 
 footer {
