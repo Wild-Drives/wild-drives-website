@@ -28,14 +28,14 @@
 - Finished first draft on CodePen, tossed it into VSC
 - Imported new fonts from Google
 - Added color classes for fonts
-- Adjusted alignment of .hero div
+- Adjusted alignment of `.hero` `div`
 - Saved add'l images from the Figma file
 - Created iconfont
 - Fixed background issue with the green and purple squares -- used an SVG for the body background instead
 - Imported more icons to iconfont
 - Tweaked link styles
-- Began work on eve.html
-  - Exported Eve body background-image from Figma
+- Began work on [Eve page](html/eve.html)
+  - Exported Eve `body` `background-image` from Figma
   - Added all copy
   - Added styles to CSS
   - Added copy
@@ -45,14 +45,14 @@
   
 ### To-Do:
 
-- [x] Create CTA div for footer
-- [x] Exempt / fix border-radius property for site-id.svg
+- [x] Create CTA `div` for `footer`
+- [x] Exempt / fix `border-radius` value for `site-id.svg`
 - [x] Get favicon working (404)
-- [x] Establish orange link style for links in <main>
-- [x] Set background-color for social icons
-- [x] Export SVG background (from Figma) for footer
-- [x] Implement SVG background for footer
-- [x] Export lightning bolt image (from Figma) for .hero
+- [x] Establish orange link style for links in `main`
+- [x] Set `background-color` for social icons
+- [x] Export SVG background (from Figma) for `footer`
+- [x] Implement SVG background for `footer`
+- [x] Export lightning bolt image (from Figma) for `.hero`
 - [ ] Add icons to iconfont for Eve page
 - [x] Fix weird image rotations (postcard, goodies)-- unclear what is causing this; devcon doesn't offer any insight at this time
 - [ ] Fix vector paths for the following icons (see [Fontello iconfont zip](/fontello-20e39316.zip)):
@@ -66,7 +66,7 @@
   - towels
   - fridge
   
-- [ ] Overhaul iconfont for consistent sizing -- 24px x 24px (batch these in Illustrator)
+- [ ] Overhaul iconfont for consistent sizing -- `24px x 24px` (batch these in Illustrator)
   
 ## Ask Lewis:
 - What color space is he using in Figma? sRGB or unmanaged? The colors look muddier in unmanaged. This will depend on browser as well -- we can't control which browsers / monitors users choose, so don't go too hard on this
@@ -76,7 +76,7 @@
 - How does he want to treat integers outside of the range page? E.g.: "[...] pop-up roof, 5 seats, two double beds, a fridge, [...]" Per AP Style, this should read "five seats, two double beds" but both an integer and a spelled-out number are used. Which one?
 - What does he want to happen when a user subscribes to the newsletter? Redirect to the homepage?
 - Does he want me to fix the paths on the icons or redraw them himself?
-- Can we not have the newsletter div on the Eve page overlap the footer? It's inconsistent. Also, consider adding the newsletter div to the Range page. 
+- Can we not have the newsletter div on the Eve page overlap the `footer`? It's inconsistent. Also, consider adding the newsletter `div` to the Range page
 - Does the range page not have a background at the top? Seems a bit inconsistent
 - What to do about the inconsistent use of hyphens with compound modifiers? On homepage: "nature-friendly" and "pop-up roof" vs. "150 mile range" and "Pop Up Roof" on Eve page. Also, "Mile Range" ought to be capitalized (Eve page) to match consistency
 - Eve page should probably have top nav, yes?
@@ -86,8 +86,11 @@
 - Fixed minor copy issues on Eve page
 - Implemented airmail gradient for postcard borders
 - Various font color fixes
+- Fixed the `li` style on Eve page
+- Adjusted input and button sizes
+- Tweaked Eve page body `background-size` value
   
 ### To-Do:
 - Fix postcards
 - Set colors for nav (if Lewis wants a nav on this page)
-- See if I can indent the second line of the li spans -- else, use inline-block divs (a la specs)
+- ~~See if I can indent the second line of the `li` `spans` -- else, use `inline-block` `divs` (a la specs)~~
