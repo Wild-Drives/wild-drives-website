@@ -10,7 +10,7 @@
   - Created CodePen for homepage (https://codepen.io/haems/pen/wvmYgdY)
 
 ### To-Do:
-- [ ] Determine appropriate photo dimensions
+- [ ] ~~Determine appropriate photo dimensions~~
 - [ ] Color correct photos (if possible; check ownership and rights)
 - [ ] Convert images to WebP format
   
