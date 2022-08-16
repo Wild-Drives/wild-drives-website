@@ -32,7 +32,7 @@ Done:
   - Tweaked link styles
   
   To-Do:
-  [x] Create CTA div for footer
+- [ ] Create CTA div for footer
   [x] Exempt / fix border-radius property for site-id.svg
   [x] Get favicon working (404)
   [x] Establish orange link style for links in <main>
