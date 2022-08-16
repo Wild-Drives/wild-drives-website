@@ -59,7 +59,12 @@
 - [ ] Overhaul iconfont for consistent sizing -- 24px x 24px (batch these in Illustrator)
   
 ## Ask Lewis:
-  - What color space is he using in Figma? sRGB or unmanaged? The colors look muddier in unmanaged. This will depend on browser as well -- we can't control which browsers / monitors users choose, so don't go too hard on this
-  - Repost: How does he want the favicon to look in dark mode / light mode? Is the favicon meant to be B&W or color? Current favicon doesn't look so hot in dark mode
-  - There are (at time of counting) 3 different email icons. Is this intentional?
-  - I suggest keeping the alignment of hero section items consistent between pages (where applicable). Eve page, for example, should match range page
+- What color space is he using in Figma? sRGB or unmanaged? The colors look muddier in unmanaged. This will depend on browser as well -- we can't control which browsers / monitors users choose, so don't go too hard on this
+- Repost: How does he want the favicon to look in dark mode / light mode? Is the favicon meant to be B&W or color? Current favicon doesn't look so hot in dark mode
+- There are (at time of counting) 3 different email icons. Is this intentional?
+- I suggest keeping the alignment of hero section items consistent between pages (where applicable). Eve page, for example, should match range page
+- How does he want to treat integers outside of the range page? E.g.: "[...] pop-up roof, 5 seats, two double beds, a fridge, [...]" Per AP Style, this should read "five seats, two double beds" but both an integer and a spelled-out number are used. Which one?
+- What does he want to happen when a user subscribes to the newsletter? Redirect to the homepage?
+- Does he want me to fix the paths on the icons or redraw them himself?
+- Can we not have the newsletter div on the Eve page overlap the footer? It's inconsistent. Also, consider adding the newsletter div to the Range page. 
+- Does the range page not have a background at the top? Seems a bit inconsistent.
