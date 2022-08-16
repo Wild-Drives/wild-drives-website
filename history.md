@@ -70,3 +70,14 @@
 - Does the range page not have a background at the top? Seems a bit inconsistent
 - What to do about the inconsistent use of hyphens with compound modifiers? On homepage: "nature-friendly" and "pop-up roof" vs. "150 mile range" and "Pop Up Roof" on Eve page. Also, "Mile Range" ought to be capitalized (Eve page) to match consistency
 - Eve page should probably have top nav, yes?
+
+## Tue Aug 16 2022
+### Done:
+- Fixed minor copy issues on Eve page
+- Implemented airmail gradient for postcard borders
+- Various font color fixes
+  
+### To-Do:
+- Fix postcards
+- Set colors for nav (if Lewis wants a nav on this page)
+- See if I can indent the second line of the li spans -- else, use inline-block divs (a la specs)
