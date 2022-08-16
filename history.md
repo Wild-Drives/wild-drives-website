@@ -55,7 +55,7 @@
 - [x] Export lightning bolt image (from Figma) for .hero
 - [ ] Add icons to iconfont for Eve page
 - [x] Fix weird image rotations (postcard, goodies)-- unclear what is causing this; devcon doesn't offer any insight at this time
-- [ ] Fix vector paths for the following icons (see ):
+- [ ] Fix vector paths for the following icons (see [Fontello iconfont zip](/fontello-20e39316.zip)):
   - pizza
   - charge
   - sink
