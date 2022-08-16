@@ -55,7 +55,17 @@
 - [x] Export lightning bolt image (from Figma) for .hero
 - [ ] Add icons to iconfont for Eve page
 - [x] Fix weird image rotations (postcard, goodies)-- unclear what is causing this; devcon doesn't offer any insight at this time
-- [ ] Fix vector paths for pizza, charge, sink, and shower icons
+- [ ] Fix vector paths for the following icons (see ):
+  - pizza
+  - charge
+  - sink
+  - shower
+  - beds
+  - chair
+  - usb
+  - towels
+  - fridge
+  
 - [ ] Overhaul iconfont for consistent sizing -- 24px x 24px (batch these in Illustrator)
   
 ## Ask Lewis:
