@@ -33,7 +33,8 @@ Done:
   
   To-Do:
 - [ ] Create CTA div for footer
-  [x] Exempt / fix border-radius property for site-id.svg
+
+- [ x ] Exempt / fix border-radius property for site-id.svg
   [x] Get favicon working (404)
   [x] Establish orange link style for links in <main>
   [x] Set background-color for social icons
