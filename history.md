@@ -56,6 +56,7 @@
 - [ ] Add icons to iconfont for Eve page
 - [ ] Fix weird image rotations (postcard, goodies)-- unclear what is causing this; devcon doesn't offer any insight at this time
 - [ ] Fix vector paths for pizza, charge, sink, and shower icons
+- [ ] Overhaul iconfont for consistent sizing -- 24px x 24px (batch these in Illustrator)
   
 ## Ask Lewis:
   - What color space is he using in Figma? sRGB or unmanaged? The colors look muddier in unmanaged. This will depend on browser as well -- we can't control which browsers / monitors users choose, so don't go too hard on this
