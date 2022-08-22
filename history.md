@@ -94,3 +94,14 @@
 - Fix postcards
 - Set colors for nav (if Lewis wants a nav on this page)
 - ~~See if I can indent the second line of the `li` `spans` -- else, use `inline-block` `divs` (a la specs)~~
+
+## Tue Aug 16 - Mon Aug 22 2022
+### Done:
+- Overhauled all HTML to use ``grid`` rather than ``flex``
+- Added media queries to handle mobile viewports
+- Created .lottie files
+
+### To-Do:
+- Create subdomain on billrix.design to host files
+- Consider moving from iconfont to inline SVGs
+- Linked icons are still underlined -- see above for poss fix
