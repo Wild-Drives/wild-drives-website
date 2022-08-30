@@ -21,11 +21,16 @@
 		<link rel="icon" href="../favicon.ico" sizes="any">
 		<link rel="icon" href="../favicon.svg" type="image/svg+xml">
 		<link rel="apple-touch-icon" href="../apple-touch-icon.png">
-	<body class="eve-background">
+        </head>
+	<body class="range-background">
 		<main>
 			<header>
 				<div>
-					<a href="index.html"><img src="../img/site-id-purple.svg" class="no-border-radius"></a>
+					<a href="index.html">
+						<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"></script>
+						<dotlottie-player src="../lottie/site-id-purple.lottie"  background="transparent"  speed="1"  style="width: 200px; height: 90px;" loop autoplay></dotlottie-player>
+						<noscript><img src="../img/site-id-purple.svg" class="no-border-radius" style="width: 200px; height: 90px;"></noscript>
+					</a>
 				</div>
 				<div class="purple-hamburger-circle">
 					<input id="menu-toggle" type="checkbox">
@@ -34,14 +39,14 @@
 					</label>
 					<ul class="menu">
 						<li>
-							<a href="eve.html" class="color-green-50">Meet Eve</a>
+							<a href="eve.html" class="color-purple-600">Meet Eve</a>
 						</li>
 						<li>
-							<a href="range.html" class="color-green-50">Real Range</a>
+							<a href="range.html" class="color-purple-600">Real Range</a>
 						</li>
 						<li>
-							<a href="https://www.quirkycampers.com/uk/campervan/301977/?wb-currency=GBP&" class="color-yellow-500">
-								<i class="icon-trip"></i> Book Your Trip </a>
+							<a href="https://www.quirkycampers.com/uk/campervan/301977/?wb-currency=GBP&" class="color-purple-800">
+								<i class="icon-trip"></i>Book Your Trip </a>
 						</li>
 					</ul>
 				</div>
@@ -50,16 +55,16 @@
             <div>
                 <h1 class="color-purple-900">What's the<br><span class="color-purple-700">real</span> range?</h1>
                 <hr class="green-500-hr">
-                <p class="tw-75">The WLTP range of Eve's base vehicle, the Citroen e-Dispatch, is 196 miles. But we're often immediately asked “but what's the real range?”.</p>
+                <p class="tw-75">The WLTP range of Eve's base vehicle, the Citroen e-Dispatch, is 196 miles. But we're often immediately asked, “what's the real range?”</p>
                 <p class="tw-75">The answer can range between 100 miles and 200 miles between on a variety of factors. Speed is the number one impact on range. The most important thing you can do is to restrain your inner Maverick.</p><br>
                 <h2 class="color-green-900">Use Citroen's estimator<br><span class="color-green-600">Simulate your range</span></h2>
                 <hr class="yellow-500-hr">
                 <p class="tw-75">A blurb about how awesome it would be to book a great trip in the lovely Eve, and how it would be just the holiday you really wanted.</p>
-                <p><a href=""><i class="icon-book"></i> try out the calculator<i class="icon-chevron"></i></a></p>
+                <p><a href=""><i class="icon-book color-orange-400"></i> try out the calculator<i class="icon-chevron color-orange-400"></i></a></p>
             </div>
             <div>
                 <div class="range">
-                    <div>30<span class="miles">mph</span></div><div class="arrow"><i class="icon-arrow"></i></div><div>197<span class="miles">miles</span></div>
+                    <div>30<span class="miles">mph</span></div><div><i class="icon-arrow"></i></div><div>197<span class="miles">miles</span></div>
                 </div>
                 <div class="range">
                     <div>50<span class="miles">mph</span></div><div><i class="icon-arrow"></i></div><div>176<span class="miles">miles</span></div>
@@ -79,36 +84,36 @@
         <p class="tw-60">It's widely known that cold temperatures affect the efficiency of batteries on electric vehicles. This is true, you can expect a 10% range reduction in cold weather. But the use of heating increases that even more.</p>
         <p class="tw-60">I'd recommend to try not to use the heating or AC if you're concerned about range. When it's hot I use the windows whenever possible. In the winter, the van does have a gas air blow heater you can use when stationary.</p>
         <div class="container-33  bottom-align">
-            <div class="item-1 red-border">
+            <div class="item-1">
                 <span class="tw-explain"><i class="icon-road"></i><br>Assuming one passenger driving at 50mph.</span>
             </div>
-            <div class="item-2 red-border">
+            <div class="item-2">
                 <h4>Warm Day</h4><br>
                 <div class="container no-margin bottom-align">
                     <div>
                         <span class="tw-integer-top">With AC</span><br>
                         <span class="tw-integer">162</span>
-                        <span class="miles">miles</span>
+                        <span class="miles color-purple-600">miles</span>
                     </div>
                     <div>
                         <span class="tw-integer-top">Without AC</span><br>
                         <span class="tw-integer">180</span>
-                        <span class="miles">miles</span>
+                        <span class="miles color-purple-600">miles</span>
                     </div>
                 </div>
             </div>
-            <div class="item-3 red-border">                
+            <div class="item-3">                
                 <h4>Cold Day</h4><br>
                 <div class="container no-margin bottom-align">
                     <div>
                         <span class="tw-integer-top">Title</span><br>
                         <span class="tw-integer">140</span>
-                        <span class="miles">miles</span>
+                        <span class="miles color-purple-600">miles</span>
                     </div>
                     <div>
                         <span class="tw-integer-top">Without Heating</span><br>
                         <span class="tw-integer">154</span>
-                        <span class="miles">miles</span>
+                        <span class="miles color-purple-600">miles</span>
                     </div>
                 </div>
             </div>
@@ -119,34 +124,34 @@
         <hr class="yellow-500-hr">
         <p class="tw-60">We are commonly asked how much the weight of the van conversion affects the range. The answer is not as much as we expected, roughly 5%.</p>
         <div class="container-33 bottom-align">
-            <div class="item-1 red-border">
+            <div class="item-1">
                 <span class="tw-explain"><i class="icon-road"></i><br>Assuming a mild day, 50MPH, with one passenger, and aircon off.</span>
             </div>
-            <div class="item-2 red-border">
+            <div class="item-2">
                 <div class="container no-margin bottom-align">
                     <div>
                         <span class="tw-passengers">Pre-Conversion<br>(~2200 kg)</span>
                         <span class="tw-integer">188</span>
-                        <span class="miles">miles</span>
+                        <span class="miles color-purple-600">miles</span>
                     </div>
                     <div>
                         <span class="tw-passengers">One Passenger<br>(~2600 kg)</span>
                         <span class="tw-integer">179</span>
-                        <span class="miles">miles</span>
+                        <span class="miles color-purple-600">miles</span>
                     </div>
                 </div>
             </div>
-            <div class="item-3 red-border">
+            <div class="item-3">
                 <div class="container no-margin bottom-align">
                     <div>
                         <span class="tw-passengers">Three Passengers<br>(~2800 kg)</span>
                         <span class="tw-integer">176</span>
-                        <span class="miles">miles</span>
+                        <span class="miles color-purple-600">miles</span>
                     </div>
                     <div>
                         <span class="tw-passengers">Maximum Load<br>(~3000 kg)</span>
                         <span class="tw-integer">173</span>
-                        <span class="miles">miles</span>
+                        <span class="miles color-purple-600">miles</span>
                     </div>
                 </div>
             </div>
@@ -154,19 +159,19 @@
         </section>
         <section>
         <div class="container-33 wltp">
-            <div class="item-1 red-border">
+            <div class="item-1">
                 <h4 class="color-green-800">What is WLTP?</h4>
                 <hr class="yellow-500-hr-short">
                 <p>WLTP stands for the Worldwide Harmonised Light Vehicle Test Procedure. It's used for all vehicles, not just electric, to determine their fuel consumption and emissions.</p>
                 <p>It came into force in 2018, replacing the NEDC (New European Driving Cycle) and is more realistic.</p>
             </div>
-            <div class="item-2 red-border">
+            <div class="item-2">
                 <h4 class="color-green-800">??</h4>
                 <hr class="yellow-500-hr-short">
                 <p>WLTP stands for the Worldwide Harmonised Light Vehicle Test Procedure. It's used for all vehicles, not just electric, to determine their fuel consumption and emissions.</p>
                 <p>It came into force in 2018, replacing the NEDC (New European Driving Cycle) and is more realistic.</p>
             </div>
-            <div class="item-3 red-border">                
+            <div class="item-3">                
                 <h4 class="color-green-800">??</h4>
                 <hr class="yellow-500-hr-short">
                 <p>WLTP stands for the Worldwide Harmonised Light Vehicle Test Procedure. It's used for all vehicles, not just electric, to determine their fuel consumption and emissions.</p>
@@ -181,18 +186,16 @@
     </section>
     </main>
     <footer>
-        <h3 class="color-purple-900">Sounds good? <br>
+        <h2 class="color-purple-900">Sounds good?<br>
             <span class="color-purple-600 headline-bold">Book now!</span>
-        </h3>
+        </h2>
         <hr class="yellow-500-hr">
         <p>A blurb about how awesome it would be to book a great trip in the lovely Eve, and how it would be just the holiday you really wanted.</p>
-        <a href="https://www.quirkycampers.com/uk/campervan/301977/?wb-currency=GBP&">
-            <div class="cta">
-                <i class="icon-trip"></i> Book Your Trip
-            </div>
-        </a>
+        <a href="https://www.quirkycampers.com/uk/campervan/301977/?wb-currency=GBP&" class="cta">
+            <i class="icon-trip"></i>Book Your Trip
+    </a>
         <span class="legal color-yellow-50">
-            <img src="" alt="" title="">Wild Drives, Ltd <br>2022 </span>
+            &copy; 2022 Wild Drives, Ltd</span>
     </footer>
 </body>
 </html>
