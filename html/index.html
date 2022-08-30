@@ -25,7 +25,10 @@
 		<main>
 			<header>
 				<div>
-					<a href="index.html"><img src="../img/site-id.svg" class="no-border-radius" style="width: 200px; height: 90px;"></a>				</div>
+					<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"></script>
+					<dotlottie-player src="../lottie/site-id-orange.lottie"  background="transparent"  speed="1"  style="width: 200px; height: 90px;" loop autoplay></dotlottie-player>
+					<noscript><img src="../img/site-id.svg" class="no-border-radius" style="width: 200px; height: 90px;"></noscript>
+				</div>
 				<div>
 					<input id="menu-toggle" type="checkbox">
 					<label class="menu-button-container" for="menu-toggle">
@@ -40,38 +43,40 @@
 						</li>
 						<li>
 							<a href="https://www.quirkycampers.com/uk/campervan/301977/?wb-currency=GBP&" class="color-yellow-500">
-								<i class="icon-trip"></i> Book Your Trip </a>
+								<i class="icon-trip"></i>Book Your Trip </a>
 						</li>
 					</ul>
 				</div>
 			</header>
+			<img src="../img/bolt.svg" class="hero-image">
 			<span class="color-purple-200 super-hero-text">Brighton homegrown</span>
 			<h1 class="color-yellow-100 hero-text">Electric <br>campervan <br>hire </h1>
-			<!-- the length of "campervan" is absolutely a problem -- @media query this size down -- or maybe use vw -- SMARLTY
-                     17vw looks okay. But it's not the only thing causing the scroll! gotta hunt it down-->
-			<!-- culprits:
-                    - follow our journey text
-                    - wild-drives-2.jpg-->
+			</div>
 			<hr class="yellow-400-hr">
-			<a href="https://www.quirkycampers.com/uk/campervan/301977/?wb-currency=GBP&" class="hero-cta">
-				<i class="icon-trip"></i>
-				<span>Book Your Trip</span>
+			<a href="https://www.quirkycampers.com/uk/campervan/301977/?wb-currency=GBP&" class="cta">
+					<i class="icon-trip"></i>Book Your Trip
 			</a>
+
+				<!-- <div class="hero-subtext">
+					<div>
+						<h4 class="color-green-900">Say <em>sayonara</em> to toxic fumes.<br>Our vans are powered by electricity.</h4>
+						<p>We're aiming to create the most sustainable and nature-friendly travel experience in the world.</p>
+						<p>Escape the crowds this summer.</p>
+					</div> 
+				</div> -->
 			<div class="container">
 				<div>
 					<img src="../img/wild-drives-5.jpg" class="rotate-22">
 				</div>
 				<div>
-					<h2 class="color-purple-900">Meet Eve,<br>
+					<h2 class="color-purple-900"><br>Meet Eve,<br>
 						<span class="color-purple-600 headline-bold">She's electric.</span>
 					</h2>
 					<hr class="yellow-500-hr">
 					<p>Eve is based on a 2021 Citroen E-dispatch with a range of <a href="" class="secondary-link-style">150 miles</a>. You can charge her from 0%-80% in 40 minutes. </p>
 					<p>She's kitted out with a pop-up roof, 5 seats, two double beds, a fridge, a toilet, and an induction hob powered by solar panels.</p>
 					<span>
-						<a href="eve.html">
-							<i class="icon-charge"></i>learn more about our electric campervan <i class="icon-angle-right"></i>
-						</a>
+						<a href="eve.html"><i class="icon-charge color-orange-400"></i> learn more about our electric campervan<i class="icon-chevron color-orange-400"></i></a>
 					</span>
 				</div>
 			</div>
@@ -104,27 +109,23 @@
 					<hr class="yellow-500-hr">
 					<p>Lewis was interviewed by Love Campers about his love of camper vans, Eve's conversion, and his ambitions to build a sustainable business.</p>
 					<a href="https://www.lovecampers.co.uk/blog/electric-campervan-available-to-hire-in-the-uk-million-pound-motorhomes/">
-						<i class="icon-book"></i>read the article <i class="icon-angle-right"></i>
+						<i class="icon-book color-orange-400"></i> read the article<i class="icon-chevron color-orange-400"></i></a>
 					</a>
 				</div>
 				<div class="socials">
 					<h4 class="color-green-50">Our Socials</h4>
 					<hr class="yellow-500-hr-short">
 					<p>
-						<a href="https://twitter.com/wild_drives">
-							<i class="icon-twitter rotate-787 color-yellow-50 background-color-twitter"></i> Follow us on Twitter </a>
+						<i class="icon-twitter rotate-787 color-yellow-50 background-color-twitter"></i> <a href="https://twitter.com/wild_drives">Follow us on Twitter</a>
 					</p>
 					<p>
-						<a href="https://www.instagram.com/wilddrives/">
-							<i class="icon-instagram rotate-676 color-yellow-50 background-color-instagram"></i> Friend us on Instagram </a>
+						<i class="icon-instagram rotate-676 color-yellow-50 background-color-instagram"></i> <a href="https://www.instagram.com/wilddrives/">Friend us on Instagram</a>
 					</p>
 					<p>
-						<a href="https://www.facebook.com/WildDrivesElectric">
-							<i class="icon-facebook rotate-326 color-yellow-50 background-color-facebook"></i> Friend us on Facebook </a>
+						<i class="icon-facebook rotate-326 color-yellow-50 background-color-facebook"></i> <a href="https://www.facebook.com/WildDrivesElectric">Friend us on Facebook</a>
 					</p>
 					<p>
-						<a href="mailto:hello@wilddrives.co.uk">
-							<i class="icon-email rotate-217 color-yellow-50 background-color-email"></i> Email us </a>
+						<i class="icon-email rotate-217 color-yellow-50 background-color-email"></i> <a href="mailto:hello@wilddrives.co.uk"> Email us</a>
 					</p>
 				</div>
 			</div>
@@ -135,13 +136,11 @@
 			</h2>
 			<hr class="yellow-500-hr">
 			<p>A blurb about how awesome it would be to book a great trip in the lovely Eve, and how it would be just the holiday you really wanted.</p>
-			<a href="https://www.quirkycampers.com/uk/campervan/301977/?wb-currency=GBP&">
-				<div class="cta">
-					<i class="icon-trip"></i> Book Your Trip
-				</div>
-			</a>
+			<a href="https://www.quirkycampers.com/uk/campervan/301977/?wb-currency=GBP&" class="cta">
+				<i class="icon-trip"></i>Book Your Trip
+		</a>
 			<span class="legal color-yellow-50">
-				<img src="" alt="" title="">Wild Drives, Ltd <br>2022</span>
+				&copy; 2022 Wild Drives, Ltd</span>
 		</footer>
 	</body>
 </html>
