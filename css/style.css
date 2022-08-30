@@ -668,15 +668,15 @@ main a:hover {
 }
 
 .homepage-background {
-  background: #F9E9CC url("../img/homepage-background.svg") no-repeat 100% top;
+  background: #F9E9CC url("/img/homepage-background.svg") no-repeat 100% top;
 }
 
 .eve-background {
-  background: #F9E9CC url("../img/eve-background.svg") no-repeat 0 top;
+  background: #F9E9CC url("/img/eve-background.svg") no-repeat 0 top;
 }
 
 .range-background {
-  background: #F9E9CC url("../img/range-background.svg") no-repeat 0 top;
+  background: #F9E9CC url("/img/range-background.svg") no-repeat 0 top;
 }
 
 .font-bitter {
@@ -872,7 +872,7 @@ blockquote span {
 }
 
 .newsletter {
-  background: var(--yellow-100) url("../img/newsletter-bg.svg") no-repeat center;
+  background: var(--yellow-100) url("/img/newsletter-bg.svg") no-repeat center;
   background-size: cover;
   border-radius: 2em;
   width: auto;
@@ -998,7 +998,7 @@ input, button {
 }
 
 .anxiety ul {
-  list-style-image: url('../img/li-checkmark.svg');
+  list-style-image: url('/img/li-checkmark.svg');
   padding-inline-start: 1em;
 }
 
@@ -1039,7 +1039,7 @@ input, button {
 }
 
 .postcard::after {
-  content: url('../img/postmark.png');
+  content: url('/img/postmark.png');
   position: absolute;
   top: 1em;
   left: 1em;
@@ -1062,7 +1062,7 @@ input, button {
   border-radius: 1em;
   padding: 1em;
   background-color: var(--yellow-50);
-  background-image: url('../img/postmark.png');
+  background-image: url('/img/postmark.png');
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
@@ -1091,7 +1091,7 @@ input, button {
 }
 
 footer {
-  background: #D88C71 url("../img/footer-bg.svg") no-repeat 100% top;
+  background: #D88C71 url("/img/footer-bg.svg") no-repeat 100% top;
   padding: 4em 0 0 0;
   text-align: center;
 }
