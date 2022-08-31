@@ -1,0 +1,22 @@
+{
+  "name": "wild-drives-website",
+  "version": "1.0.0",
+  "description": "Wild Drives public website",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lewisnyman/wild-drives-website.git"
+  },
+  "author": "Lewis Nyman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lewisnyman/wild-drives-website/issues"
+  },
+  "homepage": "https://github.com/lewisnyman/wild-drives-website#readme",
+  "dependencies": {
+    "node-static": "^0.7.11"
+  }
+}
