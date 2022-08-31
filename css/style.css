@@ -916,10 +916,20 @@ blockquote span {
   .newsletter-inputs {
     display: flex;
   }
+  .newsletter .cta {
+    border-radius: 0 4px 4px 0;
+    margin-top: 1.65em;
+  }
+  .newsletter-email-input input {
+    border-radius: 4px 0 0 4px;
+  }
+}
+
+.newsletter-email-input {
+  flex-grow: 2;
 }
 
 .newsletter .cta {
-  margin-top: 1.5em;
   color: var(--yellow-400);
   background-color: var(--purple-900);
 }
@@ -927,7 +937,7 @@ blockquote span {
 input {
   padding: 0.5em;
   font-size: 1.125rem;
-  line-height: 1.5em;
+  line-height: 1.75em;
   width: 100%;
   box-sizing: border-box;
   color: var(--color-neutrals-900);
