@@ -614,6 +614,10 @@ main a:hover {
   font-size: 1em;
 }
 
+.range-speed {
+  max-width: 35rem;
+}
+
 .range {
   display: flex;
   justify-content: space-between;
