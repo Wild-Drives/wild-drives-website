@@ -702,7 +702,7 @@ main a:hover {
 }
 
 .hero-text {
-  font-size: clamp(3.6rem, 10.4166667vw, 150px);
+  font-size: clamp(3.2rem, 10.4166667vw, 150px);
   line-height: 0.85;
 }
 
@@ -1173,6 +1173,12 @@ header {
   align-items: center;
 }
 
+@media screen and (max-width: 800px) {
+  header {
+    margin-bottom: 2rem;
+  }
+}
+
 header div {
   width: auto;
   display: flex;
@@ -1277,7 +1283,7 @@ header img {
   .menu {
     position: absolute;
     top: 0;
-    margin-top: 5em;
+    margin-top: 140px;
     left: 0;
     flex-direction: column;
     width: 100%;
