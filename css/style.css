@@ -681,10 +681,12 @@ main a:hover {
 
 .eve-background {
   background: #F9E9CC url("/img/eve-background.svg") no-repeat 0 top;
+  background-size: clamp(1130px, 100%, 100%);
 }
 
 .range-background {
   background: #F9E9CC url("/img/range-background.svg") no-repeat 0 top;
+  background-size: clamp(1130px, 100%, 100%);
 }
 
 .font-bitter {
