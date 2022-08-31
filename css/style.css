@@ -387,6 +387,10 @@ body {
   transform: rotate(-0.74deg)
 }
 
+.rotate-074-reverse {
+  transform: rotate(0.74deg)
+}
+
 .rotate-305 {
   transform: rotate(3.05deg)
 }
@@ -479,7 +483,7 @@ p {
   line-height: 1.4;
 }
 
-section {
+.margin-spacing-a {
   margin: 6em 0;
 }
 
@@ -535,6 +539,9 @@ section {
   grid-template-columns: 1fr 1fr;
   gap: 1em;
   margin: 4em 0;
+}
+.container--no-margin {
+  margin: 0 !important;
 }
 
 .container-33-33-33 {
@@ -690,14 +697,12 @@ main a:hover {
 
 .hero {
   position: relative;
-  margin-bottom: 14em;
 }
 
 .hero-image {
   position: absolute;
-  top: 12em;
-  left: 40%;
-  width: clamp(170px, 16.1805556vw, 200px);
+  left: 35%;
+  width: clamp(170px, 16.1805556vw, 220px);
   z-index: -1;
 }
 
@@ -737,29 +742,24 @@ main a:hover {
   margin-top: 11vw!important;
 }
 
-main .cta {
-  display: block;
-  width: fit-content;
-  height: 2.2em;
-  font-family: 'Recoleta-Black', serif;
+.hero .cta {
   font-size: 1em;
-  font-weight: 900;
   text-transform: none;
   color: var(--yellow-100);
-  line-height: 2.2em;
-  padding: 0.625em 1.5em;
+  line-height: 1.5em;
   background: var(--orange-500);
-  border-radius: 0.5em;
   text-shadow: 2px 2px var(--orange-600);
-  text-decoration: none !important;
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
 }
 
-main .cta i {
+.hero .cta i {
   vertical-align: sub;
   padding-right: 0.25em;
 }
 
-main .cta a {
+.hero .cta a {
   color: var(--yellow-50);
 }
 
@@ -901,8 +901,8 @@ blockquote span {
   margin: 4em 0;
 }
 
-.newsletter div {
-  transform: rotate(0.74deg);
+.newsletter-heading {
+  margin-bottom: 2rem;
 }
 
 .newsletter i {
@@ -912,10 +912,27 @@ blockquote span {
   height: 60px;
 }
 
-input, button {
-  height: 3em;
-  padding-left: 0.5em;
-  font-size: 1.125em;
+@media screen and (min-width: 480px) {
+  .newsletter-inputs {
+    display: flex;
+  }
+}
+
+.newsletter .cta {
+  margin-top: 1.5em;
+  color: var(--yellow-400);
+  background-color: var(--purple-900);
+}
+
+input {
+  padding: 0.5em;
+  font-size: 1.125rem;
+  line-height: 1.5em;
+  width: 100%;
+  box-sizing: border-box;
+  color: var(--color-neutrals-900);
+  border-radius: 4px;
+  border: 0;
 }
 
 .align-items-top {
@@ -944,7 +961,7 @@ input, button {
   color: var(--green-200);
   text-decoration: none;
   text-transform: none;
-  margin-left: 1em;
+  margin-left: 0.3em;
 }
 
 .socials a:hover {
@@ -1132,18 +1149,31 @@ footer p {
   border-top: 3px solid white;
 }
 
-footer .cta {
+.cta {
   display: block;
   font-family: 'Recoleta-Black', serif;
   font-weight: 900;
-  color: var(--yellow-100);
-  height: 2.25em;
   width: fit-content;
   margin: 2em auto 4em auto;
-  line-height: 2.25em;
+  line-height: 1.5em;
   padding: 0.625em 1.5em;
-  background: var(--green-900);
   border-radius: 0.5em;
+  text-decoration: none !important;
+  appearance: none;
+  border: 0;
+}
+
+.cta--with-icon {
+  padding-left: 1.2em;
+}
+
+.cta [class^="icon-"], .cta [class*=" icon-"] {
+  padding-right: 4px;
+}
+
+footer .cta {
+  color: var(--yellow-100);
+  background: var(--green-900);
   text-shadow: 2px 2px #040B0A;
 }
 
@@ -1196,6 +1226,7 @@ header img {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  z-index: 2;
 }
 
 .menu>li>a>i {
@@ -1398,9 +1429,6 @@ header img {
   .newsletter {
     padding: 1em;
     margin-bottom: 4em;
-  }
-  input, button {
-    height: 2em;
   }
   main a {
     line-height: 0;
