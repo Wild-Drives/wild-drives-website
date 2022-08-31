@@ -668,7 +668,8 @@ main a:hover {
 }
 
 .homepage-background {
-  background: #F9E9CC url("/img/homepage-background.svg") no-repeat 100% top;
+  background: #F9E9CC url("/img/homepage-background.svg") no-repeat 0 top;
+  background-size: 100%;
 }
 
 .eve-background {
@@ -701,7 +702,7 @@ main a:hover {
 }
 
 .hero-text {
-  font-size: 12vw;
+  font-size: max(10.4166667vw, 150px);
   line-height: 0.85;
 }
 
