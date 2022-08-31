@@ -1323,7 +1323,7 @@ header img {
   transform: rotate(-405deg);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1110px) {
   .menu-button-container {
     display: flex;
   }
@@ -1365,6 +1365,14 @@ header img {
   .menu>li:not(:last-child) {
     border-bottom: 1px solid #444;
   }
+  .purple-hamburger-circle {
+    height: 44px;
+    background: var(--purple-800);
+    border-radius: 100%;
+    padding: 0.2em 0.5em;
+  }
+}
+@media (max-width: 800px) {
   .flex-child-50 {
     flex-basis: 100%;
   }
@@ -1451,12 +1459,6 @@ header img {
   }
   main a {
     line-height: 0;
-  }
-  .purple-hamburger-circle {
-    height: 44px;
-    background: var(--purple-800);
-    border-radius: 100%;
-    padding: 0.2em 0.5em;
   }
   .tw-75, .tw-60, .tw-40 {
     width: 100%;
