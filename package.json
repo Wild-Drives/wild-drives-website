@@ -4,8 +4,8 @@
   "description": "Wild Drives public website",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js",
-    "test": "test"
+    "serve": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
     "node-static": "^0.7.11"
   },
   "devDependencies": {
+    "@11ty/eleventy": "^1.0.2",
     "nodemon": "^2.0.19"
   }
 }
