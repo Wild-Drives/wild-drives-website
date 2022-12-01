@@ -712,17 +712,17 @@ main a:hover {
 }
 
 .homepage-background {
-  background: #f9e9cc url("/img/homepage-background.svg") no-repeat 0 top;
+  background: #f9e9cc url("/assets/img/homepage-background.svg") no-repeat 0 top;
   background-size: clamp(1130px, 100%, 100%);
 }
 
 .eve-background {
-  background: #f9e9cc url("/img/eve-background.svg") no-repeat 0 top;
+  background: #f9e9cc url("/assets/img/eve-background.svg") no-repeat 0 top;
   background-size: clamp(1130px, 100%, 100%);
 }
 
 .range-background {
-  background: #f9e9cc url("/img/range-background.svg") no-repeat 0 top;
+  background: #f9e9cc url("/assets/img/range-background.svg") no-repeat 0 top;
   background-size: clamp(1130px, 100%, 100%);
 }
 
@@ -932,7 +932,7 @@ blockquote span {
 }
 
 .newsletter {
-  background: var(--yellow-100) url("/img/newsletter-bg.svg") no-repeat center;
+  background: var(--yellow-100) url("/assets/img/newsletter-bg.svg") no-repeat center;
   background-size: cover;
   border-radius: 2em;
   width: auto;
@@ -1086,7 +1086,7 @@ input {
 }
 
 .anxiety ul {
-  list-style-image: url("/img/li-checkmark.svg");
+  list-style-image: url("/assets/img/li-checkmark.svg");
   padding-inline-start: 1em;
 }
 
@@ -1150,7 +1150,7 @@ input {
   border-radius: 1em;
   padding: 1em;
   background-color: var(--yellow-50);
-  background-image: url("/img/postmark.png");
+  background-image: url("/assets/img/postmark.png");
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
@@ -1181,7 +1181,7 @@ input {
 
 footer {
   background-color: var(--orange-400);
-  background-image: url("/img/footer-bg.svg");
+  background-image: url("/assets/img/footer-bg.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
