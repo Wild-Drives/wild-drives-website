@@ -106,13 +106,15 @@ description: "The first season hiring out Eve is complete! Founder Lewis Nyman l
 
 <div class="wrapper">
 
-## What did success for Wild Drives Season One look like?
+{% blogSection "What did success for Wild Drives Season One look like?" %}
 
 Wild Drives was always intended to be a long term project. We're still in early adoption territory for electric camper vans. 
 
 The long term aims and objectives of Wild Drives is to push the camping and caravan industry down a more sustainable path. In camper vans we enjoy so much of the nature around us, and we should be preserving this beauty for future generations to enjoy.
 
-## The mission for Season One
+{% endblogSection %}
+
+{% blogSection "The mission for Season One" %}
 
 It's probably worth mentioning at this point that my background is in digital design, service design, and user experience design. I've owned, worked, and lived in a camper van before but I have no experience designing, constructing, and hiring one out. And I've never owned an electric vehicle.
 
@@ -120,25 +122,29 @@ So with that in mind, the goals for the first year were:
 
 * To build the reputation for Wild Drives as a trustworthy premium brand
 * To learn the ropes of the business
-* learn how to provide a fantastic holiday experience
+* Learn how to provide a fantastic holiday experience
 
-I was never aiming for a financially lucrative business in Season One, and my rationale was in order to get to this I need to prove the concept to people and show that electric camper vans are not only feasible but enjoyable and more desirable than diesel.
+I was never aiming for a financially lucrative business in Season One. My rationale was in order to get to this I need to prove the concept to people. I had to show customers that electric campervans are not only feasible but enjoyable and desirable.
 
-## Bookings
+{% endblogSection %}
+
+{% blogSection "Analysing bookings" %}
 
 There are a few caveats to the numbers for this first year. There was a lot of pent-up demand to go abroad after years of being stuck at home, so camping holidays were slower than they have been in previous years.
 
 I also launched very late in the year. I bought the van in January, the conversion was complete my mid-May. Before I could get it listed on Quirky Campers, I had to get the gas safe certificate, a weighbridge reading, and a professional photoshoot.
 
-It was live to book by the start of June, and the first booking started on June 29th.
+It was live to book by the start of June, and the first booking started on **June 29th.**
 
-That's five months of the year where people didn't even know Eve existed! I'm predicting that with a much bigger head start I'll get a lot more bookings next year.
+For five months of the year people didn't even know Eve existed! I'm predicting that with a much bigger headstart I'll get a many more bookings next year.
 
-I also undersold Eve in her first year. I didn't have any reviews or any brand recognition so I priced her quite competitively against the diesel vans. I gave discounts to early newsletter sign-ups. I also had a slight panic in July where most of August was empty and ran a short sale paired with some ads on social media. It was super-effective at getting bookings but those booked were below the value of the van.
+I feel like I undersold Eve in her first year. I didn't have any reviews or any brand recognition so I priced her quite competitively against the diesel vans. I gave discounts to early newsletter sign-ups. I also had a slight panic in July where most of August was empty and ran a short sale paired with some ads on social media. It was super-effective at getting bookings but those booked were below the value of the van.
 
 I've upped my rate for next year and I'm going to hold my nerve and not reduce it unless it really gets desperate.
 
-## Digging down into the costs
+{% endblogSection %}
+
+{% blogSection "Analysing the costs" %}
 
 ### The van: £48,000
 
@@ -154,13 +160,13 @@ Eve is an absolute delight to drive. It's modern, smooth, and easy! I really wan
 
 I found Love Campers, who were local, had converted electric vans before, and their conversions looked amazing!
 
-The design uses a lot of light neutral colors. I didn't know if this Would "quirky" enough to be listed on Quirky Campers but I wanted it to feel luxurious and also feel more spacious as it is a compact van. The bamboo surfaces and tongue and groove woodwork just looks fantastic!
+The design uses a lot of light neutral colors. I didn't know if this would be "quirky" enough to be listed on Quirky Campers but I wanted it to feel luxurious and also feel more spacious as it is a compact van. The bamboo surfaces and tongue and groove woodwork just looks fantastic!
 
-I also really wanted an induction hob. To be able to cook without gas would be a nice feature to offer customers, so I wanted to give it a go. That ended up adding a lot to the costs. The beastly solar panel, battery, inverter, and induction hob cost £3,492 total. I love the induction hob though, it was worth it.
+I also really wanted an **induction hob.** To be able to cook without gas would be a nice feature to offer customers, so I wanted to give it a go. That ended up adding a lot to the costs. The beastly solar panel, battery, inverter, and induction hob cost £3,492 total. I love the induction hob though, it was worth it.
 
-I also wanted heating. We explored electric options but there just wasn't a feasible option out there that wouldn't drain the battery quickly. We opted for gas blow air heating. I didn't want customers to freeze to death! There's no luxury in that. That cost £1,100.
+I also wanted heating. We explored electric options but there just wasn't a feasible option out there that wouldn't drain the battery quickly. We opted for **gas blow air heating.** I didn't want customers to freeze to death! There's no luxury in that. That cost £1,100.
 
-### One off costs: £3,020.37
+### One-off costs: £3,020.37
 
 To get the van ready to hire out, I had to fill it with things to make it livable. Before we go into the details I would like to point out that a lot of these purchases should definitely last for several years, Capital Assets in accounting terms.
 
@@ -171,7 +177,7 @@ It still feels like a lot of money though...
 #### Le Cruset pans: £200 second-hand
 These are awesome with the induction hob. They heat up so fast compared to a gas hob and retain heat so well. No regrets.
 
-### Le Cruset kettle: £82.50
+#### Le Cruset kettle: £82.50
 I had to complete the set didn't I? It looks great. Still no regrets.
 
 #### Bedding: £774
@@ -181,7 +187,7 @@ The bamboo duvet, called ["The Cloud", from Panda London](https://pandalondon.co
 
 [The linen from Piglet in Bed](https://uk.buymeonce.com/products/piglet-in-bed-basic-bed-linen-bundle-sage-green) is lovely in the summer months. Shout out to their [merino wool pillows](https://www.pigletinbed.com/products/merino-wool-pillow-insert-single) too.
 
-The bedding from Undercover is really fascinating. [From their website:]https://undercoverliving.com/pages/fabric)
+The bedding from Undercover is really fascinating. [From their website:](https://undercoverliving.com/pages/fabric)
 
 > TENCEL™ is made from sustainably grown trees such as eucalyptus. The fibres come from trees that are harvested from controlled sources following stringent guidelines.
 > 
@@ -193,7 +199,7 @@ The problem is, because bedding is an add-on item, not a lot of people actually 
 
 #### Driveaway awning: £660
 
-Believe it or not. £600 is actually very reasonable for a driveaway awning, which are no more than tents with a piece of fabric that attaches to the van.
+Believe it or not. £660 is fairly reasonable for a driveaway awning, which are no more than tents with a piece of fabric that attaches to the van.
 
 I panicked when a booking came through for a family of four with two sets of bedding; tables and chairs; a luxury hamper; and the pizza oven. And a toaster.
 
@@ -203,7 +209,7 @@ They loved it! And two other bookings used it after I bought it. I think I could
 
 The big regret with the awning is that it's often used when the weather is wet. So it comes back wet. Wet and muddy. It's pain to dry out. It's a pain to clean. I've upped the rates for it for next year to make it worth the hassle. 
 
-### Composting bin: £47
+#### Composting bin: £47
 
 I think at this point I must have lost all perspective on how much the pound is worth. I'm not sure I can relate to the person who spent almost £50 on a food waste bin.
 
@@ -228,7 +234,7 @@ At the start of the season I decided I wanted to include the price of electricit
 1. To simplify the charging process, customers wouldn't have to sign up to accounts or order cards just to charge.
 2. That's what everyone else was doing.
 
-This obviously backfired a bit with the energy crisis. The cost of electricity almost doubled. Some networks charge a shocking £1 per KW. Because customers aren't paying for it, they don't really need to be discerning about cost.
+This backfired a bit with the energy crisis. The cost of electricity almost doubled. Some networks now charge a shocking £1 per KW. Because customers aren't paying for it, they don't really need to be discerning about cost.
 
 Needless to say, I won't be doing this next year.
 
@@ -242,7 +248,9 @@ So far, the Million Pound Motorhomes episode hasn't really made the big splash t
 
 Who knows, maybe loads of people have it bookmarked for next year?
 
-## Reflections on this year
+{% endblogSection %}
+
+{% blogSection "Reflections on this year" %}
 
 It was a difficult year. At times it was stressful. It was lonely. I wanted to quit so many times. 
 
@@ -257,38 +265,51 @@ It's been amazing to start to calculate the tangible impact the business is havi
 I'm very certain this year was the hardest, as it is for most new businesses. I'm so fired up for next year and I've got so many ideas and plans to make this even bigger and better.
 
 For now, peace and love.
+
 Lewis
 
-## A million thank yous
+{% endblogSection %}
 
-It's insane how many people I owe gratitude to for the first year of a tiny business. I've had an overwhelming amount of support.
+{% blogSection "A million thank yous" %}
+
+It's hugely humbling to consider how many people I owe gratitude to for helping me launch tiny business. I've had an overwhelming amount of support.
 
 Thank you so much to:
 
-* My parents, for believing in me and supporting me through the worst bits. The only reason I can take stupid risks like this is I know I'll always have somewhere to go if it all goes wrong.
-* All the friends and family who have listening to me rattle on about charging and plates and towels, and then also had to patience to listen to me moan about how much I hate cleaning.
-* All the customers who have taken Eve out for her first adventures. All the feedback and support has been amazing. I feel very lucky to have had such a great bunch of first customers.
-* Zach, Laura, and Vic for the brilliant branding work they did.
-* Tom for giving me a kick up the ass when I needed it
-* Bill for working so hard on the website! It's looks great.
-* Karl from the British Business Bank for being a legend and helping me through my loan application
-* Clara, Darren, and the team at Love Campers for doing an amazing job on Eve's conversion.
-* Lyndsay, David, and the entire Quirky Campers team. Special shout out to Rich for answering all my dumb and obvious questions. Oh and Lauren for writing the copy for Eve's listing page which I love!
-* Mark at wheelbase for showing me the ropes
-* Lucy, James, Jamie, Trevor, and Louise for our awesome photoshoot!
-* Kat at Redroaster for being a big ball of sunshine
-* Fiona, Marta and the rest of the Brite/Plus X team for putting on the Pioneers programme which I loved so much
-* Sam, for his narration of the hummingbird story
-* Ashleigh and the Sussex Sign Company for the decals
-* The crew at Boulder Brighton for allowing me to sit and use the cafe all day
-* All the friends who have let me a bed or a sofa to crash on. You know who you are.
-* Michelle, who I've only just met but am extremely grateful for already.
-* Warren, you were instantly supportive from the second I met you
-* Lyndsey, who gave me loads of great advice when I was really struggling
-* Tom, Bill, and Harrison for organising the London to Brighton EV rally. It was so much fun!
-* Anna and Todd for being the coolest customers ever!
-* Keelin at Wilsons for selling me the van!
+* **My parents,** for believing in me and supporting me through the worst bits. The only reason I can take stupid risks like this is I know I'll always have somewhere to go if it all goes wrong.
+* All the **friends and family** who have listened to me rattle on about charging and plates and towels, and then also had to patience to listen to me moan about how much I hate cleaning.
+* All the **customers** who have taken Eve out for her first adventures. All the feedback and support has been amazing. I feel very lucky to have had such a great bunch of first customers.
+* [Zach, Laura, and Vic](http://www.superhero-studios.com/) for the brilliant branding work they did.
+* [Tom](https://www.instagram.com/tshrimpdrums/) for giving me a kick up the ass when I needed it
+* [Bill](https://billrix.design/) for working so hard on the website, especially when I was super stressed and needed it done on a tight deadline. It looks great.
+* Karl from the [British Business Bank](https://www.british-business-bank.co.uk/) for being a legend and helping me through my loan application
+* Clara, Darren, and the team at [Love Campers](https://lovecampers.co.uk/) for doing an amazing job on Eve's conversion and the ongoing support they've given
+* Lyndsay, David, and the entire [Quirky Campers](https://www.quirkycampers.com/) team. Special shout out to Rich for answering all my dumb and obvious questions. Oh and Lauren for writing the copy for Eve's listing page which I love!
+* Mark at [Wheelbase](https://www.wheelbasepro.com/) for showing me the ropes
+* [Lucy,](https://www.instagram.com/juicyloloshow/) [James,](https://avocadomouth.com) [Jamie,](https://www.instagram.com/tribaleye/) [Trevor,](https://www.instagram.com/trevor_in_brighton/) and [Louise](https://www.starnow.com/u/Bellalouiserose/) for our awesome photoshoot!
+* Kat at [Redroaster](https://www.redroaster.co.uk/) for being a big ball of sunshine
+* Fiona, Marta, Jim, and the rest of the Brite/Plus X team for putting on the [Pioneers programme](https://www.briteinnovation.co.uk/pioneers) which reinvigorated me and reminded me why I started Wild Drives
+* [Sam Zindel,](http://www.lowcarbonleaders.org/) for his narration of the hummingbird story
+* Ashleigh and the [Sussex Sign Company](https://sussexsigns.com/) for the decals
+* The staff at [Boulder Brighton](https://www.boulderbrighton.com/) for allowing me to sit and use the cafe all day
+* All the friends who have lent me a bed or a sofa to crash on. You know who you are.
+* [Michelle,](https://www.instagram.com/infiniteupstart/) who I've only just met but am extremely grateful for already.
+* [Warren,](https://twitter.com/Luciddestiny) you were instantly supportive from the second I met you
+* [Lyndsey Clay,](https://www.linkedin.com/in/lyndsey-clay/) who gave me loads of great advice when I was really struggling
+* Tom, Bill, and Harrison for organising the [London to Brighton EV rally.](https://londontobrightonelectricvehiclerally.com/) It was so much fun!
+* [Anna](https://www.instagram.com/annapumerphotos/) and [Todd](https://www.instagram.com/toddlawtonphotography/) for being the coolest customers ever!
+* Keelin at [Wilsons](https://www.wilsons.co.uk/) for selling me Eve!
 * Fainche for being there at the beginning, helping me come up with the name and make all the design decisions
+* Stuart and the gang at [Cinch Storage](https://cinchstorage.co.uk/facility/brighton) for being super cool and putting up with my BS
+* Debbie Lawrence for being an early fan and lending me one of your amazing paintings that really adds a lovely dash of colour.
+* Vic from [Bird and Blend](https://www.birdandblendtea.com/) for sorting me out with all those tea bags. Love that Gingerbread Chai.
+* Zoey and the team at [Bolney Wine Estate](https://bolneywineestate.com/) for the delicious Bolney Bubbly!
+* Toby and the [Only Coco](https://www.only-coco.co.uk/) team. Check out some of their Christmas bars they look lush.
+* [Blanka](https://www.blankasoap.com/) for her beautiful soaps
+* [Flint Owl,](https://flintowlbakery.com/) - neer stop making your sea salt and rosemary bread
+
+
+{% endblogSection %}
 
 </div>
 
