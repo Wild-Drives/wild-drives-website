@@ -520,7 +520,22 @@ ul, ol {
 }
 
 .margin-spacing-a {
-  margin: 6em 0;
+  margin: 6rem 0;
+}
+
+.margin-spacing-b {
+  margin: 3rem 0;
+}
+
+@media (max-width: 800px) {
+    .margin-spacing-a {
+      margin: 3rem 0;
+    }
+    
+    .margin-spacing-b {
+      margin: 1.5rem 0;
+    }
+    
 }
 
 .headline-bold {
@@ -644,10 +659,9 @@ a i {
 main a {
   text-decoration: none;
   text-underline-offset: 0.2em;
-  text-transform: uppercase;
   color: var(--orange-500);
   font-weight: 900;
-  font-size: 0.875rem;
+  font-size: 1em;
 }
 
 main a:hover {
@@ -1064,12 +1078,7 @@ input {
 
 .specs {
   display: flex;
-  align-items: center;
   line-height: 1.2;
-}
-
-.specs-child {
-  display: inline-block;
   margin-bottom: 1em;
 }
 
@@ -1446,6 +1455,7 @@ header img {
     padding: 0.2em 0.5em;
   }
 }
+
 @media (max-width: 800px) {
   .flex-child-50 {
     flex-basis: 100%;
@@ -1475,13 +1485,16 @@ header img {
   .container-33 > .item-3 {
     grid-row: 3;
   }
-  .container {
-    grid-template-columns: 1fr;
-    gap: 0;
-    margin: 0;
+  .container,
+  .container-33 {
+    display: block;
   }
-  .container--mobile {
-    grid-template-columns: 1fr 1fr;
+  .container--mobile,
+  .container-33--mobile {
+    display: grid;
+  }
+  .mobile-b-20 {
+    margin-bottom: 20px;
   }
   img {
     border-radius: 1rem;
@@ -1606,15 +1619,22 @@ header img {
   padding-left: 20px;
   padding-right: 20px;
   max-width: 1400px;
+}
 
-  @media screen and (min-width: 768px) {
-    padding-left: 40px;
-    padding-right: 40px;
-  }
+@media screen and (min-width: 768px) {
+    .wrapper {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
 }
 
 .link {
-  font-family: "Recoleta-Bold";
+  font-family: "Recoleta-Bold", serif;
+  text-decoration: none;
+  text-underline-offset: 0.2em;
+  text-transform: uppercase;
+  color: var(--orange-500);
+  font-weight: 900;
   font-size: 16px;
   letter-spacing: 1.25px;
 }
