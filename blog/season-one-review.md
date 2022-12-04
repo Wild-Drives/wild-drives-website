@@ -5,6 +5,7 @@ titleTwo: review
 bodyClass: eve-background
 description: "The first season hiring out Eve is complete! Founder <strong>Lewis Nyman</strong> looks back and reflects on the first year of business."
 img: 'lewis-looks-back.jpg'
+tags: post
 ---
 
 <div class="container-33 top-align margin-spacing-a">
