@@ -1,3 +1,6 @@
+---
+eleventyExcludeFromCollections: true
+---
 ![Wild Drives cover](../main/img/github-cover.png)
 
 # Wild Drives
