@@ -515,6 +515,10 @@ p {
   line-height: 1.4;
 }
 
+ul, ol {
+    line-height: 1.4em
+}
+
 .margin-spacing-a {
   margin: 6em 0;
 }
