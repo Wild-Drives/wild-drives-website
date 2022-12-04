@@ -490,24 +490,28 @@ h2,
 h3,
 h4 {
   font-family: "Recoleta-Black", serif;
-  line-height: 1;
+  line-height: 1.1;
   margin: 0;
 }
 
-h1 {
+h1,
+.h1 {
   font-size: 5.7em;
   letter-spacing: 0em;
 }
 
-h2 {
+h2,
+.h2 {
   font-size: 2.6em;
 }
 
-h3 {
+h3,
+.h3 {
   font-size: 1.9em;
 }
 
-h4 {
+h4,
+.h4 {
   font-size: 1.5em;
 }
 
@@ -515,8 +519,27 @@ p {
   line-height: 1.4;
 }
 
+ul, ol {
+    line-height: 1.4em
+}
+
 .margin-spacing-a {
-  margin: 6em 0;
+  margin: 6rem 0;
+}
+
+.margin-spacing-b {
+  margin: 3rem 0;
+}
+
+@media (max-width: 800px) {
+    .margin-spacing-a {
+      margin: 3rem 0;
+    }
+    
+    .margin-spacing-b {
+      margin: 1.5rem 0;
+    }
+    
 }
 
 .headline-bold {
@@ -565,6 +588,10 @@ p {
   align-items: end !important;
 }
 
+.top-align {
+  align-items: start !important;
+}
+
 .container {
   display: grid;
   align-items: center;
@@ -597,7 +624,8 @@ p {
 .container-33 {
   display: grid;
   width: 100%;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
 }
@@ -607,8 +635,12 @@ p {
 }
 
 .container-33 > .item-2 {
-  grid-column: 2 / 3;
-  grid-row: 1;
+    grid-column: 2 / 3;
+    grid-row: 1;
+}
+.container-33 > .item-2.span-2 {
+    grid-column: 2 / 4;
+
 }
 
 .container-33 > .item-3 {
@@ -631,10 +663,9 @@ a i {
 main a {
   text-decoration: none;
   text-underline-offset: 0.2em;
-  text-transform: uppercase;
   color: var(--orange-500);
   font-weight: 900;
-  font-size: 0.875rem;
+  font-size: 1em;
 }
 
 main a:hover {
@@ -882,6 +913,10 @@ main a:hover {
   margin-right: 0;
 }
 
+.hr-small-margin {
+    margin-bottom: 1em;
+}
+
 .red-border {
   border: 1px dashed red;
 }
@@ -1051,12 +1086,7 @@ input {
 
 .specs {
   display: flex;
-  align-items: center;
   line-height: 1.2;
-}
-
-.specs-child {
-  display: inline-block;
   margin-bottom: 1em;
 }
 
@@ -1107,36 +1137,6 @@ input {
   color: var(--yellow-50);
 }
 
-/*
-.postcard {
-  background: var(--yellow-50);
-  box-shadow: 0 2px 2px #CCB68D;
-  border-radius: 2.5em;
-  background-image: var(--airmail);
-  padding: 1em;
-  height: 20vw;
-  width: 40vw;
-}
-
-.postcard div {
-  background-color: var(--yellow-50);
-  margin: 0;
-  border-radius: 2.5em;
-  min-height: 17.2em;
-  padding: 1em;
-}
-
-.postcard::after {
-  content: url('/img/postmark.png');
-  position: absolute;
-  top: 1em;
-  left: 1em;
-}
-
-.postcard img {
-  border-radius: 1.625em;
-  height: 100%;
-} */
 
 .postcard {
   position: relative;
@@ -1146,21 +1146,33 @@ input {
   box-shadow: 0 2px 2px #ccb68d;
 }
 
+
 .postcard-content {
-  border-radius: 1em;
-  padding: 1em;
-  background-color: var(--yellow-50);
-  background-image: url("/assets/img/postmark.png");
-  background-repeat: no-repeat;
-  display: flex;
-  align-items: center;
+    border-radius: 1em;
+    padding: 1em;
+    background-color: var(--yellow-50);
+    background-image: url("/assets/img/postmark.png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.postcard-content:hover {
+    text-decoration: none;
+}
+
+.postcard-content-row {
+    flex-grow: 3;
 }
 
 .postcard-content-left,
 .postcard-content-right {
-  display: inline-block;
-  width: 49%;
-  height: 100%;
+    width: 49%;
+}
+
+.postcard-content-left {
+    padding-right: 2%;
 }
 
 .postcard img {
@@ -1433,6 +1445,7 @@ header img {
     padding: 0.2em 0.5em;
   }
 }
+
 @media (max-width: 800px) {
   .flex-child-50 {
     flex-basis: 100%;
@@ -1462,13 +1475,16 @@ header img {
   .container-33 > .item-3 {
     grid-row: 3;
   }
-  .container {
-    grid-template-columns: 1fr;
-    gap: 0;
-    margin: 0;
+  .container,
+  .container-33 {
+    display: block;
   }
-  .container--mobile {
-    grid-template-columns: 1fr 1fr;
+  .container--mobile,
+  .container-33--mobile {
+    display: grid;
+  }
+  .mobile-b-20 {
+    margin-bottom: 20px;
   }
   img {
     border-radius: 1rem;
@@ -1503,17 +1519,21 @@ header img {
   .postcard-content-left {
     margin-bottom: 1em;
   }
-  h1 {
+  h1,
+  .h1 {
     font-size: 4.3em;
     letter-spacing: 0em;
   }
-  h2 {
+  h2,
+  .h2 {
     font-size: 2em;
   }
-  h3 {
+  h3,
+  .h3 {
     font-size: 1.4em;
   }
-  h4 {
+  h4,
+  .h4 {
     font-size: 1.1em;
   }
   .super-hero-text {
@@ -1593,15 +1613,22 @@ header img {
   padding-left: 20px;
   padding-right: 20px;
   max-width: 1400px;
+}
 
-  @media screen and (min-width: 768px) {
-    padding-left: 40px;
-    padding-right: 40px;
-  }
+@media screen and (min-width: 768px) {
+    .wrapper {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
 }
 
 .link {
-  font-family: "Recoleta-Bold";
+  font-family: "Recoleta-Bold", serif;
+  text-decoration: none;
+  text-underline-offset: 0.2em;
+  text-transform: uppercase;
+  color: var(--orange-500);
+  font-weight: 900;
   font-size: 16px;
   letter-spacing: 1.25px;
 }
