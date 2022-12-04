@@ -490,24 +490,28 @@ h2,
 h3,
 h4 {
   font-family: "Recoleta-Black", serif;
-  line-height: 1;
+  line-height: 1.1;
   margin: 0;
 }
 
-h1 {
+h1,
+.h1 {
   font-size: 5.7em;
   letter-spacing: 0em;
 }
 
-h2 {
+h2,
+.h2 {
   font-size: 2.6em;
 }
 
-h3 {
+h3,
+.h3 {
   font-size: 1.9em;
 }
 
-h4 {
+h4,
+.h4 {
   font-size: 1.5em;
 }
 
@@ -909,6 +913,10 @@ main a:hover {
   margin-right: 0;
 }
 
+.hr-small-margin {
+    margin-bottom: 1em;
+}
+
 .red-border {
   border: 1px dashed red;
 }
@@ -1129,36 +1137,6 @@ input {
   color: var(--yellow-50);
 }
 
-/*
-.postcard {
-  background: var(--yellow-50);
-  box-shadow: 0 2px 2px #CCB68D;
-  border-radius: 2.5em;
-  background-image: var(--airmail);
-  padding: 1em;
-  height: 20vw;
-  width: 40vw;
-}
-
-.postcard div {
-  background-color: var(--yellow-50);
-  margin: 0;
-  border-radius: 2.5em;
-  min-height: 17.2em;
-  padding: 1em;
-}
-
-.postcard::after {
-  content: url('/img/postmark.png');
-  position: absolute;
-  top: 1em;
-  left: 1em;
-}
-
-.postcard img {
-  border-radius: 1.625em;
-  height: 100%;
-} */
 
 .postcard {
   position: relative;
@@ -1168,21 +1146,33 @@ input {
   box-shadow: 0 2px 2px #ccb68d;
 }
 
+
 .postcard-content {
-  border-radius: 1em;
-  padding: 1em;
-  background-color: var(--yellow-50);
-  background-image: url("/assets/img/postmark.png");
-  background-repeat: no-repeat;
-  display: flex;
-  align-items: center;
+    border-radius: 1em;
+    padding: 1em;
+    background-color: var(--yellow-50);
+    background-image: url("/assets/img/postmark.png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.postcard-content:hover {
+    text-decoration: none;
+}
+
+.postcard-content-row {
+    flex-grow: 3;
 }
 
 .postcard-content-left,
 .postcard-content-right {
-  display: inline-block;
-  width: 49%;
-  height: 100%;
+    width: 49%;
+}
+
+.postcard-content-left {
+    padding-right: 2%;
 }
 
 .postcard img {
@@ -1529,17 +1519,21 @@ header img {
   .postcard-content-left {
     margin-bottom: 1em;
   }
-  h1 {
+  h1,
+  .h1 {
     font-size: 4.3em;
     letter-spacing: 0em;
   }
-  h2 {
+  h2,
+  .h2 {
     font-size: 2em;
   }
-  h3 {
+  h3,
+  .h3 {
     font-size: 1.4em;
   }
-  h4 {
+  h4,
+  .h4 {
     font-size: 1.1em;
   }
   .super-hero-text {
