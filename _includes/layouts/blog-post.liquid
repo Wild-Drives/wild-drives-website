@@ -40,7 +40,8 @@ img: 'wild-drives-4.jpg'
             <p>{{ description }}</p>
         </div>
         <div>
-            <img src="/assets/img/{{ img }}" class="rotate-143">
+            {% capture imgUrl %}assets/img/{{ img }}{% endcapture %}
+            {% Image imgUrl, alt, "rotate-143" %}
         </div>
     </div>
 
