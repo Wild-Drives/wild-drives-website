@@ -1,17 +1,29 @@
+---
+img: cover.png
+type: website
+---
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>{{ title }}</title>
+        <title>{{ titleOne }} {{ titleTwo }} - Wild Drives</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <meta name="title" content="Wild Drives">
+        <meta name="title" content="{{title}}">
         <meta name="description" content="{{ description }}">
-        <meta name="keywords" content=" ">
+        <meta name="keywords" content="campervan hire electric vehicle brighton">
         <meta name="robots" content="index, follow">
         <meta name="language" content="English">
         <meta name="revisit-after" content="1 days">
-        <meta name="author" content=" ">
+        <meta name="author" content="Wild Drives">
         <meta name="theme-color" content="rgb(255, 221, 0)">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta property="og:title" content="{{ titleOne }} {{ titleTwo }}" />
+        <meta property="og:url" content="{{ site.url }}{{ page.url | url }}" />
+        <meta property="og:description" content="{{ description or renderData.description }}" />
+        <meta property="og:image" content="{{ site.url }}/assets/img/{{ img }}" />
+        <meta property="og:type" content="{{ type }}" />
+
         <link rel="stylesheet" href="/assets/css/normalize.css">
         <link rel="stylesheet" href="/assets/css/style.css">
         <link rel="stylesheet" href="/assets/iconfont/style.css">
