@@ -9,7 +9,7 @@ type: website
         <title>{{ titleOne }} {{ titleTwo }} - Wild Drives</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta name="title" content="{{title}}">
-        <meta name="description" content="{{ description }}">
+        <meta name="description" content="{{ description | strip_html }}">
         <meta name="keywords" content="campervan hire electric vehicle brighton">
         <meta name="robots" content="index, follow">
         <meta name="language" content="English">
@@ -20,7 +20,7 @@ type: website
 
         <meta property="og:title" content="{{ titleOne }} {{ titleTwo }}" />
         <meta property="og:url" content="{{ site.url }}{{ page.url | url }}" />
-        <meta property="og:description" content="{{ description or renderData.description }}" />
+        <meta property="og:description" content="{{ description | strip_html }}" />
         <meta property="og:image" content="{{ site.url }}/assets/img/{{ img }}" />
         <meta property="og:type" content="{{ type }}" />
 
