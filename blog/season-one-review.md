@@ -3,8 +3,9 @@ layout: layouts/blog-post.liquid
 titleOne: Season one in
 titleTwo: review
 bodyClass: eve-background
-description: "The first season hiring out Eve is complete! Founder <strong>Lewis Nyman</strong> looks back and reflects on the first year of business."
+description: "Founder <strong>Lewis Nyman</strong> looks back and reflects on the first year of business."
 img: 'lewis-looks-back.jpg'
+alt: "Wild Drives founder Lewis Nyman pearing out of the van on a misty morning"
 tags: post
 ---
 
