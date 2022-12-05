@@ -2,7 +2,7 @@
 layout: layouts/base.liquid
 title: The Wild Drives blog
 description: "Keep up with the latest news at Wild Drives"
-bodyClass: eve-background
+bodyClass: range-background
 ---
 
 <header class="wrapper">
@@ -35,7 +35,7 @@ bodyClass: eve-background
 </header>
 <main class="wrapper">
         <h1 class="color-purple-900 hero-text">Blog <br>
-            <span class="color-purple-700">and news</span>
+            and <span class="color-purple-700">news</span>
         </h1>
         <hr class="green-500-hr">
         <p>{{ description }}</p>
@@ -48,11 +48,12 @@ bodyClass: eve-background
                         <h2 class="h4">{{ post.data.titleOne }} {{ post.data.titleTwo }}</h2>
                         <hr class="yellow-500-hr hr-small-margin" />
                     </div>
-                    <div class="postcard-content-left  color-purple-900">
+                    <div class="postcard-content-left color-purple-900">
                         <span>{{ post.data.description }}</span>
                     </div>
                     <div href="{{post.url}}" class="postcard-content-right">
-                        <img src="/assets/img/{{ post.data.img }}">
+                        {% capture imageUrl %}assets/img/{{ post.data.img }}{% endcapture %}
+                        {% Image imageUrl post.data.alt %}
                     </div>
                 </div>
             </a>
