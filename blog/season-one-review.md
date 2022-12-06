@@ -26,7 +26,7 @@ tags: post
         </div>
         <div class="mobile-b-20">
         <span class="tw-integer-top">Gross revenue</span><br />
-        <span class="tw-integer">£10,024.88</span>
+        <span class="tw-integer">£10,025</span>
         </div>
         <div class="mobile-b-20">
         <span class="tw-integer-top">Miles driven by customers</span><br />
