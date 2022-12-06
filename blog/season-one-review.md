@@ -46,7 +46,7 @@ tags: post
         <span class="tw-integer">Once</span>
         </div>
         <div class="mobile-b-20">
-        <span class="tw-integer-top">Five start reviews</span><br />
+        <span class="tw-integer-top">Five star reviews</span><br />
         <span class="tw-integer">5</span>
         <span class="miles color-purple-600">and counting</span>
         </div>
