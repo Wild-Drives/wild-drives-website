@@ -472,6 +472,8 @@ img {
     height: auto;
     width: 100%;
     vertical-align: middle;
+}
+.image-rounded {
     border-radius: 3rem;
 }
 
@@ -1476,7 +1478,7 @@ header img {
   .mobile-b-20 {
     margin-bottom: 20px;
   }
-  img {
+  .image-rounded  {
     border-radius: 1rem;
   }
   footer p {
@@ -1638,4 +1640,17 @@ header img {
   .tablet-align-right {
     text-align: right;
   }
+}
+
+.logo-listing {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo-listing__item {
+    flex-basis: 30%;
+}
+.logo-listing__item-narrow {
+    flex-basis: 3%;
 }

@@ -167,7 +167,7 @@ A decent 1000kg payload, a cargo length size of 2.5m, and the award for [Best el
 </div>
 
 <div>
-{% Image "assets/img/eve-pre-conversion.jpg", "Eve, preconversion", "rotate-074-reverse" %}
+{% Image "assets/img/eve-pre-conversion.jpg", "Eve, preconversion", "image-rounded rotate-074-reverse" %}
 </div>
 
 </div>
@@ -187,7 +187,7 @@ The design uses a lot of light neutral colors. I didn't know if this would be "q
 </div>
 
 <div>
-{% Image "assets/img/eve-interior-01.jpg", "Eve's interior conversion", "rotate-074" %}
+{% Image "assets/img/eve-interior-01.jpg", "Eve's interior conversion", "image-rounded rotate-074" %}
 </div>
 
 </div>
@@ -225,7 +225,7 @@ I had to complete the set didn't I? It looks great. Still no regrets.
 </div>
 
 <div>
-{% Image "assets/img/le-cruset.jpg", "Le cruset pans inside Eve", "rotate-074-reverse" %}
+{% Image "assets/img/le-cruset.jpg", "Le cruset pans inside Eve", "image-rounded rotate-074-reverse" %}
 </div>
 </div>
 
@@ -242,7 +242,7 @@ The bamboo duvet, called ["The Cloud", from Panda London](https://pandalondon.co
 </div>
 
 <div>
-{% Image "assets/img/eve-bedding.jpg", "The bedding inside Eve", "rotate-143" %}
+{% Image "assets/img/eve-bedding.jpg", "The bedding inside Eve", "image-rounded rotate-143" %}
 </div>
 </div>
 
@@ -301,7 +301,7 @@ Also, I bought 500 individually wrapped bags of tea. Then they arrived in a mass
 </div>
 
 <div>
-{% Image "assets/img/wild-drives-7.jpg", "A hamper full of local goodies", "rotate-143" %}
+{% Image "assets/img/wild-drives-7.jpg", "A hamper full of local goodies", "image-rounded rotate-143" %}
 </div>
 
 </div>
