@@ -475,6 +475,7 @@ img {
 }
 .image-rounded {
     border-radius: 3rem;
+    overflow: hidden;
 }
 
 i {
@@ -1480,6 +1481,7 @@ header img {
   }
   .image-rounded  {
     border-radius: 1rem;
+    overflow: hidden;
   }
   footer p {
     width: 90%;
