@@ -4,47 +4,7 @@ titleOne: What's the real range of our electric campervan? Wild Drives
 bodyClass: range-background
 description: "The WLTP range of Eve’s base vehicle, the Citroen e-dispatch, is 196 miles. But we are often asked what is the real range?"
 ---
-<header class="wrapper">
-    <div>
-      <a href="/">
-        <img
-          src="/assets/img/site-id-purple.svg"
-          class="no-border-radius"
-          style="width: 200px; height: 90px"
-        />
-      </a>
-    </div>
-    <div class="purple-hamburger-circle">
-      <input id="menu-toggle" type="checkbox" />
-      <label class="menu-button-container" for="menu-toggle">
-        <div class="menu-button"></div>
-      </label>
-      <ul class="menu">
-        <li>
-          <a href="/campervan-eve" class="color-purple-600">Meet Eve</a>
-        </li>
-        <li>
-          <a href="/whats-the-real-range" class="color-purple-600"
-            >Real Range</a
-          >
-        </li>
-        <li>
-          <a href="/blog" class="color-purple-600"
-            >Blog</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://www.quirkycampers.com/uk/campervan/301977/?wb-currency=GBP&ref=wilddrives"
-            target="_blank"
-            class="color-purple-800"
-          >
-            <i class="icon-trip"></i>Book Your Trip
-          </a>
-        </li>
-      </ul>
-    </div>
-  </header>
+{% render "site-header.liquid", logo: 'site-id-purple.svg', menu-link-color: 'purple-600', cta-color: 'purple-800' %}
 <main class="wrapper">
     <div class="container">
     <div>
