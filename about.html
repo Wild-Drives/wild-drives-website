@@ -1,0 +1,56 @@
+---
+layout: layouts/base.liquid
+titleOne: About
+titleTwo: Wild Drives
+bodyClass: range-background
+description: "Wild Drives is a sustainable tourism company that offers electric campervan rentals for adventure-seekers looking to explore the UK in an environmentally conscious way."
+img: anna-1.jpg
+alt: "Someone sitting in a campervan staring out at the sun"
+---
+{% render "site-header.liquid", logo: 'site-id-purple.svg', menu-link-color: 'purple-600', cta-color: 'purple-800' %}
+<main class="wrapper">
+    <div class="container">
+        <div>
+            <h2 class="color-purple-800">Our mission</h2>
+            <hr class="green-500-hr">
+            <blockquote>I started Wild Drives to protect the beauty of nature for future generations. I'm committed to providing customers with a unique and eco-friendly travel experience.
+                <span class="color-purple-600">Lewis Nyman</span>
+                <span class="color-green-600">Wild Drives founder</span>
+            </blockquote>
+        </div>
+            <div>
+                {% Image "assets/img/wild-drives-4.jpg", "Wild Drives founder Lewis Nyman sitting in Eve the electric campervan", "image-rounded rotate-22" %}
+            </div>
+    </div>
+    <div class="margin-spacing-a tw-75">
+            <h2 class="color-green-900">Our values</h2>
+            <hr class="yellow-500-hr">
+            <h3 class="color-purple-900">
+                Look after the
+                <span class="color-purple-600">planet</span>
+            </h3>
+            <p>We are one of the first exclusively electric campervan hire companies in the UK. Our brand new luxury converted campervans use sustainable materials, and less carbon emissions per mile than diesel vans. All wood is FSC certified. The vans include a solar panel for electricity. Natural Fibre insulation is used in the vans, using sheep's wool or hemp.</p>
+
+<p>All campsites and activities booked by us have been personally curated for sustainability and environmental impact. This includes the incredible conservation project Knepp Estate, Bolney Wine Estate, The Sustainability Centre, The National Trust, and English Heritage.</p>
+
+<p>Each campervan comes with a litter picker and sustainable bin liners. We encourage our customers to leave natural sites in a better state than where they found them.</p>
+
+<p>Each campervan also includes a compost bin, sealed to prevent smells. We encourage our customers to deposit food waste on their journey, that we then collect and compost at the end of the trip.</p>
+            <h3 class="color-purple-900 margin-spacing-b">
+                Look after 
+                <span class="color-purple-600">people</span>
+            </h3>
+                <p>We work closely with local, independently owned businesses, including campsites, cafes, restaurants, wine estates, stores, and conservation projects. We recommend local wildlife safaris, wine tastings, natural wildlife courses, and lunches.</p>
+
+<p>We decorate and stock our campervans with local products, including paintings from local artists, mugs made in local potteries, soap made locally, and coffee made by local roasters.</p>
+
+<p>Our signage and printing is performed by local businesses in Brighton and Shoreham.</p>
+
+<p>Our campervan conversion partners, Love Campers, are locally based in Newhaven.</p>
+           
+
+            
+    </div>
+    {% render "newsletter.liquid" %}
+    {% render "follow-journey.liquid" %}
+</main>
