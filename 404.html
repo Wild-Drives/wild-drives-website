@@ -1,0 +1,24 @@
+---
+layout: layouts/base.liquid
+title: Page not found
+titleOne: Page
+titleTwo: not found
+bodyClass: eve-background
+description: "Page not found"
+---
+{% render "site-header.liquid", logo: 'site-id-purple.svg', menu-link-color: 'purple-600', cta-color: 'purple-800' %}
+<main class="wrapper">
+    <h1 class="color-purple-900">
+    Page<br />
+    <span class="color-purple-700">not found</span>
+    </h1>
+    <hr class="green-500-hr" />
+
+    <p class="intro">We can't find the page your looking for... Here are some suggestions that might help:</p>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="https://www.quirkycampers.com/uk/campervan/301977/?wb-currency=GBP&ref=wilddrives">Book Eve on Quirky Campers</a></li>
+    </ul>
+</main>
