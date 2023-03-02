@@ -1,0 +1,35 @@
+---
+layout: layouts/base.liquid
+titleOne: Contact
+bodyClass: range-background
+description: "Speak to the Wild Drives team"
+---
+{% render "site-header.liquid", logo: 'site-id-purple.svg', menu-link-color: 'purple-600', cta-color: 'purple-800' %}
+<main class="wrapper">
+    <div class="container top-align">
+        <div>
+            <h1 class="color-purple-900">
+            Hello!<br /> How can we help <br /><span class="color-purple-700">you?</span>
+            </h1>
+            <hr class="green-500-hr" />
+        </div>
+        <div>
+            <p>
+           Looking for advice, tips, or just want to know how we're doing? Feel free to get in touch.
+            </p>
+            <p>
+<a href="mailto:hello@wilddrives.co.uk">hello@wilddrives.co.uk</a> 
+            </p>
+            <p><a href="tel:+442033761507">02033761507</a></p>
+            <form name="contact" method="POST" data-netlify="true">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" id="name" />
+                  <label for="email">Your email</label>
+                    <input type="email" name="email" id="email" />
+                  <label for="message">Your message</label>
+                  <textarea name="message" id="message" rows="5"></textarea>
+                  <button class="cta cta--orange cta--no-margin" type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+</main>
