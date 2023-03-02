@@ -816,7 +816,8 @@ main a:hover {
   margin-top: 11vw !important;
 }
 
-.hero .cta {
+.hero .cta,
+.cta--orange {
   font-size: 1em;
   text-transform: none;
   color: var(--yellow-100);
@@ -1013,7 +1014,8 @@ blockquote span {
   background-color: var(--purple-900);
 }
 
-input {
+input,
+textarea {
   padding: 0.5em;
   font-size: 1.125rem;
   line-height: 1.75em;
@@ -1055,6 +1057,23 @@ input {
 
 .socials a:hover {
   color: var(--green-500);
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    cursor: pointer;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    border: 2px solid var(--neutral-800);
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
 }
 
 .container-33-66 {
@@ -1221,6 +1240,11 @@ footer p {
   text-decoration: none !important;
   appearance: none;
   border: 0;
+  cursor: pointer;
+}
+
+.cta--no-margin {
+    margin: 0;
 }
 
 .cta--with-icon {
@@ -1232,7 +1256,8 @@ footer p {
   padding-right: 4px;
 }
 
-footer .cta {
+footer .cta,
+.cta--dark {
   color: var(--yellow-100);
   background: var(--green-900);
   text-shadow: 2px 2px #040b0a;
