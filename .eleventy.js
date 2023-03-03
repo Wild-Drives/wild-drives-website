@@ -1,11 +1,14 @@
 const Image = require("@11ty/eleventy-img");
+const eleventySass = require("eleventy-sass");
 
 module.exports = function(eleventyConfig) {
-    eleventyConfig.addPassthroughCopy("assets");
+    eleventyConfig.addPassthroughCopy("assets/fonts");
+    eleventyConfig.addPassthroughCopy("assets/iconfont");
     eleventyConfig.addPassthroughCopy("json");
     eleventyConfig.addPassthroughCopy("./*.png");
     eleventyConfig.addPassthroughCopy("./*.svg");
     eleventyConfig.addPassthroughCopy("./*.ico");
+    eleventyConfig.addPlugin(eleventySass);
 
   eleventyConfig.addShortcode("blogHeading2", function(title) {
 return `<h2 class="color-green-900">${title}</h2>
