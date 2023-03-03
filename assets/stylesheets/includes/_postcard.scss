@@ -1,0 +1,42 @@
+
+.postcard {
+    display: block;
+  position: relative;
+  border-radius: 2em;
+  padding: 1em;
+  background: center / contain no-repeat var(--yellow-50) var(--airmail);
+  box-shadow: 0 2px 2px #ccb68d;
+}
+
+
+.postcard-content {
+    border-radius: 1em;
+    padding: 1em;
+    background-color: var(--yellow-50);
+    background-image: url("/assets/img/postmark.png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.postcard-content:hover {
+    text-decoration: none;
+}
+
+.postcard-content-row {
+    flex-grow: 3;
+}
+
+.postcard-content-left,
+.postcard-content-right {
+    width: 49%;
+}
+
+.postcard-content-left {
+    padding-right: 2%;
+    font-weight: 400;
+    font-size: 18px;
+}
+.postcard img {
+  border-radius: 1em;
+}

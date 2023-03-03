@@ -1,0 +1,12 @@
+.logo-listing {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo-listing__item {
+    flex-basis: 30%;
+}
+.logo-listing__item-narrow {
+    flex-basis: 3%;
+}

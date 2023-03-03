@@ -1,0 +1,42 @@
+
+.range-speed {
+    max-width: 35rem;
+  }
+  
+  .range {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .range div {
+    width: 33%;
+    font-family: "Recoleta-Black", serif;
+    font-size: 3.4rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+  }
+  
+  .range div:first-child {
+    text-align: left;
+    color: var(--orange-500);
+  }
+  
+  .range div:nth-child(2) {
+    text-align: center;
+    font-size: 1em !important;
+  }
+  
+  .range div:last-of-type {
+    text-align: right;
+    color: var(--purple-500);
+  }
+  
+  .range i {
+    color: var(--green-50);
+    background-color: var(--green-700);
+    border-radius: 0.2em;
+    height: 1.7em;
+    width: 1.7em;
+    font-size: 1.5em;
+  }
