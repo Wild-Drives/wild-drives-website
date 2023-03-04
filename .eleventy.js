@@ -7,6 +7,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("./assets/img/*.png");
     eleventyConfig.addPassthroughCopy("./assets/img/*.svg");
     eleventyConfig.addPassthroughCopy("*.ico");
+    eleventyConfig.addPassthroughCopy("*.svg");
     eleventyConfig.addPlugin(eleventySass);
 
   eleventyConfig.addShortcode("blogHeading2", function(title) {
