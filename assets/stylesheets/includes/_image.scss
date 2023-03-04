@@ -1,0 +1,16 @@
+
+
+img {
+    height: auto;
+    width: 100%;
+    vertical-align: middle;
+}
+.image-rounded {
+    border-radius: 3rem;
+    overflow: hidden;
+}
+
+.image-offset-left {
+    position: relative;
+    left: -20px;
+}
