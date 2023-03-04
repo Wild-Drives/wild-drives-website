@@ -1,0 +1,29 @@
+
+input,
+textarea {
+  padding: 0.5em;
+  font-size: 1.125rem;
+  line-height: 1.75em;
+  width: 100%;
+  box-sizing: border-box;
+  color: var(--color-neutrals-900);
+  border-radius: 4px;
+  border: 0;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    cursor: pointer;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    border: 2px solid var(--neutral-800);
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+}

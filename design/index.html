@@ -1,63 +1,24 @@
 ---
 eleventyExcludeFromCollections: true
+layout: layouts/base.liquid
 ---
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<title>Wild Drives | Real Range</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<meta name="title" content="Wild Drives">
-		<meta name="description" content=" ">
-		<meta name="keywords" content=" ">
-		<meta name="robots" content="index, follow">
-		<meta name="language" content="English">
-		<meta name="revisit-after" content="1 days">
-		<meta name="author" content=" ">
-		<!-- change below based on what Lewis wants -->
-		<meta name="theme-color" content="rgb(255, 221, 0)">
-		<!-- for mobile -->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="../css/normalize.css">
-		<link rel="stylesheet" href="../css/style-no.css">
-		<link rel="stylesheet" href="../wild-drives-icon/css/wild-drives.css">
-		<link rel="manifest" href="../json/manifest.webmanifest">
-		<link rel="icon" href="../favicon.ico" sizes="any">
-		<link rel="icon" href="../favicon.svg" type="image/svg+xml">
-		<link rel="apple-touch-icon" href="../apple-touch-icon.png">
-        <style>
-            .container {
-            display: grid;
-            align-items: center;
-            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-            /* The columns will automatically break when each one gets below 508px. */
-            gap: 1em;
-
-            }
-
-            .border-red {
-            border: 1px solid red;
-            }
-        </style>
-        <body>
-            <main>
-                <h1>CSS classes</h1>
-                <hr class="yellow-500-hr">
-                <h3>.container</h3>
-                <div class="container border-red">
-                    <div>This is a grid container. Used for 2 children ...</div>
-                    <div>... and breaks at 508px. Can be without content.</div>
-                </div>
-                <h3>.container-3-children</h3>
-                <div class="container-3-children red-border">
-                    <div class="blue-border">This is a grid container. Used for 3 children ...</div>
-                    <div class="blue-border">... breaks into rows at 400px ... </div>
-                    <div class="blue-border">3</div>
-                </div>
-                <h3>.container-33-66</h3>
-                <div class="container-33-66 red-border">
-                    <div class="item-1 blue-border">This is a grid container. Used for 2 children, the first at 66% width ...</div>
-                    <div class="item-2 blue-border">... the second at 33%. Breaks at 800px.</div>
-                </div>
-            </main>
-        </body>
-        </html>
+<main class="wrapper">
+    <h1>Wild Drives design system</h1>
+    <hr class="yellow-500-hr">
+    <h3>.container</h3>
+    <div class="container border-red">
+        <div>This is a grid container. Used for 2 children ...</div>
+        <div>... and breaks at 508px. Can be without content.</div>
+    </div>
+    <h3>.container-3-children</h3>
+    <div class="container-3-children red-border">
+        <div class="blue-border">This is a grid container. Used for 3 children ...</div>
+        <div class="blue-border">... breaks into rows at 400px ... </div>
+        <div class="blue-border">3</div>
+    </div>
+    <h3>.container-33-66</h3>
+    <div class="container-33-66 red-border">
+        <div class="item-1 blue-border">This is a grid container. Used for 2 children, the first at 66% width ...</div>
+        <div class="item-2 blue-border">... the second at 33%. Breaks at 800px.</div>
+    </div>
+</main>

@@ -1,0 +1,57 @@
+@font-face {
+    font-display: swap;
+    font-family: "Recoleta-Medium";
+    src: url("/assets/fonts/Recoleta/Recoleta-Medium.ttf") format("truetype");
+    /* Safari, Android, iOS */
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: "Recoleta-Semi-Bold";
+    src: url("/assets/fonts/Recoleta/Recoleta-SemiBold.ttf") format("truetype");
+    /* Safari, Android, iOS */
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: "Recoleta-Bold";
+    src: url("/assets/fonts/Recoleta/Recoleta-Bold.woff2") format("woff2"),
+      /* Super Modern Browsers */ url("/assets/fonts/Recoleta/Recoleta-Bold.woff")
+        format("woff"),
+      /* Pretty Modern Browsers */ url("/assets/fonts/Recoleta/Recoleta-Bold.ttf")
+        format("truetype");
+    /* Safari, Android, iOS */
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: "Recoleta-Black";
+    src: url("/assets/fonts/Recoleta/Recoleta-Black.woff2") format("woff2"),
+      /* Super Modern Browsers */ url("/assets/fonts/Recoleta/Recoleta-Black.woff")
+        format("woff"),
+      /* Pretty Modern Browsers */ url("/assets/fonts/Recoleta/Recoleta-Black.ttf")
+        format("truetype");
+    /* Safari, Android, iOS */
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: "Bitter";
+    src: url("/assets/fonts/Bitter/Bitter-VariableFont_wght.ttf") format("truetype");
+    /* Safari, Android, iOS */
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: "Bitter-Italic";
+    src: url("/assets/fonts/Bitter/Bitter-Italic-VariableFont_wght.ttf")
+      format("truetype");
+    /* Safari, Android, iOS */
+  }
+
+  .headline-bold {
+    font-family: "Recoleta-Bold", serif;
+  }
+  .font-bitter {
+    font-family: "Bitter", serif;
+  }

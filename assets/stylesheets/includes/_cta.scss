@@ -1,0 +1,29 @@
+
+.cta {
+    display: block;
+    font-family: "Recoleta-Black", serif;
+    font-weight: 900;
+    width: fit-content;
+    margin: 2em auto 4em auto;
+    line-height: 1.5em;
+    padding: 0.625em 1.5em;
+    border-radius: 0.5em;
+    text-decoration: none !important;
+    appearance: none;
+    border: 0;
+    cursor: pointer;
+  }
+  
+  .cta--no-margin {
+      margin: 0;
+  }
+  
+  .cta--with-icon {
+    padding-left: 1.2em;
+  }
+  
+  .cta [class^="icon-"],
+  .cta [class*=" icon-"] {
+    padding-right: 4px;
+  }
+  

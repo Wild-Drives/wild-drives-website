@@ -1,0 +1,23 @@
+
+.margin-spacing-a {
+    margin: 6rem 0;
+  }
+  
+  .margin-spacing-b {
+    margin: 3rem 0;
+  }
+  
+  @media (max-width: 800px) {
+      .margin-spacing-a {
+        margin: 3rem 0;
+      }
+      
+      .margin-spacing-b {
+        margin: 1.5rem 0;
+      }
+      
+  }
+  .no-margin {
+    margin: 0 !important;
+  }
+  

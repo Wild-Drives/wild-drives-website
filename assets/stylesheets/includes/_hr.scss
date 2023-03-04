@@ -1,0 +1,50 @@
+
+
+.yellow-400-hr {
+    width: 200px;
+    height: 11px;
+    background-color: var(--yellow-400);
+    border: 1px solid var(--yellow-400);
+    border-radius: 1em;
+    margin: 0.5em 0 2em;
+  }
+  
+  .yellow-500-hr {
+    width: 200px;
+    height: 7px;
+    background-color: var(--yellow-500);
+    border: 1px solid var(--yellow-500);
+    border-radius: 1em;
+    margin: 0.5em 0 2em;
+  }
+  
+  .yellow-500-hr-short {
+    width: 200px;
+    height: 3px;
+    background-color: var(--yellow-500);
+    border: 1px solid var(--yellow-500);
+    border-radius: 1em;
+    margin: 0.3em 0 2em;
+  }
+  
+  .green-500-hr {
+    width: 200px;
+    height: 7px;
+    background-color: var(--green-500);
+    border: 1px solid var(--green-500);
+    border-radius: 1em;
+    margin: 0.5em 0 2em;
+  }
+  
+  .green-500-hr-right {
+    width: 200px;
+    height: 7px;
+    background-color: var(--green-500);
+    border: 1px solid var(--green-500);
+    border-radius: 1em;
+    margin-right: 0;
+  }
+  
+  .hr-small-margin {
+      margin-bottom: 1em;
+  }
