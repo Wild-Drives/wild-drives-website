@@ -3,11 +3,10 @@ const eleventySass = require("eleventy-sass");
 
 module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("assets/fonts");
-    eleventyConfig.addPassthroughCopy("assets/iconfont");
     eleventyConfig.addPassthroughCopy("json");
-    eleventyConfig.addPassthroughCopy("./*.png");
-    eleventyConfig.addPassthroughCopy("./*.svg");
-    eleventyConfig.addPassthroughCopy("./*.ico");
+    eleventyConfig.addPassthroughCopy("./assets/img/*.png");
+    eleventyConfig.addPassthroughCopy("./assets/img/*.svg");
+    eleventyConfig.addPassthroughCopy("*.ico");
     eleventyConfig.addPlugin(eleventySass);
 
   eleventyConfig.addShortcode("blogHeading2", function(title) {
