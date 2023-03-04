@@ -1,0 +1,29 @@
+
+.socials {
+    background-color: var(--green-800);
+    border-radius: 3em;
+    padding: 2em;
+  }
+  
+  .socials p {
+    color: var(--green-200);
+  }
+  
+  .socials i {
+    height: 3em;
+    width: 3em;
+    border-radius: 0.25em;
+    padding: 0.4em;
+  }
+  
+  .socials a {
+    font-size: 16px;
+    color: var(--green-200);
+    text-decoration: none;
+    text-transform: none;
+    margin-left: 0.3em;
+  }
+  
+  .socials a:hover {
+    color: var(--green-500);
+  }

@@ -1,0 +1,356 @@
+
+html {
+    --neutral-50: #cbc7d0;
+    --neutral-100: #c1bcc7;
+    --neutral-200: #aca5b4;
+    --neutral-300: #978fa1;
+    --neutral-400: #83798f;
+    --neutral-500: #6e6579;
+    --neutral-600: #5a5364;
+    --neutral-700: #46404d;
+    --neutral-800: #322e37;
+    --neutral-900: #171519;
+    --purple-50: #ddd4e6;
+    --purple-100: #d3c8df;
+    --purple-200: #beadd0;
+    --purple-300: #aa92c1;
+    --purple-400: #9578b2;
+    --purple-500: #825ea3;
+    --purple-600: #6d4e8b;
+    --purple-700: #583f72;
+    --purple-800: #443157;
+    --purple-900: #291d33;
+    --red-50: #f3dfe1;
+    --red-100: #edcfd2;
+    --red-200: #e1afb5;
+    --red-300: #d69097;
+    --red-400: #cc727b;
+    --red-500: #c2545e;
+    --red-600: #a93a42;
+    --red-700: #7f2c32;
+    --red-800: #551c22;
+    --red-900: #2c0e11;
+    --orange-50: #f7ebe5;
+    --orange-100: #f3ddd4;
+    --orange-200: #e9c2b3;
+    --orange-300: #e1a791;
+    --orange-400: #d88c71;
+    --orange-500: #d07251;
+    --orange-600: #bc5432;
+    --orange-700: #904025;
+    --orange-800: #642c1a;
+    --orange-900: #37180e;
+    --yellow-50: #ffffff;
+    --yellow-100: #fef9f2;
+    --yellow-200: #f9e9cc;
+    --yellow-300: #f6d8a9;
+    --yellow-400: #f2c985;
+    --yellow-500: #efb965;
+    --yellow-600: #eaa341;
+    --yellow-700: #c98630;
+    --yellow-800: #956422;
+    --yellow-900: #624114;
+    --green-50: #cdebe7;
+    --green-100: #c0e5e1;
+    --green-200: #a7dad4;
+    --green-300: #8fd0c7;
+    --green-400: #78c5bb;
+    --green-500: #64b7ac;
+    --green-600: #549a90;
+    --green-700: #3d7069;
+    --green-800: #264743;
+    --green-900: #0f1e1c;
+    --twitter: #1da1f2;
+    --gradient: linear-gradient(
+      102.52deg,
+      #48305a 15.85%,
+      #d24b5b 40.2%,
+      #df6c48 64.91%,
+      #f9b653 86.67%
+    );
+    --gradient2: linear-gradient(
+      159.06deg,
+      #405de6 3.19%,
+      #5851db 21.49%,
+      #833ab4 40.75%,
+      #c13584 60.49%,
+      #e1306c 78.78%,
+      #fd1d1d 95.64%
+    );
+    --airmail: repeating-linear-gradient(
+      135deg,
+      #583f72 0px,
+      #583f72 30px,
+      transparent 30px,
+      transparent 60px,
+      #e24654 60px,
+      #e24654 90px,
+      transparent 90px,
+      transparent 120px
+    );
+  }
+
+  
+.color-neutral-50 {
+    color: var(--neutral-50);
+  }
+  
+  .color-neutral-100 {
+    color: var(--neutral-100);
+  }
+  
+  .color-neutral-200 {
+    color: var(--neutral-200);
+  }
+  
+  .color-neutral-300 {
+    color: var(--neutral-300);
+  }
+  
+  .color-neutral-400 {
+    color: var(--neutral-400);
+  }
+  
+  .color-neutral-500 {
+    color: var(--neutral-500);
+  }
+  
+  .color-neutral-600 {
+    color: var(--neutral-600);
+  }
+  
+  .color-neutral-700 {
+    color: var(--neutral-700);
+  }
+  
+  .color-neutral-800 {
+    color: var(--neutral-800);
+  }
+  
+  .color-neutral-900 {
+    color: var(--neutral-900);
+  }
+  
+  .color-purple-50 {
+    color: var(--purple-50);
+  }
+  
+  .color-purple-100 {
+    color: var(--purple-100);
+  }
+  
+  .color-purple-200 {
+    color: var(--purple-200);
+  }
+  
+  .color-purple-300 {
+    color: var(--purple-300);
+  }
+  
+  .color-purple-400 {
+    color: var(--purple-400);
+  }
+  
+  .color-purple-500 {
+    color: var(--purple-500);
+  }
+  
+  .color-purple-600 {
+    color: var(--purple-600);
+  }
+  
+  .color-purple-700 {
+    color: var(--purple-700);
+  }
+  
+  .color-purple-800 {
+    color: var(--purple-800);
+  }
+  
+  .color-purple-900 {
+    color: var(--purple-900);
+  }
+  
+  .color-red-50 {
+    color: var(--red-50);
+  }
+  
+  .color-red-100 {
+    color: var(--red-100);
+  }
+  
+  .color-red-200 {
+    color: var(--red-200);
+  }
+  
+  .color-red-300 {
+    color: var(--red-300);
+  }
+  
+  .color-red-400 {
+    color: var(--red-400);
+  }
+  
+  .color-red-500 {
+    color: var(--red-500);
+  }
+  
+  .color-red-500 {
+    color: var(--red-500);
+  }
+  
+  .color-red-600 {
+    color: var(--red-600);
+  }
+  
+  .color-red-700 {
+    color: var(--red-700);
+  }
+  
+  .color-red-800 {
+    color: var(--red-800);
+  }
+  
+  .color-red-900 {
+    color: var(--red-900);
+  }
+  
+  .color-yellow-50 {
+    color: var(--yellow-50);
+  }
+  
+  .color-orange-50 {
+    color: var(--orange-50);
+  }
+  
+  .color-orange-100 {
+    color: var(--orange-100);
+  }
+  
+  .color-orange-200 {
+    color: var(--orange-200);
+  }
+  
+  .color-orange-300 {
+    color: var(--orange-300);
+  }
+  
+  .color-orange-400 {
+    color: var(--orange-400);
+  }
+  
+  .color-orange-500 {
+    color: var(--orange-500);
+  }
+  
+  .color-orange-600 {
+    color: var(--orange-600);
+  }
+  
+  .color-orange-700 {
+    color: var(--orange-700);
+  }
+  
+  .color-orange-800 {
+    color: var(--orange-800);
+  }
+  
+  .color-orange-900 {
+    color: var(--orange-900);
+  }
+  
+  .color-yellow-100 {
+    color: var(--yellow-100);
+  }
+  
+  .color-yellow-200 {
+    color: var(--yellow-200);
+  }
+  
+  .color-yellow-300 {
+    color: var(--yellow-300);
+  }
+  
+  .color-yellow-400 {
+    color: var(--yellow-400);
+  }
+  
+  .color-yellow-500 {
+    color: var(--yellow-500);
+  }
+  
+  .color-yellow-600 {
+    color: var(--yellow-600);
+  }
+  
+  .color-yellow-700 {
+    color: var(--yellow-700);
+  }
+  
+  .color-yellow-800 {
+    color: var(--yellow-800);
+  }
+  
+  .color-yellow-900 {
+    color: var(--yellow-900);
+  }
+  
+  .color-green-50 {
+    color: var(--green-50);
+  }
+  
+  .color-green-100 {
+    color: var(--green-100);
+  }
+  
+  .color-green-200 {
+    color: var(--green-200);
+  }
+  
+  .color-greem-300 {
+    color: var(--green-300);
+  }
+  
+  .color-green-400 {
+    color: var(--green-400);
+  }
+  
+  .color-green-500 {
+    color: var(--green-500);
+  }
+  
+  .color-green-600 {
+    color: var(--green-600);
+  }
+  
+  .color-green-700 {
+    color: var(--green-700);
+  }
+  
+  .color-green-800 {
+    color: var(--green-800);
+  }
+  
+  .color-green-900 {
+    color: var(--green-900);
+  }
+  
+  .background-color-twitter {
+    background-color: var(--twitter);
+  }
+  
+  .background-color-instagram {
+    background: var(--gradient2);
+  }
+  
+  .background-color-facebook {
+    background-color: #4267b2;
+  }
+  
+  .background-color-email {
+    background: var(--gradient);
+  }
+  
+  .background-color-purple {
+    background-color: var(--purple-800) !important;
+  }

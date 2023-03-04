@@ -1,0 +1,36 @@
+
+footer {
+    background-color: var(--orange-400);
+    background-image: url("/assets/img/footer-bg.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 4em 0 0 0;
+    text-align: center;
+  }
+  
+  footer p {
+    width: 40%;
+    margin: auto;
+  }
+
+  footer .cta,
+  .cta--dark {
+    color: var(--yellow-100);
+    background: var(--green-900);
+    text-shadow: 2px 2px #040b0a;
+  }
+  
+  footer i {
+    color: var(--yellow-500);
+    vertical-align: sub;
+  }
+  
+  footer a {
+    color: var(--yellow-50);
+    text-decoration: none;
+  }
+  
+  footer hr {
+    margin: 0.5em auto 2em !important;
+  }

@@ -1,0 +1,33 @@
+
+blockquote {
+    font-family: "Recoleta-Bold", serif;
+    font-size: 2em;
+    width: 80%;
+    margin: 2em auto;
+    color: var(--green-800);
+    line-height: 1.4;
+    position: relative;
+  }
+  
+  blockquote::before {
+    font-family: "Recoleta-Bold", serif;
+    content: "\201C";
+    text-decoration: 4px underline;
+    text-underline-offset: -0.3em;
+    color: var(--yellow-700);
+    font-size: 3em;
+    position: absolute;
+    left: -0.7em;
+    top: -0.1em;
+  }
+  
+  blockquote::after {
+    content: "";
+  }
+  
+  blockquote span {
+    display: block;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25rem;
+  }
