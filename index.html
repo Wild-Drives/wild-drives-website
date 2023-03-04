@@ -26,11 +26,11 @@ img: 'wild-drives-4.jpg'
     </a>
 </section>
 
-    <div class="container margin-vw-top-a">
-        <div>
-            {% Image "assets/img/wild-drives-5.jpg", "A group of people enjoying the van and a picnic", "rotate-22 image-rounded" %}
+    <div class="grid-container margin-vw-top-8 align-items-top">
+        <div class="grid-container__span-5">
+            {% Image "assets/img/wild-drives-5.jpg", "A group of people enjoying the van and a picnic", "rotate-22 image-rounded image-offset-left" %}
         </div>
-        <div>
+        <div class="grid-container__span-3">
             <h2 class="color-purple-900"><br>Meet Eve,<br>
                 <span class="color-purple-600 headline-bold">She's electric.</span>
             </h2>
@@ -43,7 +43,12 @@ img: 'wild-drives-4.jpg'
         </div>
     </div>
 
-    <h2 class="color-purple-800">Featured in</h2>
+    
+    <blockquote class="margin-vw-top-9">Conclusion, Love, love, loved the van and van life. The fact it was an electric van made it so much more quiet and green. Large Solar roof was a winner and with a supersized leisure battery unbeatable. <span class="color-purple-500">Connie</span>
+        <span class="color-green-500 font-bitter">July 2022</span>
+    </blockquote>
+   
+    <h2 class="color-purple-800 margin-vw-top-11">Featured in</h2>
     <hr class="yellow-500-hr">
     <div class="logo-listing">
         <a class="logo-listing__item" href="https://www.telegraph.co.uk/cars/features/ev-transition-coming-campervans/" target="_blank">
@@ -56,10 +61,6 @@ img: 'wild-drives-4.jpg'
             {% Image "assets/img/million-pound-motorhomes.png", "Million Pound Motorhomes" %}
         </a>
     </div>
-
-    <blockquote class="margin-vw-top-a">Conclusion, Love, love, loved the van and van life. The fact it was an electric van made it so much more quiet and green. Large Solar roof was a winner and with a supersized leisure battery unbeatable. <span class="color-purple-500">Connie</span>
-        <span class="color-green-500 font-bitter">July 2022</span>
-    </blockquote>
     {% render "newsletter.liquid" %}
     {% render "follow-journey.liquid" %}
 </main>
