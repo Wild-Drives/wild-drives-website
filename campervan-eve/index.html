@@ -1,14 +1,14 @@
 ---
 layout: layouts/base.liquid
-titleOne: Meet Eve, Wild Drives
+titleOne: Meet Eve
 bodyClass: eve-background
 description: "Eve is our first electric campervan. Based on a new Citroen E-dispatch. 150 mile range, 0%-80% in 40 minutes."
 img: 'wild-drives-5.jpg'
 ---
 {% render "site-header.liquid", logo: 'site-id-purple.svg', menu-link-color: 'purple-600', cta-color: 'purple-800' %}
 <main class="wrapper">
-    <div class="container-33-66">
-    <div class="item-1 tablet-align-right">
+    <div class="grid-container align-items-top">
+    <div class="grid-container__item-one-span-2 tablet-align-right">
         <h1 class="color-purple-900">
         Meet <br />
         <span class="color-purple-700">Eve</span>
@@ -19,8 +19,8 @@ img: 'wild-drives-5.jpg'
         E-Dispatch.
         </p>
     </div>
-    <div class="item-2">
-        {% Image "assets/img/wild-drives-5.jpg", "A group of people enjoying the van and a picnic", "image-rounded rotate-22" %}
+    <div class="grid-container__item-two-span-5">
+        {% Image "assets/img/wild-drives-5.jpg", "A group of people enjoying the van and a picnic", "image-rounded rotate-143" %}
     </div>
     </div>
     <div class="container-33-66">
@@ -29,6 +29,7 @@ img: 'wild-drives-5.jpg'
         <span class="color-purple-600">Everything</span> you could need,
         including the kitchen sink
         </h3>
+        <hr class="yellow-500-hr">
         <div class="anxiety rotate-262">
         <div>
             <h4 class="color-yellow-50">
@@ -48,7 +49,7 @@ img: 'wild-drives-5.jpg'
         </div>
     </div>
     <div class="item-2">
-        <div class="container sub-con">
+        <div class="container container--no-margin sub-con">
         <div class="text-align-left">
             <div class="specs">
             <div class="specs-child"><i class="icon-charge"></i></div>
