@@ -5,10 +5,12 @@
     background-repeat: no-repeat;
     background-position: top left, top right;
 }
-  
-  .eve-background {
-    background: #f9e9cc url("/assets/img/eve-background.svg") no-repeat 0 top;
-    background-size: clamp(1130px, 100%, 100%);
+
+.eve-background {
+    background-image: url("/assets/img/yellow-blob.svg");
+    background-size: clamp(600px, 51vw, 715px);
+    background-repeat: no-repeat;
+    background-position: top left;
   }
   
   .range-background {
