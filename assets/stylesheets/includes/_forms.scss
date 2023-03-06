@@ -1,17 +1,6 @@
 
-input,
-textarea {
-  padding: 0.5em;
-  font-size: 1.125rem;
-  line-height: 1.75em;
-  width: 100%;
-  box-sizing: border-box;
-  color: var(--color-neutrals-900);
-  border-radius: 4px;
-  border: 0;
-}
-
-label {
+label,
+.form-label {
     font-weight: bold;
     display: block;
     cursor: pointer;
@@ -19,11 +8,86 @@ label {
 
 input[type="text"],
 input[type="email"],
-textarea {
+textarea,
+.form-text-input {
+    padding: 0.5em;
+    font-size: 1.125rem;
+    line-height: 1.75em;
+    width: 100%;
+    box-sizing: border-box;
+    color: var(--color-neutrals-900);
+    border-radius: 4px;
     border: 2px solid var(--neutral-800);
     margin-bottom: 20px;
 }
 
 textarea {
     width: 100%;
+}
+
+.form-group {
+    margin-top: 1rem;
+}
+
+.form-radio {
+    display: block;
+    position: relative;
+    min-height: 40px;
+    margin-bottom: 10px;
+    padding-left: 40px;
+}
+
+.form-radio__input {
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+    top: -2px;
+    left: -2px;
+    width: 44px;
+    height: 44px;
+    margin: 0;
+    opacity: 0;
+}
+.form-radio__label {
+    display: inline-block;
+    margin-bottom: 0;
+    padding: 8px 15px 5px;
+    cursor: pointer;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    &:before {
+        content: "";
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 40px;
+        height: 40px;
+        border: 2px solid currentcolor;
+        border-radius: 50%;
+        background: var(--yellow-50);
+    }
+    &:after {
+        content: "";
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 0;
+        height: 0;
+        border: 10px solid currentcolor;
+        border-radius: 50%;
+        opacity: 0;
+        background: currentcolor;
+    }
+}
+.form-radio__input:checked+.form-radio__label:after {
+    opacity: 1;
+}
+.form-radio__input:focus+.form-radio__label:before {
+    border-width: 4px;
+    outline: 3px solid rgba(0,0,0,0);
+    outline-offset: 1px;
+    -webkit-box-shadow: 0 0 0 4px var(--yellow-500);
+    box-shadow: 0 0 0 4px var(--yellow-500);
 }
