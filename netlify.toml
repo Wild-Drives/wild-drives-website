@@ -1,6 +1,9 @@
 [build]
     publish = "_site/"
     command = "npm run build"
+[build.processing]
+  skip_processing = true
+
 [[headers]]
   for = "/assets/*"
   [headers.values]

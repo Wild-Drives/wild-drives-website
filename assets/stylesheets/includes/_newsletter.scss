@@ -28,8 +28,9 @@
       border-radius: 0 4px 4px 0;
       margin-top: 1.65em;
     }
-    .newsletter-email-input input {
+    .newsletter-email-input .form-text-input {
       border-radius: 4px 0 0 4px;
+      margin-bottom: 0;
     }
   }
   
@@ -40,4 +41,7 @@
   .newsletter .cta {
     color: var(--yellow-400);
     background-color: var(--purple-900);
+    font-size: 1.125rem;
+    border: 1px solid var(--purple-900);
+    border-top-width: 2px;
   }
