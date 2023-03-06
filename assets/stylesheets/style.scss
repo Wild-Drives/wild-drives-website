@@ -25,6 +25,7 @@
 @import "includes/text-align";
 @import "includes/cta";
 @import "includes/logo-listing";
+@import "includes/image";
 
 body {
   font-family: "Bitter", serif;
@@ -35,23 +36,6 @@ body {
   margin: auto;
   padding: 0;
 }
-
-
-
-img {
-    height: auto;
-    width: 100%;
-    vertical-align: middle;
-}
-.image-rounded {
-    border-radius: 3rem;
-    overflow: hidden;
-}
-
-
-
-
-
 
 .tw-integer {
   font-family: "Recoleta-Black", serif;
@@ -153,8 +137,15 @@ main a:hover {
   border-radius: 0;
 }
 
+.margin-vw-top-8 {
+  margin-top: 8vw;
+}
+.margin-vw-top-9 {
+  margin-top: 9vw;
+}
+.margin-vw-top-11,
 .margin-vw-top-a {
-  margin-top: 11vw !important;
+  margin-top: 11vw;
 }
 
 .intro {

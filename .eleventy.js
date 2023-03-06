@@ -51,6 +51,6 @@ eleventyConfig.addShortcode("Image", async (src, alt, classes) => {
       width="${lowestSrc.width}"
       height="${lowestSrc.height}">`;
 
-    return `<div class="image-wrapper ${classes}"><picture> ${source} ${img} </picture></div>`;
+    return `<div class="${classes}"><picture> ${source} ${img} </picture></div>`;
   });
 };
