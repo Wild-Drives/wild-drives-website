@@ -31,7 +31,7 @@ eleventyConfig.addShortcode("Image", async (src, alt, classes) => {
     let stats = await Image(src, {
       widths: [25, 320, 640, 960, 1200, 1800, 2400],
       formats: ["jpeg", "webp"],
-      urlPath: "./assets/img/",
+      urlPath: "/assets/img/",
       outputDir: "./_site/assets/img/",
     });
 
