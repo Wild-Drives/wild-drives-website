@@ -1,0 +1,11 @@
+---
+layout: layouts/base.liquid
+pagination:
+    data: trips
+    size: 1
+    alias: trip
+permalink: "trips/{{ trip.name | slugify }}/"
+---
+
+{{ trip.name }}
+{{ trip.description }}
