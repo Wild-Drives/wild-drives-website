@@ -1,5 +1,5 @@
 const Image = require("@11ty/eleventy-img");
-const eleventySass = require("eleventy-sass");
+const sass = require("eleventy-sass");
 
 module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("assets/fonts");
@@ -9,7 +9,14 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("*.ico");
     eleventyConfig.addPassthroughCopy("*.svg");
     eleventyConfig.addPassthroughCopy("_headers");
-    eleventyConfig.addPlugin(eleventySass);
+    eleventyConfig.addPassthroughCopy({
+        "node_modules/lite-youtube-embed/src/lite-yt-embed.js": "assets/js/lite-yt-embed.js"
+    });
+    eleventyConfig.addPlugin(sass, {
+        sass: {
+          loadPaths: ["node_modules"],
+        }
+    });
 
   eleventyConfig.addShortcode("blogHeading2", function(title) {
 return `<h2 class="color-green-900">${title}</h2>
