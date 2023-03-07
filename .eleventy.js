@@ -2,13 +2,13 @@ const Image = require("@11ty/eleventy-img");
 const sass = require("eleventy-sass");
 
 module.exports = function(eleventyConfig) {
-    eleventyConfig.addPassthroughCopy("assets/fonts");
-    eleventyConfig.addPassthroughCopy("json");
-    eleventyConfig.addPassthroughCopy("./assets/img/*.png");
-    eleventyConfig.addPassthroughCopy("./assets/img/*.svg");
-    eleventyConfig.addPassthroughCopy("*.ico");
-    eleventyConfig.addPassthroughCopy("*.svg");
-    eleventyConfig.addPassthroughCopy("_headers");
+    eleventyConfig.addPassthroughCopy("app/assets/fonts");
+    eleventyConfig.addPassthroughCopy("app/json");
+    eleventyConfig.addPassthroughCopy("app/assets/img/*.png");
+    eleventyConfig.addPassthroughCopy("app/assets/img/*.svg");
+    eleventyConfig.addPassthroughCopy("app/*.ico");
+    eleventyConfig.addPassthroughCopy("app/*.svg");
+    eleventyConfig.addPassthroughCopy("app/_headers");
     eleventyConfig.addPassthroughCopy({
         "node_modules/lite-youtube-embed/src/lite-yt-embed.js": "assets/js/lite-yt-embed.js"
     });
@@ -31,7 +31,7 @@ eleventyConfig.addShortcode("Image", async (src, alt, classes) => {
     let stats = await Image(src, {
       widths: [25, 320, 640, 960, 1200, 1800, 2400],
       formats: ["jpeg", "webp"],
-      urlPath: "/assets/img/",
+      urlPath: "./assets/img/",
       outputDir: "./_site/assets/img/",
     });
 
@@ -61,4 +61,10 @@ eleventyConfig.addShortcode("Image", async (src, alt, classes) => {
 
     return `<div class="${classes}"><picture> ${source} ${img} </picture></div>`;
   });
+
+  return {
+    dir: {
+      input: "app"
+    }
+  }
 };
