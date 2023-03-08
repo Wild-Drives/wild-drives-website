@@ -1,5 +1,7 @@
 const Image = require("@11ty/eleventy-img");
 const sass = require("eleventy-sass");
+const postcss = require("postcss");
+const autoprefixer = require("autoprefixer");
 
 module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("app/assets/fonts");
@@ -15,7 +17,10 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPlugin(sass, {
         sass: {
           loadPaths: ["node_modules"],
-        }
+        },
+        postcss: postcss([
+            autoprefixer
+        ])
     });
 
   eleventyConfig.addShortcode("blogHeading2", function(title) {
