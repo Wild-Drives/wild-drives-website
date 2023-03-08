@@ -1,6 +1,10 @@
 [
     {
-      "name": "Brighton to Stonehenge",
+      "title": "Brighton to Stonehenge",
+      "titleOne": "Brighton to",
+      "titleTwo": "Stonehenge",
+      "img": "anna-1.jpg",
+      "alt": "SSSS",
       "description": "Explore the South Downs in an electric campervan",
       "nights": "7",
        "miles": "155",
@@ -13,6 +17,9 @@
             "National trust sites",
             "Eco-campsite accommodation",
             "Beautiful electric charging points to recharge and relax"
-        ]
+        ],
+        "map": {
+            "img": "maps/stonehenge.jpeg"
+        }
     }
   ]
