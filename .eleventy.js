@@ -30,6 +30,27 @@ return `<h2 class="color-green-900">${title}</h2>
 <hr class="hr hr--yellow-500 hr" />`;
 });
 
+
+eleventyConfig.addPairedShortcode("postcard", function(content, classes, title, imgUrl, imgAlt) {
+const img = this.Image(imgUrl, imgAlt, "image-rounded");
+return `<div class="postcard ${classes}">
+    <div class="postcard-content">
+        <div class="postcard-content-left">
+            <div>
+            <h2 class="h4">${title}</h2>
+            <hr class="hr hr--yellow-500">
+            </div>
+            ${content}
+        </div>
+        <div class="postcard-content-right">
+            <div class="image-rounded"> 
+                ${img}
+            </div>
+        </div>
+    </div>
+</div>`
+});
+
 eleventyConfig.addShortcode("Image", async (src, alt, classes) => {
     if (!alt) {
       throw new Error(`Missing \`alt\` on myImage from: ${src}`);
