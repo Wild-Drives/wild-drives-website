@@ -8,11 +8,13 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("app/json");
     eleventyConfig.addPassthroughCopy("app/assets/img/*.png");
     eleventyConfig.addPassthroughCopy("app/assets/img/*.svg");
+    eleventyConfig.addPassthroughCopy("app/assets/js/**/*.js");
     eleventyConfig.addPassthroughCopy("app/*.ico");
     eleventyConfig.addPassthroughCopy("app/*.svg");
     eleventyConfig.addPassthroughCopy("app/_headers");
     eleventyConfig.addPassthroughCopy({
-        "node_modules/lite-youtube-embed/src/lite-yt-embed.js": "assets/js/lite-yt-embed.js"
+        "node_modules/lite-youtube-embed/src/lite-yt-embed.js": "assets/js/lite-yt-embed.js",
+        "node_modules/jquery/dist/jquery.slim.js": "assets/js/jquery.js"
     });
     eleventyConfig.addPlugin(sass, {
         sass: {

@@ -1,3 +1,12 @@
+body {
+    font-family: "Bitter", serif;
+    background-color: var(--yellow-200);
+    line-height: 1.4;
+    font-size: 21px;
+    color: var(--color-neutrals-900);
+    margin: auto;
+    padding: 0;
+  }
 
 h1,
 h2,
@@ -30,6 +39,7 @@ h4,
 }
 
 p {
+    font-size: 1em;
   line-height: 1.4;
 }
 

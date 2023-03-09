@@ -27,17 +27,10 @@
 @import "includes/cta";
 @import "includes/logo-listing";
 @import "includes/image";
+@import "includes/collapsible";
 @import "lite-youtube-embed/src/lite-yt-embed";
 
-body {
-  font-family: "Bitter", serif;
-  background-color: var(--yellow-200);
-  line-height: 1.4;
-  font-size: 21px;
-  color: var(--color-neutrals-900);
-  margin: auto;
-  padding: 0;
-}
+
 
 .tw-integer {
   font-family: "Recoleta-Black", serif;
