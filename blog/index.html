@@ -24,7 +24,7 @@ bodyClass: range-background
                         <span>{{ post.data.description }}</span>
                     </div>
                     <div href="{{post.url}}" class="postcard-content-right">
-                        {% capture imageUrl %}app/assets/img/{{ post.data.img }}{% endcapture %}
+                        {% capture imageUrl %}assets/img/{{ post.data.img }}{% endcapture %}
                         {% Image imageUrl post.data.alt "image-rounded" %}
                     </div>
                 </div>
