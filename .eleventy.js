@@ -25,7 +25,7 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addShortcode("blogHeading2", function(title) {
 return `<h2 class="color-green-900">${title}</h2>
-<hr class="yellow-500-hr" />`;
+<hr class="hr hr--yellow-500 hr" />`;
 });
 
 eleventyConfig.addShortcode("Image", async (src, alt, classes) => {

@@ -14,7 +14,7 @@ bodyClass: eve-background
             <h1 class="color-purple-900">{{ trip.titleOne }}<br>
                 <span class="color-purple-700">{{ trip.titleTwo }}</span>
             </h1>
-            <hr class="green-500-hr" />
+            <hr class="hr hr--green-500 hr" />
             <p>
             {{ trip.description }}
             </p>
@@ -41,13 +41,13 @@ bodyClass: eve-background
     <div class="margin-spacing-a">
         <h2 class="color-green-900">
                     About this adventure</h2>
-            <hr class="yellow-500-hr" />
+            <hr class="hr hr--yellow-500 hr" />
         <p>{{ trip.about }}</p>
         <div class="grid-container">
             <div class="grid-container__item-span-4">
                 <h2 class="color-green-900">
                     About this trip</h2>
-            <hr class="yellow-500-hr" />
+            <hr class="hr hr--yellow-500 hr" />
                 <ul>
                 {% for hl in trip.highlights %}
                     <li>{{ hl }}</li>
@@ -64,7 +64,7 @@ bodyClass: eve-background
         </div>
     </div>
     <h2 class="color-green-900">Itinery</h2>
-    <hr class="yellow-500-hr" />
+    <hr class="hr hr--yellow-500 hr" />
     {%- for day in trip.days  -%}
         <details class="govuk-details" open>
             <summary class="govuk-details__summary">
