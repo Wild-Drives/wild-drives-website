@@ -24,12 +24,20 @@ bodyClass: eve-background
             {% Image imgUrl, trip.alt, "rotate-143  image-rounded" %}
         </div>
     </div>
-    <h2>Length</h2>
-    <p>{{trip.nights}} nights</p>
-    <h2>Distance</h2>
-    <p>{{trip.miles}} miles</p>
-    <h2>Price</h2>
-    <p>From £{{trip.priceFrom}}</p>
+    <div class="container-33 text-align-center margin-spacing-a">
+        <div class="item-1">
+            <h2 class="h3">Length</h2>
+            <p>{{trip.nights}} nights</p>
+        </div>
+        <div class="item-2">
+            <h2 class="h3">Distance</h2>
+            <p>{{trip.miles}} miles</p>
+        </div>
+        <div class="item-3">
+            <h2 class="h3">Price</h2>
+            <p>From £{{trip.priceFrom}}</p>
+        </div>
+    </div>
     <div class="margin-spacing-a">
         <h2 class="color-green-900">
                     About this adventure</h2>
@@ -55,5 +63,48 @@ bodyClass: eve-background
             </div>
         </div>
     </div>
+    <h2 class="color-green-900">Itinery</h2>
+    <hr class="yellow-500-hr" />
+    {%- for day in trip.days  -%}
+        <details class="govuk-details" open>
+            <summary class="govuk-details__summary">
+                <h3>Day {{day.number}}: {{day.summary}}</h2>
+            </summary>
+            <div class="grid-container align-items-top">
+                <div class="grid-container__item-span-4">
+                    {{ day.description }}
+                </div>
+                <div class="grid-container__item-span-4">
+                    {% capture imgUrl %}app/assets/img/{{ day.mainImg.src }}{% endcapture %}
+                    {% Image imgUrl, day.mainImg.alt, "image-rounded" %}
+                </div>
+                <div class="grid-container__item-span-4">
+                    <h4>Things to do</h4>
+                    <ul>
+                        {%- for thing in day.thingsToDo  -%}
+                            <li><span class="icon-{{thing.icon}}"></span>{{thing.text}}</li>
+                        {%- endfor -%}
+                    </ul>
+                </div>
+                <div class="grid-container__item-span-4">
+                    <h4>Extras</h4>
+                    <ul>
+                        {%- for thing in day.extras  -%}
+                            <li><span class="icon-{{thing.icon}}"></span>{{thing.text}}</li>
+                        {%- endfor -%}
+                    </ul>
+                </div>
+                <div class="grid-container__item-span-4">
+                    <h4>Where you'll lay your head</h3>
+                    <h5>{{day.accomodation.title}}</h4>
+                    <p>{{day.accomodation.description}}</p>
+                </div>
+                <div class="grid-container__item-span-4">
+                    {% capture imgUrl %}app/assets/img/{{ day.mainImg.src }}{% endcapture %}
+                    {% Image imgUrl, day.mainImg.alt, "image-rounded" %}
+                </div>
+            </div>
+        </details>
+    {%- endfor -%}
 </main>
 

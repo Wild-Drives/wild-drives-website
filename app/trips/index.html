@@ -1,0 +1,23 @@
+---
+layout: layouts/base.liquid
+title: Our trips
+description: "Go on an eco-adventure in our electric campervans"
+bodyClass: range-background
+---
+{% render "site-header.liquid", logo: 'site-id-purple.svg', menu-link-color: 'purple-600', cta-color: 'purple-800' %}
+<main class="wrapper">
+        <h1 class="color-purple-900 hero-text">Our <br>
+            <span class="color-purple-700">trips</span>
+        </h1>
+        <hr class="green-500-hr">
+        <p>{{ description }}</p>
+        <div class="container">
+            <ul>
+                {%- for trip in trips  -%}
+                    <li><a href="/trips/{{ trip.title | slugify }}">{{trip.title}}</a></li>                
+                {%- endfor -%}
+            </ul>
+        </div>
+        {% render "newsletter.liquid" %}
+        {% render "follow-journey.liquid" %}
+</main>
