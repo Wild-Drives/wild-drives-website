@@ -24,7 +24,16 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
+  [class^="icon-"] {
+    font-size: 36px;
+    vertical-align: middle;
+    margin: 0 !important;
+  }
   
+  [class^="icon-"]:before {
+    display: inline-block;
+    text-decoration: none;
+  }
   .icon-location:before {
     content: "\e919";
   }
@@ -103,13 +112,4 @@
   .icon-usb:before {
     content: "\e918";
   }
-  i {
-    font-size: 36px;
-    vertical-align: middle;
-    margin: 0 !important;
-  }
-  
-  i[class^="icon-"]:before {
-    display: inline-block;
-    text-decoration: none;
-  }
+

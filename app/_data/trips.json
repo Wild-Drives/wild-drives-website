@@ -20,6 +20,55 @@
         ],
         "map": {
             "img": "maps/stonehenge.jpeg"
-        }
+        },
+        "days": [
+            {
+                "number": 1,
+                "summary": "Arrive in Brighton",
+                "description": "Start your day exploring sunny Brighton, grab a coffee at  Redroaster cafe, explore the lanes and check out the market. Pick up Eve from Madeira Drive and get your head around how to use all the features. Head down the coast aim for Beachy Head",
+                "mainImg": {
+                    "src": "wild-drives-2.jpg",
+                    "alt": "alt text"
+                },
+                "thingsToDo": [
+                    {
+                        "text": "Go to lewes",
+                        "icon": "location"
+                    },
+                    {
+                        "text": "Go to lewes",
+                        "icon": "location"
+                    },
+                    {
+                        "text": "Go to lewes",
+                        "icon": "location"
+                    }
+                ],
+                "extras": [
+                    {
+                        "text": "Brunch at Redroaster",
+                        "icon": "location",
+                        "price": "15"
+                    }
+                ],
+                "accomodation": {
+                    "title": "Fairfields Farm",
+                    "description": "Take a little time out, enjoy far-reaching skies and coastal air, wander meadows and grassland, explore and relax.",
+                    "img": {
+                        "src": "wild-drives-2.jpg",
+                        "alt": "alt text"
+                    }
+                }
+            },
+            {
+                "number": 2,
+                "summary": "Go somewehre else",
+                "description": "dadjwaldkjwakldjaldj",
+                "mainImg": {
+                    "src": "wild-drives-2.jpg",
+                    "alt": "alt text"
+                }
+            }
+        ]
     }
   ]
