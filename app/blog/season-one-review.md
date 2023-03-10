@@ -15,7 +15,7 @@ tags: post
         </div>
         <div>
             <h2 class="color-purple-900">Watch the <span class="color-purple-500">review</span> on Youtube</h2>
-            <hr class="yellow-500-hr">
+            <hr class="hr hr--yellow-500 hr">
             <p>Lewis Nyman reflects on the the first season of Wild Drive's, and potential for the future of the business.</p>
             <a href="https://www.youtube.com/watch?v=MspPJeXik3I" target="_blank" class="link">
                 Watch the video<i class="icon-chevron color-orange-400"></i></a>
@@ -26,7 +26,7 @@ tags: post
 <div class="container-33 top-align margin-spacing-a">
     <div>
         <h2 class="color-green-900">The big numbers</h2>
-        <hr class="yellow-500-hr" />
+        <hr class="hr hr--yellow-500 hr" />
     </div>
     <div class="container container no-margin top-align item-2 span-2">
         <div class="mobile-b-20">
@@ -71,7 +71,7 @@ tags: post
 <div class="container-33 top-align margin-spacing-a">
     <div>
         <h2 class="color-green-900">The costs</h2>
-        <hr class="yellow-500-hr" />
+        <hr class="hr hr--yellow-500 hr" />
     </div>
     <div class="container no-margin top-align item-2 span-2">
         <div class="mobile-b-20">

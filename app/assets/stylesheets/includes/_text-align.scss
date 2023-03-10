@@ -9,5 +9,14 @@
   
   .text-align-right {
     text-align: right;
+}
+.desktop-align-right {
+    @media screen and (min-width: $desktop) {
+        text-align: right;
+    }
   }
-  
+.tablet-align-right {
+    @media screen and (min-width: $tablet) {
+        text-align: right;
+    }
+  }
