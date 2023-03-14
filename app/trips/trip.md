@@ -6,6 +6,7 @@ pagination:
     alias: trip
 permalink: "trips/{{ trip.title | slugify }}/"
 bodyClass: eve-background
+templateEngineOverride: liquid
 eleventyComputed:
     title: "{{ trip.title }} trip"
     description: "{{ trip.description }}"
@@ -23,8 +24,8 @@ eleventyComputed:
             </p>
         </div>
         <div class="grid-container__item-span-3">
-            {% capture imgUrl %}app/assets/img/{{ trip.img }}{% endcapture %}
-            {% Image imgUrl, trip.alt, "rotate-143  image-rounded" %}
+{% capture imgUrl %}app/assets/img/{{ trip.img }}{% endcapture %}
+{% Image imgUrl, trip.alt, "rotate-143  image-rounded" %}
         </div>
     </div>
     <div class="container-33 text-align-center margin-spacing-a">
@@ -48,8 +49,7 @@ eleventyComputed:
         <p>{{ trip.about }}</p>
         <div class="grid-container">
             <div class="grid-container__item-span-4">
-                <h2 class="color-green-900">
-                    Highlights</h2>
+                <h2 class="color-green-900">Highlights</h2>
             <hr class="hr hr--yellow-500 hr" />
                 <ul>
                 {% for hl in trip.highlights %}
@@ -78,7 +78,7 @@ eleventyComputed:
                 <div class="collapsible__content" id="day-{{day.number}}">
                     <div class="grid-container align-items-top">
                         <div class="grid-container__item-span-5">
-                            {{ day.description }}
+                            {% markdown %}{{ day.description }}{% endmarkdown %}
                         </div>
                         <div class="grid-container__item-span-3">
                             {% capture imgUrl %}app/assets/img/{{ day.mainImg.src }}{% endcapture %}
@@ -93,12 +93,14 @@ eleventyComputed:
                             </ul>
                         </div>
                         <div class="grid-container__item-span-4">
-                            <h4>Extras</h4>
-                            <ul>
-                                {%- for thing in day.extras  -%}
-                                    <li><span class="icon-{{thing.icon}}"></span>{{thing.text}}</li>
-                                {%- endfor -%}
-                            </ul>
+                        {% if day.extras %}
+                                <h4>Extras</h4>
+                                <ul>
+                                    {%- for thing in day.extras  -%}
+                                        <li><span class="icon-{{thing.icon}}"></span>{{thing.text}}</li>
+                                    {%- endfor -%}
+                                </ul>
+                        {% endif %}
                         </div>
                         <div class="grid-container__item-span-4">
                             <h4>Where you'll lay your head</h3>
