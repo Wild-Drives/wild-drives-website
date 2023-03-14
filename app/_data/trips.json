@@ -25,22 +25,26 @@
             {
                 "number": 1,
                 "summary": "Arrive in Brighton",
-                "description": "Start your day exploring sunny Brighton, grab a coffee at  Redroaster cafe, explore the lanes and check out the market. Pick up Eve from Madeira Drive and get your head around how to use all the features. Head down the coast aim for Beachy Head",
+                "description": "Arrive at Brighton train station in the morning. Wander through the bustling North Laine, famous for it’s independent stores.Have brunch at the independent Redroaster - one of the top 20 sustainable business in the UK.\n\n Stroll past the iconic Palace Pier along the seafront to collect your electric campervan. Your home on wheels. We’ll talk you through all the features.\n\nFrom there, drive along the stunning sunny coastline, driving upwards towards Lewes.",
                 "mainImg": {
                     "src": "wild-drives-2.jpg",
                     "alt": "alt text"
                 },
                 "thingsToDo": [
                     {
-                        "text": "Go to lewes",
+                        "text": "Grab some fresh bread from The Flint Owl bakery, we recommend the rosemary and sea salt sourdough",
                         "icon": "location"
                     },
                     {
-                        "text": "Go to lewes",
+                        "text": "Go for a outdoor swim in Pells Pool",
                         "icon": "location"
                     },
                     {
-                        "text": "Go to lewes",
+                        "text": "Pop into the Needlemakers. It’s full of local, ethical, independent shops",
+                        "icon": "location"
+                    },
+                    {
+                        "text": "Walk through Southover Grange Gardens",
                         "icon": "location"
                     }
                 ],
@@ -49,11 +53,16 @@
                         "text": "Brunch at Redroaster",
                         "icon": "location",
                         "price": "15"
+                    },
+                    {
+                        "text": "Kayak hire at Wild Willows",
+                        "icon": "location",
+                        "price": "15"
                     }
                 ],
                 "accomodation": {
-                    "title": "Fairfields Farm",
-                    "description": "Take a little time out, enjoy far-reaching skies and coastal air, wander meadows and grassland, explore and relax.",
+                    "title": "Wild Willows Campsite",
+                    "description": "A beautiful Eco-Campsite in the heart of Sussex at the foot of the South Downs. Walking distance from Lewes.",
                     "img": {
                         "src": "wild-drives-2.jpg",
                         "alt": "alt text"
@@ -62,11 +71,132 @@
             },
             {
                 "number": 2,
-                "summary": "Go somewehre else",
-                "description": "dadjwaldkjwakldjaldj",
+                "summary": "Lewes to Cattlestone",
+                "description": "Head north from Lewes and join the A272 heading west. This road will become your new best friend over the next few days.\n\nBe sure to stop at Bolney Wine Estate, accredited by Sustainable Wines of Great Britain and they have a solar powered EV charging point",
                 "mainImg": {
                     "src": "wild-drives-2.jpg",
                     "alt": "alt text"
+                },
+                "thingsToDo": [
+                    {
+                        "text": "Leonardslee Gardens ",
+                        "icon": "location"
+                    },
+                    {
+                        "text": "Monks House, Virginia Woolf's 16th-century country retreat",
+                        "icon": "location"
+                    },
+                    {
+                        "text": "The Bluebell Railway",
+                        "icon": "location"
+                    }
+                ],
+                "extras": [
+                    {
+                        "text": "A wine and food tasting tour at Bolney Wine Estate",
+                        "icon": "location",
+                        "price": "60 per person"
+                    }
+                ],
+                "accomodation": {
+                    "title": "Cattlestone Farm",
+                    "description": "Glamping surrounded by arces of wild flower meadows and highland heifers!",
+                    "img": {
+                        "src": "wild-drives-2.jpg",
+                        "alt": "alt text"
+                    }
+                }
+            },
+            {
+                "number": 3,
+                "summary": "A safari at Knepp Estate",
+                "description": "Wake up on Cattlestone Farm and drive to Knepp Castle estate for an incredible wildlife safari from one of the leading rewilding projects in the world.\n\nFrom there, head west through Petworth and Midhurst. This route is beautiful.",
+                "mainImg": {
+                    "src": "wild-drives-2.jpg",
+                    "alt": "alt text"
+                },
+                "thingsToDo": [
+                    {
+                        "text": "Take a walk around Knepp Estate’s public footpaths",
+                        "icon": "location"
+                    },
+                    {
+                        "text": "Visit The Hungry Guest Cafe in Petworth to stock up on supplies",
+                        "icon": "location"
+                    },
+                    {
+                        "text": "Visit the South Downs National Park centre",
+                        "icon": "location"
+                    }
+                ],
+                "extras": [
+                    {
+                        "text": "Wildlife safari at Knepp Estate",
+                        "icon": "location",
+                        "price": "60 per person"
+                    }
+                ],
+                "accomodation": {
+                    "title": "Brocklands Camping",
+                    "description": "",
+                    "img": {
+                        "src": "wild-drives-2.jpg",
+                        "alt": "alt text"
+                    }
+                }
+            },
+            {
+                "number": 4,
+                "summary": "The journey towards Stonehenge",
+                "description": "Wake up to the sounds of birds at Brocklands farm, travel past Winchester and through Stockbridge, a love town with a crystal clear stream running though it.\n\nStop and charge at the Red Lion pub car park (open to non-customers) and take a strolls through Stockbridge and the surrounding countryside.\n\nHead towards Stonehenge.",
+                "mainImg": {
+                    "src": "wild-drives-2.jpg",
+                    "alt": "alt text"
+                },
+                "thingsToDo": [
+                    {
+                        "text": "Lunch at Prego Deli in Stockbridge, authentic Italian cooking",
+                        "icon": "location"
+                    },
+                    {
+                        "text": "Walk to Stockbridge Down",
+                        "icon": "location"
+                    }
+                ],
+                "accomodation": {
+                    "title": "Stonehenge Campsite & Glamping",
+                    "description": "",
+                    "img": {
+                        "src": "wild-drives-2.jpg",
+                        "alt": "alt text"
+                    }
+                }
+            },
+            {
+                "number": 5,
+                "summary": "Dawn at Stonehenge",
+                "description": "Wake up at the crack of dawn and marvel at Stonehenge, still standing after 3500 years.\n\nYou’ll then head back along the A272, passing through Stockbridge and camping at  Brocklands Farm",
+                "mainImg": {
+                    "src": "wild-drives-2.jpg",
+                    "alt": "alt text"
+                },
+                "thingsToDo": [
+                    {
+                        "text": "Lunch at Prego Deli in Stockbridge, authentic Italian cooking",
+                        "icon": "location"
+                    },
+                    {
+                        "text": "Walk to Stockbridge Down",
+                        "icon": "location"
+                    }
+                ],
+                "accomodation": {
+                    "title": "Stonehenge Campsite & Glamping",
+                    "description": "",
+                    "img": {
+                        "src": "wild-drives-2.jpg",
+                        "alt": "alt text"
+                    }
                 }
             }
         ]

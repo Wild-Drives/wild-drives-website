@@ -2,6 +2,7 @@ const Image = require("@11ty/eleventy-img");
 const sass = require("eleventy-sass");
 const postcss = require("postcss");
 const autoprefixer = require("autoprefixer");
+const markdownIt = require("markdown-it");
 
 module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("app/assets/fonts");
@@ -24,6 +25,18 @@ module.exports = function(eleventyConfig) {
             autoprefixer
         ])
     });
+
+      const md = new markdownIt({
+        html: true,
+        breaks: true,
+        linkify: true
+      });
+
+      eleventyConfig.addPairedShortcode("markdown", (content) => {
+        return md.render(content);
+      });
+    
+    
 
   eleventyConfig.addShortcode("blogHeading2", function(title) {
 return `<h2 class="color-green-900">${title}</h2>
