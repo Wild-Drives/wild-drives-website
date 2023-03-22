@@ -25,7 +25,7 @@ eleventyComputed:
         </div>
         <div class="grid-container__item-span-3">
 {% capture imgUrl %}app/assets/img/{{ trip.img }}{% endcapture %}
-{% Image imgUrl, trip.alt, "rotate-143  image-rounded" %}
+{% Image imgUrl, trip.alt, "image-rounded" %}
         </div>
     </div>
     <div class="container-33 text-align-center margin-spacing-a">
@@ -67,11 +67,11 @@ eleventyComputed:
         </div>
     </div>
     <div class="margin-spacing-a">
-        <h2 class="color-green-900">Itinery</h2>
+        <h2 class="color-green-900">Itinerary</h2>
         <hr class="hr hr--yellow-500 hr" />
         {%- for day in trip.days  -%}
             <div class="collapsible">
-                <button class="collapsible__button" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="day-{{day.number}}">
+                <button type="button" class="collapsible__button" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="day-{{day.number}}">
                     <h3>Day {{day.number}}: {{day.summary}}</h3>
                     <strong class="collapsible__toggle"><span class="icon icon-chevron collapsible__toggle-icon"></span>Show more</strong>
                 </button>
