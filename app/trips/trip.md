@@ -84,6 +84,7 @@ eleventyComputed:
                             {% capture imgUrl %}app/assets/img/{{ day.mainImg.src }}{% endcapture %}
                             {% Image imgUrl, day.mainImg.alt, "image-rounded" %}
                         </div>
+                        {% if day.thingsToDo %}
                         <div class="grid-container__item-span-4">
                             <h4>Things to do</h4>
                             <ul>
@@ -92,25 +93,39 @@ eleventyComputed:
                                 {%- endfor -%}
                             </ul>
                         </div>
-                        <div class="grid-container__item-span-4">
+                        {% endif %}
                         {% if day.extras %}
+                        <div class="grid-container__item-span-4">
                                 <h4>Extras</h4>
                                 <ul>
                                     {%- for thing in day.extras  -%}
                                         <li><span class="icon-{{thing.icon}}"></span>{{thing.text}}</li>
                                     {%- endfor -%}
                                 </ul>
-                        {% endif %}
                         </div>
+                        {% endif %}
+                        {% if day.accomodation %}
                         <div class="grid-container__item-span-4">
                             <h4>Where you'll lay your head</h3>
                             <h5>{{day.accomodation.title}}</h4>
                             <p>{{day.accomodation.description}}</p>
                         </div>
                         <div class="grid-container__item-span-4">
-                            {% capture imgUrl %}app/assets/img/{{ day.mainImg.src }}{% endcapture %}
-                            {% Image imgUrl, day.mainImg.alt, "image-rounded" %}
+                            {% capture imgUrl %}app/assets/img/{{ day.accomodation.img.src }}{% endcapture %}
+                            {% Image imgUrl, day.accomodation.img.alt, "image-rounded" %}
                         </div>
+                        {% endif %}
+                        {% if day.finale %}
+                        <div class="grid-container__item-span-4">
+                            <h4>And finally</h3>
+                            <h5>{{day.finale.title}}</h4>
+                            <p>{{day.finale.description}}</p>
+                        </div>
+                        <div class="grid-container__item-span-4">
+                            {% capture imgUrl %}app/assets/img/{{ day.finale.img.src }}{% endcapture %}
+                            {% Image imgUrl, day.finale.img.alt, "image-rounded" %}
+                        </div>
+                        {% endif %}
                     </div>
                 </div>
             </div>
