@@ -24,7 +24,7 @@
         "days": [
             {
                 "number": 1,
-                "summary": "Arrive in Brighton",
+                "summary": "Arrive in Brighton, drive to Lewes",
                 "description": "Arrive at Brighton train station in the morning. Wander through the bustling North Laine, famous for it’s independent stores.Have brunch at the independent Redroaster - one of the top 20 sustainable business in the UK.\n\n Stroll past the iconic Palace Pier along the seafront to collect your electric campervan. Your home on wheels. We’ll talk you through all the features.\n\nFrom there, drive along the stunning sunny coastline, driving upwards towards Lewes.",
                 "mainImg": {
                     "src": "wild-drives-2.jpg",
@@ -79,7 +79,7 @@
                 },
                 "thingsToDo": [
                     {
-                        "text": "Leonardslee Gardens ",
+                        "text": "Leonardslee Gardens",
                         "icon": "location"
                     },
                     {
@@ -175,24 +175,121 @@
             {
                 "number": 5,
                 "summary": "Dawn at Stonehenge",
-                "description": "Wake up at the crack of dawn and marvel at Stonehenge, still standing after 3500 years.\n\nYou’ll then head back along the A272, passing through Stockbridge and camping at  Brocklands Farm",
+                "description": "Wake up at the crack of dawn and marvel at Stonehenge, still standing after 3500 years.\n\nYou’ll then head back along the A272, passing through Stockbridge and camping at Brocklands Farm",
                 "mainImg": {
                     "src": "wild-drives-2.jpg",
                     "alt": "alt text"
                 },
                 "thingsToDo": [
                     {
-                        "text": "Lunch at Prego Deli in Stockbridge, authentic Italian cooking",
+                        "text": "A walk around Stonehenge site, and the musem",
                         "icon": "location"
                     },
                     {
-                        "text": "Walk to Stockbridge Down",
+                        "text": "Salisbury Cathedral",
+                        "icon": "location"
+                    },
+                    {
+                        "text": "Winchester Cathedral",
                         "icon": "location"
                     }
                 ],
+                "extras": [
+                    {
+                        "text": "General admission to Stonehenge",
+                        "icon": "location",
+                        "price": "23 per person"
+                    },
+                    {
+                        "text": "Stonehenge VIP experience",
+                        "icon": "location",
+                        "price": "59 per person"
+                    }
+                ],
                 "accomodation": {
-                    "title": "Stonehenge Campsite & Glamping",
+                    "title": "Brocklands Camping",
                     "description": "",
+                    "img": {
+                        "src": "wild-drives-2.jpg",
+                        "alt": "alt text"
+                    }
+                }
+            },
+            {
+                "number": 6,
+                "summary": "Visit the South Downs Sustinability Centre",
+                "description": "Wake up and visit the Sustainability Centre, 55 acres of woodland and downland. You can take a guided tour or a course in many eco-topics from Medicinal Herbs to Compost Toilets!/n/nHead back through the South Downs to stay at Wild Heart Hill ",
+                "mainImg": {
+                    "src": "wild-drives-2.jpg",
+                    "alt": "alt text"
+                },
+                "extras": [
+                    {
+                        "text": "Foraging and fire tour",
+                        "icon": "location",
+                        "price": "30 per person"
+                    },
+                    {
+                        "text": "Pendant carving course",
+                        "icon": "location",
+                        "price": "90 per person"
+                    },
+                    {
+                        "text": "Two day mushroom cultivation course",
+                        "icon": "location",
+                        "price": "225 per person"
+                    },
+                    {
+                        "text": "Wild flower meadows course",
+                        "icon": "location",
+                        "price": "80 per person"
+                    }
+                ],
+                "extrasFindMoreLink": {
+                    "text": "See the full list of courses and tours here",
+                    "url": "https://www.sustainability-centre.org/adult-courses.html"
+                },
+                "accomodation": {
+                    "title": "Wild Heart Hill",
+                    "description": "",
+                    "img": {
+                        "src": "wild-drives-2.jpg",
+                        "alt": "alt text"
+                    }
+                }
+            },
+            {
+                "number": 7,
+                "summary": "Return to Brighton via hills and sea",
+                "description": "Head over to Cissbury Ring for a beautiful walk around this hill with a history more than 5,00 years. Watch the wild horses grazing./n/nHead back along the coast towards Brighton. Be sure to stop at the excellent Port Kitchen at Shoreham Port right by the beach for lunch and a recharge.",
+                "mainImg": {
+                    "src": "wild-drives-2.jpg",
+                    "alt": "alt text"
+                },
+                "thingsToDo": [
+                    {
+                        "text": "Cissbury Ring, a peaceful National Trust walk",
+                        "icon": "location"
+                    },
+                    {
+                        "text": "Arundel Castle",
+                        "icon": "location"
+                    },
+                    {
+                        "text": "Arundel heated outdoor swimming pool",
+                        "icon": "location"
+                    }
+                ],
+                "extras": [
+                    {
+                        "text": "Booked table for lunch at Port Kitchen in Shoreham",
+                        "icon": "location",
+                        "price": "Free"
+                    }
+                ],
+                "finale": {
+                    "title": "Brighoton Station",
+                    "description": "Drop off the camper at Brighton Station, head home on the train",
                     "img": {
                         "src": "wild-drives-2.jpg",
                         "alt": "alt text"
