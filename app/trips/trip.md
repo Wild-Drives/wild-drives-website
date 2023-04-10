@@ -19,9 +19,7 @@ eleventyComputed:
                 <span class="color-purple-700">{{ trip.titleTwo }}</span>
             </h1>
             <hr class="hr hr--green-500 hr" />
-            <p>
-            {{ trip.description }}
-            </p>
+             {% markdown %}{{ trip.description }}{% endmarkdown %}
         </div>
         <div class="grid-container__item-span-3">
 {% capture imgUrl %}app/assets/img/{{ trip.img }}{% endcapture %}
@@ -43,19 +41,21 @@ eleventyComputed:
         </div>
     </div>
     <div class="margin-spacing-a">
-        <h2 class="color-green-900">
-                    About this adventure</h2>
-            <hr class="hr hr--yellow-500 hr" />
-        <p>{{ trip.about }}</p>
         <div class="grid-container">
             <div class="grid-container__item-span-4">
-                <h2 class="color-green-900">Highlights</h2>
-            <hr class="hr hr--yellow-500 hr" />
+        <h2 class="color-green-900">
+                    About this adventure</h2>
+            <hr class="hr hr--yellow-500 hr--margin-small" />
+              {% markdown %}{{ trip.about }}{% endmarkdown %}
+              <div class="margin-spacing-b">
+                <h2 class="color-green-900 ">Highlights</h2>
+            <hr class="hr hr--yellow-500 hr--margin-small" />
                 <ul>
                 {% for hl in trip.highlights %}
                     <li>{{ hl }}</li>
                 {% endfor %}
                 </ul>
+            </div>
             <a href="" target="_blank" class="cta cta--no-margin cta--orange cta--with-icon">
                 <i class="icon-trip"></i>Book This Trip
             </a>
@@ -68,7 +68,7 @@ eleventyComputed:
     </div>
     <div class="margin-spacing-a">
         <h2 class="color-green-900">Itinerary</h2>
-        <hr class="hr hr--yellow-500 hr" />
+        <hr class="hr hr--yellow-500 hr--margin-small" />
         {%- for day in trip.days  -%}
             <div class="collapsible">
                 <button type="button" class="collapsible__button" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="day-{{day.number}}">
@@ -130,6 +130,27 @@ eleventyComputed:
                 </div>
             </div>
         {%- endfor -%}
+        <div class="margin-spacing-b">
+            <a href="" target="_blank" class="cta cta--no-margin cta--orange cta--with-icon">
+                <i class="icon-trip"></i>Book This Trip
+            </a>
+            <p>{{ trip.moreinfo }}</p>
+        </div>
+        <div class="grid-container margin-spacing-a">
+            <div class="grid-container__item-span-4">
+                <h2 class="color-purple-900">
+                Plan your own<br />
+                <span class="color-purple-600">adventure.</span>
+                </h2>
+                <hr class="hr hr--yellow-500 hr--margin-small" />
+                <p class="color-neutral-900">
+                Not exactly what you want? Looking for something a little more bespoke? Get in touch with us and we'll help you plan your perfect eco-adventure.
+                </p>
+            </div>
+            <div class="grid-container__item-span-3">
+                {% Image "app/assets/img/wild-drives-7.jpg", "A close up of a luxury hamper filled with treats including pastries, wine, and oat milk", "image-rounded" %}
+            </div>
+        </div>
     </div>
 </main>
 

@@ -180,10 +180,10 @@ img: 'wild-drives-5.jpg'
         <div class="postcard-content">
             <div class="postcard-content-left">
             <h4>Room for the whole family</h4>
-            <hr class="hr hr--yellow-500 hr" />
-            <span
+            <hr class="hr hr--yellow-500  hr--margin-none" />
+            <p
                 >Eve has two double beds, one below and one in the pop up
-                roof.</span
+                roof.</p
             >
             </div>
             <div class="postcard-content-right">
@@ -198,10 +198,10 @@ img: 'wild-drives-5.jpg'
         <div class="postcard-content">
             <div class="postcard-content-left">
             <h4>Now we're cooking!</h4>
-            <hr class="hr hr--yellow-500 hr" />
-            <span
+            <hr class="hr hr--yellow-500 hr--margin-none" />
+            <p
                 >Goodbye gas! Cook quickly and safely on our solar-powered
-                induction hob.</span
+                induction hob.</p
             >
             </div>
             <div class="postcard-content-right">
@@ -216,13 +216,13 @@ img: 'wild-drives-5.jpg'
     <div>
         <div class="postcard rotate-116">
         <div class="postcard-content">
+            <div class="postcard-content-row">
+                <h4>Special comforts</h4>
+                <hr class="hr hr--yellow-500  hr--margin-none" />
+            </div>
             <div class="postcard-content-left">
-            <h4>Special comforts</h4>
-            <hr class="hr hr--yellow-500 hr" />
-            <span
-                >We supply a lot of goodies and comforts to make your trip
-                feel extra special.</span
-            >
+            <p>We supply a lot of goodies and comforts to make your trip
+                feel extra special.</p>
             </div>
             <div class="postcard-content-right">
             {% Image "app/assets/img/wild-drives-8.jpg", "A close of up the kettle with Blanka soap in the background", "image-rounded" %}
@@ -236,7 +236,7 @@ img: 'wild-drives-5.jpg'
         <div class="postcard-content">
             <div class="postcard-content-left">
             <h4>Go anywhere, with anyone</h4>
-            <hr class="hr hr--yellow-500 hr" />
+            <hr class="hr hr--yellow-500  hr--margin-none" />
             <span
                 >Eve is super spacious and has great range. Get to anywhere
                 that has a road.</span
@@ -249,24 +249,24 @@ img: 'wild-drives-5.jpg'
         </div>
     </div>
     </div>
-    <div class="container-33-66">
-    <div class="item-1">
-        <h3 class="color-purple-900">
-        We have some<br />goodies for
-        <span class="color-purple-600">you.</span>
-        </h3>
-        <hr class="hr hr--yellow-500 hr" />
-        <p class="color-neutral-900">
-        A customer favourite. Our hamper is filled with treats from the best
-        independent, ethical, and sustainable businesses in Sussex.
-        </p>
-        <p class="color-neutral-900">
-        Featuring Smorl's Houmous, Blanka Soaps, Flint Owl Bakery, Bolney
-        Wine Estate, Red Roaster coffee, and Bird and Blend tea.
-        </p>
-    </div>
-    <div class="item-2">
-        {% Image "app/assets/img/wild-drives-7.jpg", "A close up of a luxury hamper filled with treats including pastries, wine, and oat milk", "image-rounded rotate-305" %}
-    </div>
+    <div class="grid-container margin-spacing-a">
+        <div class="grid-container__item-span-4">
+            <h2 class="color-purple-900">
+            We have some<br />goodies for
+            <span class="color-purple-600">you.</span>
+            </h2>
+            <hr class="hr hr--yellow-500 hr" />
+            <p class="color-neutral-900">
+            A customer favourite. Our hamper is filled with treats from the best
+            independent, ethical, and sustainable businesses in Sussex.
+            </p>
+            <p class="color-neutral-900">
+            Featuring Smorl's Houmous, Blanka Soaps, Flint Owl Bakery, Bolney
+            Wine Estate, Red Roaster coffee, and Bird and Blend tea.
+            </p>
+        </div>
+        <div class="grid-container__item-span-3">
+            {% Image "app/assets/img/wild-drives-7.jpg", "A close up of a luxury hamper filled with treats including pastries, wine, and oat milk", "image-rounded rotate-305" %}
+        </div>
     </div>
 </main>

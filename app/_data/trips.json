@@ -9,7 +9,7 @@
       "nights": "7",
        "miles": "155",
         "priceFrom": "1,753",
-        "about": "If you love to explore and experience nature away from the crowds, this is the ultimate sustainable holiday for you. Starting in Brighton, you'll collect a state-of-the-art luxury conversion campervan. Provided with a guide filled with the best routes, activities, and campsites. You'll explore the best the South Downs has to offer. We arrange accommodation and experiences based on your plans and your preferences.",
+        "about": "If you love to explore and experience nature away from the crowds, this is the ultimate sustainable holiday for you. Starting in Brighton, you'll collect a state-of-the-art luxury conversion eco-campervan.\n\nProvided with a guide filled with the best routes, activities, and campsites, you'll explore the best the South Downs has to offer. We arrange accommodation and experiences based on your plans and your preferences.",
         "highlights": [
             "Stunning routes taking you through nature",
             "World leading wildlife conversation projects",
@@ -21,6 +21,7 @@
         "map": {
             "img": "maps/stonehenge.jpeg"
         },
+        "moreinfo": "Price is based on two people and includes campsite accommodation. Additional activities are extra based on your preferences.",
         "days": [
             {
                 "number": 1,
@@ -260,7 +261,7 @@
             },
             {
                 "number": 7,
-                "summary": "Return to Brighton via hills and sea",
+                "summary": "Return to Brighton through hills and sea",
                 "description": "Head over to Cissbury Ring for a beautiful walk around this hill with a history more than 5,00 years. Watch the wild horses grazing./n/nHead back along the coast towards Brighton. Be sure to stop at the excellent Port Kitchen at Shoreham Port right by the beach for lunch and a recharge.",
                 "mainImg": {
                     "src": "wild-drives-2.jpg",
