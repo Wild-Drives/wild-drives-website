@@ -1,7 +1,7 @@
 ---
 layout: layouts/base.liquid
 pagination:
-    data: trips
+    data: contentful
     size: 1
     alias: trip
 permalink: "trips/{{ trip.title | slugify }}/"

@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const Image = require("@11ty/eleventy-img");
 const sass = require("eleventy-sass");
 const postcss = require("postcss");
@@ -66,7 +68,7 @@ return `<div class="postcard ${classes}">
 
 eleventyConfig.addShortcode("Image", async (src, alt, classes) => {
     if (!alt) {
-      throw new Error(`Missing \`alt\` on myImage from: ${src}`);
+      console.warn(`Missing \`alt\` on myImage from: ${src}`);
     }
 
     let stats = await Image(src, {

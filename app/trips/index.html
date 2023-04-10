@@ -11,8 +11,9 @@ bodyClass: range-background
         </h1>
         <hr class="hr hr--green-500 hr--shorter">
         <p>{{ description }}</p>
+        {{ contentful | json}}
         <ul class="list-reset grid-container">
-            {%- for trip in trips  -%}
+            {%- for trip in contentful  -%}
                 <li class="grid-container__item-span-4">
                     <a href="/trips/{{ trip.title | slugify }}" class="postcard rotate-011">
                         <div class="postcard-content">
