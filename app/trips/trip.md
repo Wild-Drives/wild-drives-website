@@ -52,7 +52,7 @@ eleventyComputed:
             <hr class="hr hr--yellow-500 hr--margin-small" />
                 <ul>
                 {% for hl in trip.highlights %}
-                    <li>{{ hl }}</li>
+                    <li>{% markdown-inline %}{{ hl }}{% endmarkdown-inline %}</li>
                 {% endfor %}
                 </ul>
             </div>
@@ -78,20 +78,20 @@ eleventyComputed:
                 <div class="collapsible__content" id="day-{{day.number}}">
                     <div class="grid-container align-items-top">
                         <div class="grid-container__item-span-5">
-                            {% markdown %}{{ day.description }}{% endmarkdown %}
+                            {% markdown-inline %}{{ day.description }}{% endmarkdown-inline %}
                         </div>
                         <div class="grid-container__item-span-3">
                             {% capture imgUrl %}app/assets/img/{{ day.mainImg.src }}{% endcapture %}
                             {% Image imgUrl, day.mainImg.alt, "image-rounded" %}
                         </div>
                     </div>
-                    <div class="grid-container margin-spacing-b">
+                    <div class="grid-container align-items-top margin-spacing-b">
                         {% if day.thingsToDo %}
                         <div class="grid-container__item-span-4">
                             <h4 class="margin-bottom-1 color-purple-900">Things to do</h4>
                             <ul class="list-reset">
                                 {%- for thing in day.thingsToDo  -%}
-                                    <li><span class="icon-{{thing.icon}}"></span>{{thing.text}}</li>
+                                    <li><span class="icon-{{thing.icon}}"></span>{% markdown-inline %}{{thing.text}}{% endmarkdown-inline %}</li>
                                 {%- endfor -%}
                             </ul>
                         </div>
@@ -101,7 +101,7 @@ eleventyComputed:
                                 <h4 class="margin-bottom-1 color-purple-900">Extras</h4>
                                 <ul class="list-reset">
                                     {%- for thing in day.extras  -%}
-                                        <li><span class="icon-{{thing.icon}}"></span>{{thing.text}}</li>
+                                        <li><span class="icon-{{thing.icon}}"></span>{% markdown-inline %}{{thing.text}}{% endmarkdown-inline %}</li>
                                     {%- endfor -%}
                                 </ul>
                         </div>
@@ -110,7 +110,7 @@ eleventyComputed:
                     <div class="grid-container align-items-top">
                         {% if day.accomodation %}
                         <div class="grid-container__item-span-4">
-                            <h4>Pitch up at <span class="color-purple-600">{{day.accomodation.title}}</span></h3>
+                            <h4 class="color-purple-900">Pitch up at <span class="color-purple-600">{{day.accomodation.title}}</span></h3>
                             <p>{{day.accomodation.description}}</p>
                         </div>
                         <div class="grid-container__item-span-4">
@@ -120,8 +120,7 @@ eleventyComputed:
                         {% endif %}
                         {% if day.finale %}
                         <div class="grid-container__item-span-4">
-                            <h4>And finally</h3>
-                            <h5>{{day.finale.title}}</h4>
+                            <h4 class="color-purple-900">And finally: {{day.finale.title}}</h3>
                             <p>{{day.finale.description}}</p>
                         </div>
                         <div class="grid-container__item-span-4">
@@ -147,7 +146,7 @@ eleventyComputed:
                 </h2>
                 <hr class="hr hr--yellow-500 hr--margin-small" />
                 <p class="color-neutral-900">
-                Not exactly what you want? Looking for something a little more bespoke? Get in touch with us and we'll help you plan your perfect eco-adventure.
+               Looking for something a little more bespoke? Get in touch with us and we'll help you plan your perfect eco-adventure.
                 </p>
             </div>
             <div class="grid-container__item-span-3">

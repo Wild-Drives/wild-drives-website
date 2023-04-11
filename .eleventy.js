@@ -35,6 +35,10 @@ module.exports = function(eleventyConfig) {
       eleventyConfig.addPairedShortcode("markdown", (content) => {
         return md.render(content);
       });
+      
+      eleventyConfig.addPairedShortcode("markdown-inline", (content) => {
+        return md.renderInline(content);
+      });
     
     
 

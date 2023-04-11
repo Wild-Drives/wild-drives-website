@@ -33,30 +33,30 @@
                 },
                 "thingsToDo": [
                     {
-                        "text": "Grab some freshly baked goodies from The Flint Owl bakery",
+                        "text": "Grab some freshly baked goodies from **The Flint Owl bakery**",
                         "icon": "cupcake"
                     },
                     {
-                        "text": "Go for a outdoor swim in Pells Pool",
+                        "text": "Go for a outdoor swim in **Pells Pool**",
                         "icon": "pool"
                     },
                     {
-                        "text": "The Needlemakers. Full of local, independent shops",
+                        "text": "**The Needlemakers** is full of local independent shops",
                         "icon": "basket"
                     },
                     {
-                        "text": "Walk through Southover Grange Gardens",
+                        "text": "Walk through **Southover Grange Gardens**",
                         "icon": "flowers"
                     }
                 ],
                 "extras": [
                     {
-                        "text": "Brunch at Redroaster",
+                        "text": "**Brunch** at Redroaster",
                         "icon": "forkandknife",
                         "price": "15"
                     },
                     {
-                        "text": "Kayak hire at Wild Willows",
+                        "text": "**Kayak hire** at Wild Willows",
                         "icon": "sea",
                         "price": "15"
                     }
@@ -80,21 +80,21 @@
                 },
                 "thingsToDo": [
                     {
-                        "text": "Leonardslee Gardens",
+                        "text": "**Leonardslee Gardens**",
                         "icon": "flowers"
                     },
                     {
-                        "text": "Monks House, Virginia Woolf's 16th-century country retreat",
+                        "text": "**Monks House,** Virginia Woolf's 16th-century country retreat",
                         "icon": "house"
                     },
                     {
-                        "text": "The Bluebell Railway",
+                        "text": "**The Bluebell Railway**",
                         "icon": "cloud-sun"
                     }
                 ],
                 "extras": [
                     {
-                        "text": "A wine and food tasting tour at Bolney Wine Estate",
+                        "text": "A wine and food tasting tour at **Bolney Wine Estate**",
                         "icon": "glasses",
                         "price": "60 per person"
                     }
@@ -118,21 +118,21 @@
                 },
                 "thingsToDo": [
                     {
-                        "text": "Take a walk around Knepp Estate’s public footpaths",
+                        "text": "Take a walk around **Knepp Estate’s** public footpaths",
                         "icon": "compass"
                     },
                     {
-                        "text": "Visit The Hungry Guest Cafe in Petworth to stock up on supplies",
-                        "icon": "tea"
+                        "text": "Visit **The Hungry Guest Cafe** in Petworth to stock up on supplies",
+                        "icon": "basket"
                     },
                     {
-                        "text": "Visit the South Downs National Park centre",
+                        "text": "Visit the **South Downs National Park Centre**",
                         "icon": "map"
                     }
                 ],
                 "extras": [
                     {
-                        "text": "Wildlife safari at Knepp Estate",
+                        "text": "**Wildlife Safari** at Knepp Estate",
                         "icon": "binoculars",
                         "price": "60 per person"
                     }
@@ -156,11 +156,11 @@
                 },
                 "thingsToDo": [
                     {
-                        "text": "Lunch at Prego Deli in Stockbridge, authentic Italian cooking",
+                        "text": "Lunch at **Prego Deli** in Stockbridge, authentic Italian cooking",
                         "icon": "forkandknife"
                     },
                     {
-                        "text": "Walk to Stockbridge Down",
+                        "text": "Walk to **Stockbridge Down**",
                         "icon": "signpost"
                     }
                 ],
@@ -183,7 +183,7 @@
                 },
                 "thingsToDo": [
                     {
-                        "text": "A walk around Stonehenge site, and the musem",
+                        "text": "Explore **Stonehenge site** and the museum",
                         "icon": "sunrise"
                     },
                     {
@@ -198,7 +198,7 @@
                         "price": "23 per person"
                     },
                     {
-                        "text": "Stonehenge VIP experience",
+                        "text": "Stonehenge **VIP** experience",
                         "icon": "star",
                         "price": "59 per person"
                     }
@@ -215,7 +215,7 @@
             {
                 "number": 6,
                 "summary": "Visit the South Downs Sustinability Centre",
-                "description": "Wake up and visit the Sustainability Centre, 55 acres of woodland and downland. You can take a guided tour or a course in many eco-topics from Medicinal Herbs to Compost Toilets!/n/nHead back through the South Downs to stay at Wild Heart Hill ",
+                "description": "Wake up and visit the Sustainability Centre, 55 acres of woodland and downland. You can take a guided tour or a course in many eco-topics from Medicinal Herbs to Compost Toilets!\n\nHead back through the South Downs to stay at Wild Heart Hill ",
                 "mainImg": {
                     "src": "wild-drives-2.jpg",
                     "alt": "alt text"
@@ -223,22 +223,12 @@
                 "extras": [
                     {
                         "text": "Foraging and fire tour",
-                        "icon": "location",
+                        "icon": "signpost",
                         "price": "30 per person"
                     },
                     {
-                        "text": "Pendant carving course",
-                        "icon": "location",
-                        "price": "90 per person"
-                    },
-                    {
-                        "text": "Two day mushroom cultivation course",
-                        "icon": "location",
-                        "price": "225 per person"
-                    },
-                    {
                         "text": "Wild flower meadows course",
-                        "icon": "location",
+                        "icon": "flowers",
                         "price": "80 per person"
                     }
                 ],
@@ -258,34 +248,34 @@
             {
                 "number": 7,
                 "summary": "Return to Brighton through hills and sea",
-                "description": "Head over to Cissbury Ring for a beautiful walk around this hill with a history more than 5,00 years. Watch the wild horses grazing./n/nHead back along the coast towards Brighton. Be sure to stop at the excellent Port Kitchen at Shoreham Port right by the beach for lunch and a recharge.",
+                "description": "Head over to Cissbury Ring for a beautiful walk around this hill with a history more than 5,00 years. Watch the wild horses grazing.\n\nHead back along the coast towards Brighton. Be sure to stop at the excellent Port Kitchen at Shoreham Port right by the beach for lunch and a recharge.",
                 "mainImg": {
                     "src": "wild-drives-2.jpg",
                     "alt": "alt text"
                 },
                 "thingsToDo": [
                     {
-                        "text": "Cissbury Ring, a peaceful National Trust walk",
-                        "icon": "location"
+                        "text": "**Cissbury Ring,** a peaceful National Trust walk",
+                        "icon": "sunrise"
                     },
                     {
-                        "text": "Arundel Castle",
-                        "icon": "location"
+                        "text": "**Arundel Castle**",
+                        "icon": "house"
                     },
                     {
-                        "text": "Arundel heated outdoor swimming pool",
-                        "icon": "location"
+                        "text": "Arundel **heated** outdoor swimming pool",
+                        "icon": "pool"
                     }
                 ],
                 "extras": [
                     {
                         "text": "Booked table for lunch at Port Kitchen in Shoreham",
-                        "icon": "location",
+                        "icon": "forkandknife",
                         "price": "Free"
                     }
                 ],
                 "finale": {
-                    "title": "Brighoton Station",
+                    "title": "Brighton Station",
                     "description": "Drop off the camper at Brighton Station, head home on the train",
                     "img": {
                         "src": "wild-drives-2.jpg",
