@@ -31,6 +31,11 @@
   }
   
   [class^="icon-"]:before {
+    content: "";
+    background: no-repeat center center;
+    background-size: 80%;
+    height: 1em;
+    width: 1em;
     display: inline-block;
     text-decoration: none;
   }
@@ -111,5 +116,59 @@
   }
   .icon-usb:before {
     content: "\e918";
+  }
+  .icon-basket:before {
+    background-image: url('/assets/img/icons/basket.svg');
+  }
+  .icon-cupcake:before {
+    background-image: url('/assets/img/icons/cupcake.svg');
+  }
+  .icon-flowers:before {
+    background-image: url('/assets/img/icons/flowers.svg');
+  }
+  .icon-forkandknife:before {
+    background-image: url('/assets/img/icons/forkandknife.svg');
+  }
+  .icon-pool:before {
+    background-image: url('/assets/img/icons/pool.svg');
+  }
+  .icon-sea:before {
+    background-image: url('/assets/img/icons/sea.svg');
+  }
+  .icon-house:before {
+    background-image: url('/assets/img/icons/house.svg');
+  }
+  .icon-cloud-sun:before {
+    background-image: url('/assets/img/icons/cloud-sun.svg');
+  }
+  .icon-glasses:before {
+    background-image: url('/assets/img/icons/glasses.svg');
+  }
+  .icon-compass:before {
+    background-image: url('/assets/img/icons/compass.svg');
+  }
+  .icon-tea:before {
+    background-image: url('/assets/img/icons/tea.svg');
+  }
+  .icon-map:before {
+    background-image: url('/assets/img/icons/map.svg');
+  }
+  .icon-binoculars:before {
+    background-image: url('/assets/img/icons/binoculars.svg');
+  }
+  .icon-sunrise:before {
+    background-image: url('/assets/img/icons/sunrise.svg');
+  }
+  .icon-pin:before {
+    background-image: url('/assets/img/icons/pin.svg');
+  }
+  .icon-concierge:before {
+    background-image: url('/assets/img/icons/concierge.svg');
+  }
+  .icon-star:before {
+    background-image: url('/assets/img/icons/star.svg');
+  }
+  .icon-signpost:before {
+    background-image: url('/assets/img/icons/signpost.UJM'P;svg');
   }
 

@@ -84,10 +84,12 @@ eleventyComputed:
                             {% capture imgUrl %}app/assets/img/{{ day.mainImg.src }}{% endcapture %}
                             {% Image imgUrl, day.mainImg.alt, "image-rounded" %}
                         </div>
+                    </div>
+                    <div class="grid-container margin-spacing-b">
                         {% if day.thingsToDo %}
                         <div class="grid-container__item-span-4">
-                            <h4>Things to do</h4>
-                            <ul>
+                            <h4 class="margin-bottom-1 color-purple-900">Things to do</h4>
+                            <ul class="list-reset">
                                 {%- for thing in day.thingsToDo  -%}
                                     <li><span class="icon-{{thing.icon}}"></span>{{thing.text}}</li>
                                 {%- endfor -%}
@@ -96,18 +98,19 @@ eleventyComputed:
                         {% endif %}
                         {% if day.extras %}
                         <div class="grid-container__item-span-4">
-                                <h4>Extras</h4>
-                                <ul>
+                                <h4 class="margin-bottom-1 color-purple-900">Extras</h4>
+                                <ul class="list-reset">
                                     {%- for thing in day.extras  -%}
                                         <li><span class="icon-{{thing.icon}}"></span>{{thing.text}}</li>
                                     {%- endfor -%}
                                 </ul>
                         </div>
                         {% endif %}
+                    </div>
+                    <div class="grid-container align-items-top">
                         {% if day.accomodation %}
                         <div class="grid-container__item-span-4">
-                            <h4>Where you'll lay your head</h3>
-                            <h5>{{day.accomodation.title}}</h4>
+                            <h4>Pitch up at <span class="color-purple-600">{{day.accomodation.title}}</span></h3>
                             <p>{{day.accomodation.description}}</p>
                         </div>
                         <div class="grid-container__item-span-4">

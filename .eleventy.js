@@ -7,8 +7,8 @@ const markdownIt = require("markdown-it");
 module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("app/assets/fonts");
     eleventyConfig.addPassthroughCopy("app/json");
-    eleventyConfig.addPassthroughCopy("app/assets/img/*.png");
-    eleventyConfig.addPassthroughCopy("app/assets/img/*.svg");
+    eleventyConfig.addPassthroughCopy("app/assets/img/**/*.png");
+    eleventyConfig.addPassthroughCopy("app/assets/img/**/*.svg");
     eleventyConfig.addPassthroughCopy("app/assets/js/**/*.js");
     eleventyConfig.addPassthroughCopy("app/*.ico");
     eleventyConfig.addPassthroughCopy("app/*.svg");

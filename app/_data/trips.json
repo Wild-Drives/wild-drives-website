@@ -33,31 +33,31 @@
                 },
                 "thingsToDo": [
                     {
-                        "text": "Grab some fresh bread from The Flint Owl bakery, we recommend the rosemary and sea salt sourdough",
-                        "icon": "location"
+                        "text": "Grab some freshly baked goodies from The Flint Owl bakery",
+                        "icon": "cupcake"
                     },
                     {
                         "text": "Go for a outdoor swim in Pells Pool",
-                        "icon": "location"
+                        "icon": "pool"
                     },
                     {
-                        "text": "Pop into the Needlemakers. It’s full of local, ethical, independent shops",
-                        "icon": "location"
+                        "text": "The Needlemakers. Full of local, independent shops",
+                        "icon": "basket"
                     },
                     {
                         "text": "Walk through Southover Grange Gardens",
-                        "icon": "location"
+                        "icon": "flowers"
                     }
                 ],
                 "extras": [
                     {
                         "text": "Brunch at Redroaster",
-                        "icon": "location",
+                        "icon": "forkandknife",
                         "price": "15"
                     },
                     {
                         "text": "Kayak hire at Wild Willows",
-                        "icon": "location",
+                        "icon": "sea",
                         "price": "15"
                     }
                 ],
@@ -81,21 +81,21 @@
                 "thingsToDo": [
                     {
                         "text": "Leonardslee Gardens",
-                        "icon": "location"
+                        "icon": "flowers"
                     },
                     {
                         "text": "Monks House, Virginia Woolf's 16th-century country retreat",
-                        "icon": "location"
+                        "icon": "house"
                     },
                     {
                         "text": "The Bluebell Railway",
-                        "icon": "location"
+                        "icon": "cloud-sun"
                     }
                 ],
                 "extras": [
                     {
                         "text": "A wine and food tasting tour at Bolney Wine Estate",
-                        "icon": "location",
+                        "icon": "glasses",
                         "price": "60 per person"
                     }
                 ],
@@ -119,21 +119,21 @@
                 "thingsToDo": [
                     {
                         "text": "Take a walk around Knepp Estate’s public footpaths",
-                        "icon": "location"
+                        "icon": "compass"
                     },
                     {
                         "text": "Visit The Hungry Guest Cafe in Petworth to stock up on supplies",
-                        "icon": "location"
+                        "icon": "tea"
                     },
                     {
                         "text": "Visit the South Downs National Park centre",
-                        "icon": "location"
+                        "icon": "map"
                     }
                 ],
                 "extras": [
                     {
                         "text": "Wildlife safari at Knepp Estate",
-                        "icon": "location",
+                        "icon": "binoculars",
                         "price": "60 per person"
                     }
                 ],
@@ -157,11 +157,11 @@
                 "thingsToDo": [
                     {
                         "text": "Lunch at Prego Deli in Stockbridge, authentic Italian cooking",
-                        "icon": "location"
+                        "icon": "forkandknife"
                     },
                     {
                         "text": "Walk to Stockbridge Down",
-                        "icon": "location"
+                        "icon": "signpost"
                     }
                 ],
                 "accomodation": {
@@ -184,26 +184,22 @@
                 "thingsToDo": [
                     {
                         "text": "A walk around Stonehenge site, and the musem",
-                        "icon": "location"
+                        "icon": "sunrise"
                     },
                     {
                         "text": "Salisbury Cathedral",
-                        "icon": "location"
-                    },
-                    {
-                        "text": "Winchester Cathedral",
-                        "icon": "location"
+                        "icon": "pin"
                     }
                 ],
                 "extras": [
                     {
                         "text": "General admission to Stonehenge",
-                        "icon": "location",
+                        "icon": "concierge",
                         "price": "23 per person"
                     },
                     {
                         "text": "Stonehenge VIP experience",
-                        "icon": "location",
+                        "icon": "star",
                         "price": "59 per person"
                     }
                 ],
