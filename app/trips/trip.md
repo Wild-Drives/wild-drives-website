@@ -73,7 +73,7 @@ eleventyComputed:
             <div class="collapsible">
                 <button type="button" class="collapsible__button" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="day-{{day.number}}">
                     <h3>Day {{day.number}}: {{day.summary}}</h3>
-                    <strong class="collapsible__toggle"><span class="icon icon-chevron collapsible__toggle-icon"></span>Show more</strong>
+                    <strong class="collapsible__toggle"><span class="icon icon-chevron collapsible__toggle-icon"></span><span class="collapsible__toggle-text">Show more</span></strong>
                 </button>
                 <div class="collapsible__content" id="day-{{day.number}}">
                     <div class="grid-container align-items-top">
