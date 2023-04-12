@@ -62,7 +62,7 @@ eleventyComputed:
             </div>
             <div class="grid-container__item-span-4">
                 {% capture imgUrl %}app/assets/img/{{ trip.map.img }}{% endcapture %}
-                {% Image imgUrl, "Map of the route", "rotate-143  image-rounded" %}
+                {% Image imgUrl, "Map of the route", "image-rounded" %}
             </div>
         </div>
     </div>
