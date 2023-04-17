@@ -29,7 +29,7 @@ eleventyComputed:
     <div class="container-33 text-align-center margin-spacing-a">
         <div class="item-1">
             <h2 class="h3">Length</h2>
-            <p>{{trip.nights}} nights</p>
+            <p>{{trip.nights}} days</p>
         </div>
         <div class="item-2">
             <h2 class="h3">Distance</h2>
@@ -104,18 +104,21 @@ eleventyComputed:
                                         <li><span class="icon-{{thing.icon}}"></span>{% markdown-inline %}{{thing.text}}{% endmarkdown-inline %}</li>
                                     {%- endfor -%}
                                 </ul>
+                            {% if day.extrasFindMoreLink %}
+                                <p><a href="{{ day.extrasFindMoreLink.url }}" target="_blank">{{ day.extrasFindMoreLink.text }}</a></p>
+                            {% endif %}
                         </div>
                         {% endif %}
                     </div>
                     <div class="grid-container align-items-top">
                         {% if day.accomodation %}
-                        <div class="grid-container__item-span-4">
-                            <h4 class="color-purple-900">Pitch up at <span class="color-purple-600">{{day.accomodation.title}}</span></h3>
-                            <p>{{day.accomodation.description}}</p>
-                        </div>
-                        <div class="grid-container__item-span-4">
+                        <div class="grid-container__item-span-3">
                             {% capture imgUrl %}app/assets/img/{{ day.accomodation.img.src }}{% endcapture %}
                             {% Image imgUrl, day.accomodation.img.alt, "image-rounded" %}
+                        </div>
+                        <div class="grid-container__item-span-5">
+                            <h4 class="color-purple-900">Pitch up at <span class="color-purple-600">{{day.accomodation.title}}</span></h3>
+                            {% markdown %}{{day.accomodation.description}}{% endmarkdown %}
                         </div>
                         {% endif %}
                         {% if day.finale %}
@@ -148,9 +151,12 @@ eleventyComputed:
                 <p class="color-neutral-900">
                Looking for something a little more bespoke? Get in touch with us and we'll help you plan your perfect eco-adventure.
                 </p>
+                <a href="/contact" class="cta cta--no-margin cta--orange">
+                Contact us</a>
             </div>
             <div class="grid-container__item-span-3">
-                {% Image "app/assets/img/wild-drives-7.jpg", "A close up of a luxury hamper filled with treats including pastries, wine, and oat milk", "image-rounded" %}
+                {% Image "app/assets/img/route-planning.jpg", "A group of friends sitting in a cafe planning a route on a map", "image-rounded" %}
+            </a>
             </div>
         </div>
     </div>
