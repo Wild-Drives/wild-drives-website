@@ -14,19 +14,19 @@ eleventyComputed:
 {% render "site-header.liquid", logo: 'site-id-purple.svg', menu-link-color: 'purple-600', cta-color: 'purple-800' %}
 <main class="wrapper">
     <div class="grid-container align-items-top">
-        <div class="grid-container__item-span-5">
+        <div class="grid-container__item-span-4">
             <h1 class="color-purple-900">{{ trip.titleOne }}<br>
                 <span class="color-purple-700">{{ trip.titleTwo }}</span>
             </h1>
             <hr class="hr hr--green-500 hr" />
              {% markdown %}{{ trip.description }}{% endmarkdown %}
         </div>
-        <div class="grid-container__item-span-3">
+        <div class="grid-container__item-span-4">
 {% capture imgUrl %}app/assets/img/{{ trip.img }}{% endcapture %}
 {% Image imgUrl, trip.alt, "image-rounded" %}
         </div>
     </div>
-    <div class="container-33 text-align-center margin-spacing-a">
+    <div class="container-33 text-align-center margin-spacing-b">
         <div class="item-1">
             <h2 class="h3">Length</h2>
             <p>{{trip.nights}} days</p>
@@ -40,25 +40,24 @@ eleventyComputed:
             <p>From £{{trip.priceFrom}}</p>
         </div>
     </div>
-    <div class="margin-spacing-a">
-        <div class="grid-container">
+    <div class="margin-spacing-b">
+        <div class="grid-container align-items-top">
             <div class="grid-container__item-span-4">
-        <h2 class="color-green-900">
-                    About this adventure</h2>
-            <hr class="hr hr--yellow-500 hr--margin-small" />
-              {% markdown %}{{ trip.about }}{% endmarkdown %}
-              <div class="margin-spacing-b">
-                <h2 class="color-green-900 ">Highlights</h2>
-            <hr class="hr hr--yellow-500 hr--margin-small" />
+                <h2 class="color-green-900">About this adventure</h2>
+                <hr class="hr hr--yellow-500 hr--margin-small" />
+                {% markdown %}{{ trip.about }}{% endmarkdown %}
+                <div class="margin-spacing-b">
+                    <h2 class="color-green-900 ">Highlights</h2>
+                    <hr class="hr hr--yellow-500 hr--margin-none" />
                 <ul>
                 {% for hl in trip.highlights %}
                     <li>{% markdown-inline %}{{ hl }}{% endmarkdown-inline %}</li>
                 {% endfor %}
                 </ul>
-            </div>
-            <a href="" target="_blank" class="cta cta--no-margin cta--orange cta--with-icon">
-                <i class="icon-trip"></i>Book This Trip
-            </a>
+                </div>
+                <a href="/contact" class="cta cta--no-margin cta--orange cta--with-icon">
+                    <i class="icon-trip"></i>Book This Trip
+                </a>
             </div>
             <div class="grid-container__item-span-4">
                 {% capture imgUrl %}app/assets/img/{{ trip.map.img }}{% endcapture %}
@@ -66,7 +65,7 @@ eleventyComputed:
             </div>
         </div>
     </div>
-    <div class="margin-spacing-a">
+    <div class="margin-spacing-b">
         <h2 class="color-green-900">Itinerary</h2>
         <hr class="hr hr--yellow-500 hr--margin-small" />
         {%- for day in trip.days  -%}
@@ -136,7 +135,7 @@ eleventyComputed:
             </div>
         {%- endfor -%}
         <div class="margin-spacing-b">
-            <a href="" target="_blank" class="cta cta--no-margin cta--orange cta--with-icon">
+            <a href="/contact" class="cta cta--no-margin cta--orange cta--with-icon">
                 <i class="icon-trip"></i>Book This Trip
             </a>
             <p>{{ trip.moreinfo }}</p>
