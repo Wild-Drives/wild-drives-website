@@ -1,0 +1,30 @@
+.collapsible {
+    border-bottom: 2px solid var(--neutral-200);
+}
+.collapsible__button {
+    border: none;
+    background: none;
+    display: block;
+    padding: 0.5em 0;
+    cursor: pointer;
+    text-align: left;
+}
+.collapsible__toggle {
+    display: block;
+    padding-top: .5em;
+}
+.collapsible__toggle-icon {
+    display: inline-block;
+    font-size: 28px;
+    vertical-align: sub;
+    .collapsible.is-open & {
+        transform: rotate(90deg);
+    }
+}
+.js .collapsible__content {
+    display: none;
+    padding: 0 0 2rem;
+}
+.js .collapsible__content.is-visible {
+    display: block;
+}

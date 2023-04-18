@@ -1,0 +1,37 @@
+---
+layout: layouts/base.liquid
+title: Our trips
+description: "Go on an eco-adventure in our electric campervans"
+bodyClass: range-background
+---
+{% render "site-header.liquid", logo: 'site-id-purple.svg', menu-link-color: 'purple-600', cta-color: 'purple-800' %}
+<main class="wrapper">
+        <h1 class="color-purple-900 hero-text">Our electric<br>
+            <span class="color-purple-700">campervan</span> trips
+        </h1>
+        <hr class="hr hr--green-500 hr--shorter">
+        <p>{{ description }}</p>
+        <ul class="list-reset grid-container">
+            {%- for trip in trips  -%}
+                <li class="grid-container__item-span-4">
+                    <a href="/trips/{{ trip.title | slugify }}" class="postcard rotate-011">
+                        <div class="postcard-content">
+                            <div class="postcard-content-row color-purple-900">
+                                <h2 class="h4">{{ trip.titleOne }} {{ trip.titleTwo }}</h2>
+                                <hr class="hr hr--yellow-500 hr--margin-small" />
+                            </div>
+                            <div class="postcard-content-left color-purple-900">
+                                <span>{{ trip.description }}</span>
+                            </div>
+                            <div class="postcard-content-right">
+                                {% capture imageUrl %}app/assets/img/{{ trip.img }}{% endcapture %}
+                                {% Image imageUrl trip.alt "image-rounded" %}
+                            </div>
+                        </div>
+                    </a>             
+                </li>
+            {%- endfor -%}
+        </ul>
+        {% render "newsletter.liquid" %}
+        {% render "follow-journey.liquid" %}
+</main>

@@ -1,3 +1,4 @@
+@import "includes/breakpoints";
 @import "includes/normalize";
 @import "includes/colors";
 @import "includes/fonts";
@@ -26,17 +27,11 @@
 @import "includes/cta";
 @import "includes/logo-listing";
 @import "includes/image";
+@import "includes/collapsible";
+@import "includes/list-reset";
 @import "lite-youtube-embed/src/lite-yt-embed";
 
-body {
-  font-family: "Bitter", serif;
-  background-color: var(--yellow-200);
-  line-height: 1.4;
-  font-size: 21px;
-  color: var(--color-neutrals-900);
-  margin: auto;
-  padding: 0;
-}
+
 
 .tw-integer {
   font-family: "Recoleta-Black", serif;
@@ -402,7 +397,7 @@ main a:hover {
   text-underline-offset: 0.2em;
   text-transform: uppercase;
   color: var(--orange-500);
-  font-weight: 900;
+  font-weight: 600;
   font-size: 16px;
   letter-spacing: 1.25px;
 }

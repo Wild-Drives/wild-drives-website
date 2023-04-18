@@ -7,6 +7,10 @@
     margin: 3rem 0;
   }
   
+  .margin-spacing-c {
+    margin: 2rem 0;
+  }
+  
   @media (max-width: 800px) {
       .margin-spacing-a {
         margin: 3rem 0;
@@ -21,3 +25,12 @@
     margin: 0 !important;
   }
   
+  .margin-top-1 {
+    margin-top: 1rem;
+  }
+  .margin-bottom-1 {
+    margin-bottom: 1rem;
+  }
+  .margin-bottom-2 {
+    margin-bottom: 2rem;
+  }

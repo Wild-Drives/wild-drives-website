@@ -6,7 +6,7 @@ type: website
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>{{ titleOne }} {{ titleTwo }} - Wild Drives</title>
+        <title>{{ title }} - Wild Drives</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta name="title" content="{{title}}">
         <meta name="description" content="{{ description | strip_html }}">
@@ -25,7 +25,9 @@ type: website
         <meta property="og:type" content="{{ type }}" />
 
         <link rel="stylesheet" href="/assets/stylesheets/style.css">
-        <script async src="/assets/js/lite-yt-embed.js"></script>
+        <script defer src="/assets/js/jquery.js"></script>
+        <script defer src="/assets/js/lite-yt-embed.js"></script>
+        <script defer src="/assets/js/collapsible.js"></script>
 
         <link rel="manifest" href="/json/manifest.webmanifest">
         <link rel="icon" href="/favicon.ico" sizes="any">

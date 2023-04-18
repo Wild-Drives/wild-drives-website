@@ -1,0 +1,288 @@
+[
+    {
+      "title": "Brighton to Stonehenge",
+      "titleOne": "Brighton to",
+      "titleTwo": "Stonehenge",
+      "img": "buzz-02.jpeg",
+      "alt": "A campervan parked up next to a road at sunset. There are trees lining the road behind the campervan.",
+      "description": "If you love to explore and experience nature away from the crowds, this is the ultimate sustainable holiday for you. Starting in Brighton, you'll collect a state-of-the-art luxury conversion campervan and you'll explore the best the South Downs has to offer.",
+      "nights": "7",
+       "miles": "155",
+        "priceFrom": "1,495",
+        "about": "If you love to explore and experience nature away from the crowds, this is the ultimate sustainable holiday for you. Starting in Brighton, you'll collect a state-of-the-art luxury conversion eco-campervan.\n\nProvided with a guide filled with the best routes, activities, and campsites, you'll explore the best the South Downs has to offer. We arrange accommodation and experiences based on your plans and your preferences.",
+        "highlights": [
+            "Stunning routes taking you through nature",
+            "World leading wildlife conversation projects",
+            "Sustainable wine estates",
+            "National trust sites",
+            "Eco-campsite accommodation",
+            "Beautiful electric charging points to recharge and relax"
+        ],
+        "map": {
+            "img": "maps/stonehenge.jpeg"
+        },
+        "moreinfo": "Price is based on two people and includes campsite accommodation. Additional activities are extra based on your preferences.",
+        "days": [
+            {
+                "number": 1,
+                "summary": "Arrive in Brighton, drive to Lewes",
+                "description": "Arrive at Brighton train station in the morning. Wander through the bustling North Laine, famous for it’s independent stores.Have brunch at the independent Redroaster - one of the top 20 sustainable business in the UK.\n\n Stroll past the iconic Palace Pier along the seafront to collect your electric campervan. Your home on wheels. We’ll talk you through all the features.\n\nFrom there, drive along the stunning sunny coastline, driving upwards towards Lewes.",
+                "mainImg": {
+                    "src": "brighton-station.jpg",
+                    "alt": "The roof of Brighton station"
+                },
+                "thingsToDo": [
+                    {
+                        "text": "Grab some freshly baked goodies from **The Flint Owl bakery**",
+                        "icon": "cupcake"
+                    },
+                    {
+                        "text": "Go for a outdoor swim in **Pells Pool**",
+                        "icon": "pool"
+                    },
+                    {
+                        "text": "**The Needlemakers** is full of local independent shops",
+                        "icon": "basket"
+                    },
+                    {
+                        "text": "Walk through **Southover Grange Gardens**",
+                        "icon": "flowers"
+                    }
+                ],
+                "extras": [
+                    {
+                        "text": "**Brunch** at Redroaster",
+                        "icon": "forkandknife",
+                        "price": "15"
+                    },
+                    {
+                        "text": "**Kayak hire** at Wild Willows",
+                        "icon": "sea",
+                        "price": "15"
+                    }
+                ],
+                "accomodation": {
+                    "title": "Wild Willows Campsite",
+                    "description": "A beautiful Eco-Campsite in the heart of Sussex at the foot of the South Downs. Walking distance from Lewes.",
+                    "img": {
+                        "src": "wild-willows.jpg",
+                        "alt": "A field at sunrise"
+                    }
+                }
+            },
+            {
+                "number": 2,
+                "summary": "Lewes to Cattlestone",
+                "description": "Head north from Lewes and join the A272 heading west. This road will become your new best friend over the next few days.\n\nBe sure to stop at **Bolney Wine Estate,** accredited by Sustainable Wines of Great Britain and they have a solar powered EV charging point",
+                "mainImg": {
+                    "src": "driving-eve-01.jpeg",
+                    "alt": "Eve driving along a countryside road"
+                },
+                "thingsToDo": [
+                    {
+                        "text": "**Leonardslee Gardens**",
+                        "icon": "flowers"
+                    },
+                    {
+                        "text": "**Monks House,** Virginia Woolf's 16th-century country retreat",
+                        "icon": "house"
+                    },
+                    {
+                        "text": "**The Bluebell Railway**",
+                        "icon": "cloud-sun"
+                    }
+                ],
+                "extras": [
+                    {
+                        "text": "A wine and food tasting tour at **Bolney Wine Estate**",
+                        "icon": "glasses",
+                        "price": "60 per person"
+                    }
+                ],
+                "accomodation": {
+                    "title": "Cattlestone Farm",
+                    "description": "An unspoilt farm surrounded by arces of wild flower meadows and highland heifers!\n\n Local wildlife includes resident deer, buzzards, tawny owls, woodpeckers and red kites",
+                    "img": {
+                        "src": "cattlestone-cows.webp",
+                        "alt": "A highland heifer and her calf. We assume."
+                    }
+                }
+            },
+            {
+                "number": 3,
+                "summary": "A safari at Knepp Estate",
+                "description": "Wake up on Cattlestone Farm and drive to Knepp Castle estate for an incredible wildlife safari from one of the leading rewilding projects in the world.\n\nFrom there, head west through Petworth and Midhurst. This route is beautiful.",
+                "mainImg": {
+                    "src": "knepp-pond-02.jpeg",
+                    "alt": "A large pond surronded by woodland"
+                },
+                "thingsToDo": [
+                    {
+                        "text": "Take a walk around **Knepp Estate’s** public footpaths",
+                        "icon": "compass"
+                    },
+                    {
+                        "text": "Visit **The Hungry Guest Cafe** in Petworth to stock up on supplies",
+                        "icon": "basket"
+                    },
+                    {
+                        "text": "Visit the **South Downs National Park Centre**",
+                        "icon": "map"
+                    }
+                ],
+                "extras": [
+                    {
+                        "text": "**Wildlife Safari** at Knepp Estate",
+                        "icon": "binoculars",
+                        "price": "60 per person"
+                    }
+                ],
+                "accomodation": {
+                    "title": "Brocklands Farm",
+                    "description": "Nestled in the heart of the South Downs National Park, overlooking Hampshire’s stunning Meon Valley.\n\nThe farm offers so much to do – walking and cycling or simply watching the land being cultivated or the buzzards soaring over your head. The Meon Valley Trail, South Downs Way and Monarchs Way are all nearby.",
+                    "img": {
+                        "src": "brocklands.jpg",
+                        "alt": "A view of a lovely field in the Meon Valley"
+                    }
+                }
+            },
+            {
+                "number": 4,
+                "summary": "The journey towards Stonehenge",
+                "description": "Wake up to the sounds of birds at **Brocklands Farm,** travel past Winchester and through Stockbridge, a lovely town with a crystal clear stream running though it.\n\nStop and charge at and take a stroll through **Stockbridge** and the surrounding countryside.\n\nHead towards **Stonehenge.**",
+                "mainImg": {
+                    "src": "eve-drive-02.jpeg",
+                    "alt": "A stationary shot of the back of Eve the campervan, with rolling hills in the background"
+                },
+                "thingsToDo": [
+                    {
+                        "text": "Lunch at **Prego Deli** in Stockbridge, authentic Italian cooking",
+                        "icon": "forkandknife"
+                    },
+                    {
+                        "text": "Walk to **Stockbridge Down**",
+                        "icon": "signpost"
+                    }
+                ],
+                "accomodation": {
+                    "title": "Stonehenge Campsite & Glamping",
+                    "description": "This award-winning family run campsite is 10 minutes drive from Stonehenge site. Perfect for a sunrise arrival.",
+                    "img": {
+                        "src": "stonehenge-camping.jpg",
+                        "alt": "The stonehenge campsite. In the backgroun there are big expansive fields and woodland"
+                    }
+                }
+            },
+            {
+                "number": 5,
+                "summary": "Dawn at Stonehenge",
+                "description": "Wake up at the crack of dawn and marvel at **Stonehenge,** still standing after 3500 years.\n\nYou’ll then head back along the A272, passing through Stockbridge and camping at **Brocklands Farm**",
+                "mainImg": {
+                    "src": "stonehenge.jpg",
+                    "alt": "Stonehenge at dawn"
+                },
+                "thingsToDo": [
+                    {
+                        "text": "Explore **Stonehenge site** and the museum",
+                        "icon": "sunrise"
+                    },
+                    {
+                        "text": "Salisbury Cathedral",
+                        "icon": "pin"
+                    }
+                ],
+                "extras": [
+                    {
+                        "text": "General admission to Stonehenge",
+                        "icon": "concierge",
+                        "price": "23 per person"
+                    },
+                    {
+                        "text": "Stonehenge **VIP** experience",
+                        "icon": "star",
+                        "price": "59 per person"
+                    }
+                ],
+                "accomodation": {
+                    "title": "Brocklands Farm",
+                    "description": "Nestled in the heart of the South Downs National Park, overlooking Hampshire’s stunning Meon Valley.\n\nThe farm offers so much to do – walking and cycling or simply watching the land being cultivated or the buzzards soaring over your head. The Meon Valley Trail, South Downs Way and Monarchs Way are all nearby.",
+                    "img": {
+                        "src": "brocklands.jpg",
+                        "alt": "A view of a lovely field in the Meon Valley"
+                    }
+                }
+            },
+            {
+                "number": 6,
+                "summary": "Visit the South Downs Sustinability Centre",
+                "description": "Wake up and visit the **Sustainability Centre,** 55 acres of woodland and downland. You can take a guided tour or a course in many eco-topics from Medicinal Herbs to Compost Toilets!\n\nHead back through the South Downs to stay at **Wild Heart Hill**",
+                "mainImg": {
+                    "src": "sust-centre.jpg",
+                    "alt": "A wildflower meadow at the Sustainability centre"
+                },
+                "extras": [
+                    {
+                        "text": "Foraging and fire tour",
+                        "icon": "signpost",
+                        "price": "30 per person"
+                    },
+                    {
+                        "text": "Wild flower meadows course",
+                        "icon": "flowers",
+                        "price": "80 per person"
+                    }
+                ],
+                "extrasFindMoreLink": {
+                    "text": "See the full list of courses and tours here",
+                    "url": "https://www.sustainability-centre.org/adult-courses.html"
+                },
+                "accomodation": {
+                    "title": "Wild Heart Hill",
+                    "description": "Nestled in the South Downs, this small and family run site offers a quiet base for campers, surrounded by numerous walks and situated on the Monarch's Way.\n\nAll pitches are on grass and some include electric and water hook-ups.\n\nThe site welcomes children and dogs too.",
+                    "img": {
+                        "src": "wild-heart.jpg",
+                        "alt": "An overview of Wild Heart Hill campsite. Lush trees and open fields."
+                    }
+                }
+            },
+            {
+                "number": 7,
+                "summary": "Return to Brighton past hills and sea",
+                "description": "Head over to Cissbury Ring for a beautiful walk around this hill with a history more than 5,00 years. Watch the wild horses grazing.\n\nHead back along the coast towards Brighton. Be sure to stop at the excellent Port Kitchen at Shoreham Port right by the beach for lunch and a recharge.",
+                "mainImg": {
+                    "src": "cissbury-ring.webp",
+                    "alt": "The view over Cissbury ring in the summer"
+                },
+                "thingsToDo": [
+                    {
+                        "text": "**Cissbury Ring,** a peaceful National Trust walk",
+                        "icon": "sunrise"
+                    },
+                    {
+                        "text": "**Arundel Castle**",
+                        "icon": "house"
+                    },
+                    {
+                        "text": "Arundel **heated** outdoor swimming pool",
+                        "icon": "pool"
+                    }
+                ],
+                "extras": [
+                    {
+                        "text": "Booked table for lunch at Port Kitchen in Shoreham",
+                        "icon": "forkandknife",
+                        "price": "Free"
+                    }
+                ],
+                "finale": {
+                    "title": "Brighton Station",
+                    "description": "Drop off the camper at Brighton Station, head home on the train",
+                    "img": {
+                        "src": "brighton-station-eve.jpg",
+                        "alt": "alt text"
+                    }
+                }
+            }
+        ]
+    }
+  ]
