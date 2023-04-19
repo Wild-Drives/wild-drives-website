@@ -9,8 +9,8 @@ bodyClass: range-background
         <h1 class="color-purple-900 hero-text">Updates <br>
             <span class="color-purple-700">and news</span>
         </h1>
-        <hr class="hr hr--green-500 hr">
-        <p>{{ description }}</p>
+        <hr class="hr hr--green-500 hr--margin-small">
+        <p class="h4">{{ description }}</p>
 
         <div class="container">
             {%- for post in collections.post reversed -%}
