@@ -10,68 +10,100 @@ permalink: "/whats-the-real-range/index.html"
 ---
 {% render "site-header.liquid", logo: 'site-id-purple.svg', menu-link-color: 'purple-600', cta-color: 'purple-800' %}
 <main class="wrapper">
-    <h1 class="color-purple-900">
-    What's the<br /><span class="color-purple-700">real</span> range?
-    </h1>
-    <hr class="hr hr--green-500" />
+    <div class="grid-container align-items-top margin-spacing-b">
+        <div class="grid-container__item-span-4">
+            <h1 class="color-purple-900">
+                What's the<br /><span class="color-purple-700">real</span> range?
+            </h1>
+            <hr class="hr hr--green-500" />
+        </div>
+        <div class="grid-container__item-span-3">
+            {% capture imgUrl %}app/assets/img/{{ img }}{% endcapture %}
+            {% Image imgUrl, alt, "rotate-143  image-rounded" %}
+        </div>
+    </div>
+
     <div class="grid-container align-items-top">
-    <div class="grid-container__item-span-4">
-        <p class="tw-75">
-        The WLTP range of Eve's base vehicle, the Citroen e-Dispatch, is 196
-        miles. But we're often immediately asked, “what's the real range?”
-        </p>
-        <p class="tw-75">
-        The answer can range between 100 miles and 200 miles between on a
-        variety of factors. Speed is the number one impact on range. The
-        most important thing you can do is to restrain your inner Maverick.
-        </p>
-        <br />
-        <h2 class="color-green-900">
-        Use Citroen's estimator<br /><span class="color-green-600"
-            >Simulate your range</span
-        >
-        </h2>
-        <hr class="hr hr--yellow-500 " />
-        <p class="tw-75">
-        Throughout the course of this article we’ll be using Citroen’s online range estimator to simulate different driving conditions and how that impacts the vehicle’s range.
-        </p>
-        <p>
-        <a
-            href="https://business.citroen.co.uk/models/dispatch/electric.html#range"
-            target="_blank"
-            class="link"
-            ><i class="icon-book color-orange-400"></i> try out the
-            calculator<i class="icon-chevron color-orange-400"></i
-        ></a>
-        </p>
+        <div class="grid-container__item-span-4">
+            <p class="h4">
+                The WLTP range of Eve's base vehicle, the Citroen e-Dispatch, is 196
+                miles. But we're often immediately asked, “what's the real range?”
+            </p>
+        </div>
+        <div class="grid-container__item-span-4">
+            
+            <p class="h4">
+            The answer can vary between 100 miles and 200 miles based on a
+            variety of factors.</p> 
+        </div>
     </div>
-    <div class="grid-container__item-span-4 range-speed">
-        <div class="range">
-        <div>30<span class="miles">mph</span></div>
-        <div><i class="icon-arrow"></i></div>
-        <div>197<span class="miles">miles</span></div>
+    
+    <div class="grid-container align-items-top margin-spacing-a">
+        <div class="grid-container__item-span-4">
+            {% blogHeading2 "Start with speed" %}
+
+            <p>Speed is the number one impact on range. The most important thing you can do is to restrain your inner Maverick...</p>
+            
+            <p>We recommend our customers to stick at 60MPH on motorways for long journeys. Any faster is a false economy as it requires you to stop more to charge.</p>
+
+            <p>Avoid overtaking unless it really impacts your speed. Dropping in speed a few miles is much better than speeding up to overtake only to slow all the way back down.</p>
         </div>
-        <div class="range">
-        <div>50<span class="miles">mph</span></div>
-        <div><i class="icon-arrow"></i></div>
-        <div>176<span class="miles">miles</span></div>
+        <div class="grid-container__item-span-4">
+            <div class="grid-container__item-span-4 range-speed">
+                <div class="range">
+                <div>30<span class="miles">mph</span></div>
+                <div><i class="icon-arrow"></i></div>
+                <div>197<span class="miles">miles</span></div>
+                </div>
+                <div class="range">
+                <div>60<span class="miles">mph</span></div>
+                <div><i class="icon-arrow"></i></div>
+                <div>159<span class="miles">miles</span></div>
+                </div>
+                <div class="range">
+                <div>70<span class="miles">mph</span></div>
+                <div><i class="icon-arrow"></i></div>
+                <div>137<span class="miles">miles</span></div>
+                </div>
+                <div class="range">
+                <div>80<span class="miles">mph</span></div>
+                <div><i class="icon-arrow"></i></div>
+                <div>115<span class="miles">miles</span></div>
+                </div>
+                <span class="aircon"
+                >Based on a mild day with three passengers (~2800kg.) Aircon
+                off.</span
+                >
+            </div>
         </div>
-        <div class="range">
-        <div>70<span class="miles">mph</span></div>
-        <div><i class="icon-arrow"></i></div>
-        <div>176<span class="miles">miles</span></div>
-        </div>
-        <div class="range">
-        <div>80<span class="miles">mph</span></div>
-        <div><i class="icon-arrow"></i></div>
-        <div>115<span class="miles">miles</span></div>
-        </div>
-        <span class="aircon"
-        >Based on a mild day with three passengers (~2800kg.) Aircon
-        off.</span
-        >
     </div>
+   
+    <div class="grid-container align-items-top margin-spacing-a">
+        <div class="grid-container__item-span-4">
+            <h2 class="color-green-900">
+                Use Citroen's estimator<br /><span class="color-green-600"
+                    >Simulate your range</span
+                >
+                </h2>
+                <hr class="hr hr--yellow-500 " />
+                <p class="tw-75">
+                Throughout the course of this article we’ll be using Citroen’s online range estimator to simulate different driving conditions and how that impacts the vehicle’s range.
+                </p>
+                <p>
+                    <a
+                        href="https://business.citroen.co.uk/models/dispatch/electric.html#range"
+                        target="_blank"
+                        class="link"
+                        ><i class="icon-book color-orange-400"></i> try out the
+                        calculator<i class="icon-chevron color-orange-400"></i
+                    ></a>
+                    </p>
+        </div>
+        <div class="grid-container__item-span-4">
+            {% Image "app/assets/img/charging.jpeg", "A successful charge", "rotate-143 image-rounded" %}
+        </div>
     </div>
+   
     <section class="margin-spacing-a">
     <h2 class="color-green-900">Temperature</h2>
     <hr class="hr hr--yellow-500 " />
@@ -87,7 +119,7 @@ permalink: "/whats-the-real-range/index.html"
         winter, the van does have a gas air blow heater you can use when
         stationary.
     </p>
-    <div class="container-33 bottom-align">
+    <div class="container-33 bottom-align margin-spacing-b">
         <div class="item-1">
         <span class="tw-explain"
             ><i class="icon-road"></i><br />Assuming one passenger driving at
@@ -136,7 +168,7 @@ permalink: "/whats-the-real-range/index.html"
         affects the range. The answer is not as much as we expected, roughly
         5%.
     </p>
-    <div class="container-33 bottom-align">
+    <div class="container-33 bottom-align margin-spacing-b">
         <div class="item-1">
         <span class="tw-explain"
             ><i class="icon-road"></i><br />Assuming a mild day, 50MPH, with
@@ -177,7 +209,7 @@ permalink: "/whats-the-real-range/index.html"
         </div>
     </div>
     </section>
-    <section class="margin-spacing-a">
+    <section class="margin-spacing-b">
     <div class="container-33 wltp">
         <div class="item-1">
         <h4 class="color-green-800">What is WLTP?</h4>
