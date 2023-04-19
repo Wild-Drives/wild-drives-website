@@ -31,22 +31,10 @@
 @import "includes/specs";
 @import "includes/collapsible";
 @import "includes/list-reset";
+@import "includes/tw-integer";
+@import "includes/van-specs";
 @import "lite-youtube-embed/src/lite-yt-embed";
 
-
-
-.tw-integer {
-  font-family: "Recoleta-Black", serif;
-  font-size: 2em;
-  color: var(--purple-500);
-  display: block;
-}
-
-.tw-integer-top {
-  margin-bottom: -1.8em;
-  font-weight: 500;
-  display: block;
-}
 
 .tw-passengers {
   display: block;

@@ -27,22 +27,128 @@ excludeFromCollections: true
             <p>Our vans feature luxury and sustinable campervan interiors, with everything you need for a wonderfully comfortable trip, including a toilet, and induction hob.</p>
             <p>All Wild Drives campervans conversions by Love Campers use sustainable materials. All wood is FSC certified. The vans include a solar panel for electricity. Natural Fibre insulation is used in the vans, using sheep's wool or hemp. And we have beautiful bamboo surfaces! </p>
         </div>
-        <div class="grid-container__item-span-4">
+        
+        <div class="grid-container__item-span-4 margin-top-neg-4">
             {%- for van in collections.buzz -%}
-            <div class="pop-out rotate-262">
-                <div>
-                    <span class="color-yellow-400">{{ van.data.titleOne }}</span>
-                    <h2 class="color-yellow-50">{{ van.data.titleTwo }}</span>
-                    <hr class="hr hr--yellow-500 hr--short " />
+            <div class="pop-out pop-out--dark rotate-262">
+                <div class="rotate-262-reverse">
+                    <div class="margin-bottom-1">
+                        <span class="color-yellow-400">{{ van.data.titleOne }}</span>
+                        <h2 class="color-yellow-50">{{ van.data.titleTwo }}</h2>
+                        <hr class="hr hr--yellow-500 hr--short" />
+                    </div>
+                    
+                    <div class="grid-container margin-bottom-2">
+                        <div class="grid-container__item-span-3 van-spec">
+                            <div class="van-spec__icon">
+                                <i class="icon-bed"></i>
+                            </div>
+                            <div class="van-spec__text">
+                                <div class="van-spec__text-top">Sleeps</div>
+                                <div class="van-spec__text-middle">{{ van.data.sleeps}}</div>
+                            </div>
+                        </div>
+                        <div class="grid-container__item-span-3 van-spec">
+                            <div class="van-spec__icon">
+                                <i class="icon-road"></i>
+                            </div>
+                            <div class="van-spec__text">
+                                <div class="van-spec__text-top">Range</div>
+                                <div class="van-spec__text-middle">{{ van.data.range}}</div>
+                                <div class="van-spec__text-bottom">miles</div>
+                            </div>
+                        </div>
+                        <div class="grid-container__item-span-3 van-spec">
+                            <div class="van-spec__icon">
+                                <i class="icon-road"></i>
+                            </div>
+                            <div class="van-spec__text">
+                                <div class="van-spec__text-top">Charge</div>
+                                <div class="van-spec__text-middle">5-80%</div>
+                                <div class="van-spec__text-bottom">{{ van.data.chargeTime }}</div>
+                            </div>
+                        </div>
+                        <div class="grid-container__item-span-3 van-spec">
+                            <div class="van-spec__icon">
+                                <i class="icon-trip"></i>
+                            </div>
+                            <div class="van-spec__text">
+                                <div class="van-spec__text-top">From</div>
+                                <div class="van-spec__text-middle">{{ van.data.fromPrice }}</div>
+                                <div class="van-spec__text-bottom">per night</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div>
+            </div>
+            {%- endfor -%}
+        <div>
+    </div>
 
+    <div class="grid-container margin-spacing-a align-items-top">
+        <div class="grid-container__item-span-4">
+             {% Image "app/assets/img/eve-picnic-01.jpg", "Our electric campervan Eve", "image-rounded" %}
+             {%- for van in collections.eve -%}
+            <div class="pop-out pop-out--dark rotate-262">
+                <div class="rotate-262-reverse">
+                    <div class="margin-bottom-1">
+                        <span class="color-yellow-400">{{ van.data.titleOne }}</span>
+                        <h2 class="color-yellow-50">{{ van.data.titleTwo }}</h2>
+                        <hr class="hr hr--yellow-500 hr--short" />
+                    </div>
+                    
+                    <div class="grid-container margin-bottom-2">
+                        <div class="grid-container__item-span-3">
+                            
+                                <div class="van-spec__icon">
+                                    <i class="icon-bed"></i>
+                                </div>
+                                <div class="van-spec__text">
+                                    <div class="van-spec__text-top">Sleeps</div>
+                                    <div class="van-spec__text-middle">{{ van.data.sleeps}}</div>
+                                </div>
+                        </div>
+                        <div class="grid-container__item-span-3">
+                            
+                                <div class="van-spec__icon">
+                                    <i class="icon-road"></i>
+                                </div>
+                                <div class="van-spec__text">
+                                    <div class="van-spec__text-top">Range</div>
+                                    <div class="van-spec__text-middle">{{ van.data.range}}</div>
+                                    <div class="van-spec__text-bottom">miles</div>
+                                </div>
+                        </div>
+                        <div class="grid-container__item-span-3">
+                            
+                                <div class="van-spec__icon">
+                                    <i class="icon-road"></i>
+                                </div>
+                                <div class="van-spec__text">
+                                    <div class="van-spec__text-top">Charge</div>
+                                    <div class="van-spec__text-middle">5-80%</div>
+                                    <div class="van-spec__text-bottom">{{ van.data.chargeTime }}</div>
+                                </div>
+                        </div>
+                        <div class="grid-container__item-span-3">
+                            
+                                <div class="van-spec__icon">
+                                    <i class="icon-trip"></i>
+                                </div>
+                                <div class="van-spec__text">
+                                    <div class="van-spec__text-top">From</div>
+                                    <div class="van-spec__text-middle">{{ van.data.fromPrice }}</div>
+                                    <div class="van-spec__text-bottom">per night</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             {%- endfor -%}
         </div>
-    </div>
+        <div class="grid-container__item-span-4">
 
+        </div>
     </div>
-    
 </main>
