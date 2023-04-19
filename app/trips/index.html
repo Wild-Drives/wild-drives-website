@@ -9,29 +9,38 @@ bodyClass: range-background
         <h1 class="color-purple-900 hero-text">Our electric<br>
             <span class="color-purple-700">campervan</span> trips
         </h1>
-        <hr class="hr hr--green-500 hr--shorter">
-        <p>{{ description }}</p>
-        <ul class="list-reset grid-container">
-            {%- for trip in trips  -%}
-                <li class="grid-container__item-span-4">
-                    <a href="/trips/{{ trip.title | slugify }}" class="postcard rotate-011">
-                        <div class="postcard-content">
-                            <div class="postcard-content-row color-purple-900">
-                                <h2 class="h4">{{ trip.titleOne }} {{ trip.titleTwo }}</h2>
-                                <hr class="hr hr--yellow-500 hr--margin-small" />
+        <hr class="hr hr--green-500 hr--shorter hr--margin-small">
+        <p class="h2">{{ description }}</p>
+        <div class="margin-spacing-b">
+            <ul class="list-reset grid-container align-items-bottom">
+                {%- for trip in trips  -%}
+                    <li class="grid-container__item-span-4">
+                        <a href="/trips/{{ trip.title | slugify }}" class="postcard rotate-011">
+                            <div class="postcard-content">
+                                <div class="postcard-content-row color-purple-900">
+                                    <h2 class="h4">{{ trip.titleOne }} {{ trip.titleTwo }}</h2>
+                                    <hr class="hr hr--yellow-500 hr--margin-small" />
+                                </div>
+                                <div class="postcard-content-left color-purple-900">
+                                    <span>{{ trip.description }}</span>
+                                </div>
+                                <div class="postcard-content-right">
+                                    {% capture imageUrl %}app/assets/img/{{ trip.img }}{% endcapture %}
+                                    {% Image imageUrl trip.alt "image-rounded" %}
+                                </div>
                             </div>
-                            <div class="postcard-content-left color-purple-900">
-                                <span>{{ trip.description }}</span>
-                            </div>
-                            <div class="postcard-content-right">
-                                {% capture imageUrl %}app/assets/img/{{ trip.img }}{% endcapture %}
-                                {% Image imageUrl trip.alt "image-rounded" %}
-                            </div>
-                        </div>
-                    </a>             
+                        </a>             
+                    </li>
+                {%- endfor -%}
+                <li class="grid-container__item-span-2 grid-container__item-start-6 text-align-right">
+                    <h2 class="h4">More trips <br /> coming soon</h2>
+                    <hr class="hr hr--yellow-500 hr--right" />
+                    <p>We're researching and curating new trips all the time. Including Wales, Cornwall, Scotland, and France.</p> 
+                    <p><a href="/contact">Get in touch</a> to discuss what you're looking for.</p>
                 </li>
-            {%- endfor -%}
-        </ul>
+            </ul>
+        </div>
+        {% render "plan-own-adventure.liquid" %}
         {% render "newsletter.liquid" %}
         {% render "follow-journey.liquid" %}
 </main>

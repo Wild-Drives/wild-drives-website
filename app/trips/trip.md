@@ -140,24 +140,7 @@ eleventyComputed:
             </a>
             <p>{{ trip.moreinfo }}</p>
         </div>
-        <div class="grid-container margin-spacing-a">
-            <div class="grid-container__item-span-4">
-                <h2 class="color-purple-900">
-                Plan your own<br />
-                <span class="color-purple-600">adventure.</span>
-                </h2>
-                <hr class="hr hr--yellow-500 hr--margin-small" />
-                <p class="color-neutral-900">
-               Looking for something a little more bespoke? Get in touch with us and we'll help you plan your perfect eco-adventure.
-                </p>
-                <a href="/contact" class="cta cta--no-margin cta--orange">
-                Contact us</a>
-            </div>
-            <div class="grid-container__item-span-3">
-                {% Image "app/assets/img/route-planning.jpg", "A group of friends sitting in a cafe planning a route on a map", "image-rounded" %}
-            </a>
-            </div>
-        </div>
+        {% render "plan-own-adventure.liquid" %}
     </div>
 </main>
 

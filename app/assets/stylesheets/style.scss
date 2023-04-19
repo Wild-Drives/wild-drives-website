@@ -19,6 +19,7 @@
 @import "includes/video-embed";
 @import "includes/forms";
 @import "includes/container";
+@import "includes/pop-out";
 @import "includes/hr";
 @import "includes/socials";
 @import "includes/wrapper";
@@ -27,6 +28,7 @@
 @import "includes/cta";
 @import "includes/logo-listing";
 @import "includes/image";
+@import "includes/specs";
 @import "includes/collapsible";
 @import "includes/list-reset";
 @import "lite-youtube-embed/src/lite-yt-embed";
@@ -170,53 +172,9 @@ main a:hover {
 .align-items-top {
   align-items: flex-start;
 }
-
-
-
-
-
-.specs {
-  display: flex;
-  line-height: 1.2;
-  margin-bottom: 1em;
+.align-items-bottom {
+  align-items: flex-end;
 }
-
-.specs-child span {
-  display: block;
-}
-
-.specs-child span:first-child {
-  font-family: "Recoleta-Black", Serif;
-  color: var(--purple-900);
-  font-weight: 900;
-}
-
-.specs-child span:last-child {
-  color: var(--neutral-500);
-}
-
-.anxiety {
-  background-color: var(--green-700);
-  border-radius: 3em;
-  padding: 1em 2em;
-  margin-top: 1em;
-}
-
-.anxiety div {
-  transform: rotate(-2.62deg);
-}
-
-.anxiety ul {
-  list-style-image: url("/assets/img/li-checkmark.svg");
-  padding-inline-start: 1em;
-}
-
-.anxiety ul li {
-  padding: 0 0 0.2em 0.1em;
-  color: var(--yellow-50);
-}
-
-
 
 
 .legal {

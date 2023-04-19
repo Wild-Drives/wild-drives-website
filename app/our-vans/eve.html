@@ -1,10 +1,17 @@
 ---
-layout: layouts/base.liquid
+layout: layouts/vans.liquid
+tags: ['vans', 'eve']
+permalink: "/campervan-eve/index.html"
 title: Meet Eve our electric campervan
 titleOne: Meet Eve
+date: 2022-06-01
 bodyClass: eve-background
 description: "Eve is our first electric campervan. Based on a new Citroen E-dispatch. 150 mile range, 0%-80% in 40 minutes."
 img: 'wild-drives-5.jpg'
+sleeps: "4"
+range: "150"
+chargeTime: "40 minutes"
+fromPrice: "£130"
 ---
 {% render "site-header.liquid", logo: 'site-id-purple.svg', menu-link-color: 'purple-600', cta-color: 'purple-800' %}
 <main class="wrapper">
@@ -16,8 +23,7 @@ img: 'wild-drives-5.jpg'
         </h1>
         <hr class="hr hr--green-500 hr--right" />
         <p>
-        Eve is our very first campervan, based on a brand new Citreon
-        E-Dispatch.
+        Eve is based on a 2021 Citreon E-Dispatch.
         </p>
     </div>
     <div class="grid-container__item-span-5">
@@ -25,29 +31,34 @@ img: 'wild-drives-5.jpg'
     </div>
     </div>
     <div class="grid-container align-items-top margin-spacing-a">
-    <div class="grid-container__item-span-3">
-        <h3 class="color-purple-900">
-        <span class="color-purple-600">Everything</span> you could need,
-        including the kitchen sink
-        </h3>
-        <hr class="hr hr--yellow-500 hr--margin-small">
-        <div class="anxiety rotate-262">
-        <div>
-            <h4 class="color-yellow-50">
-            <span class="color-orange-400">Low stress</span>
-            electric<br />adventures are here
-            </h4>
-            <hr class="hr hr--yellow-500 hr--short " />
-            <p class="color-yellow-50"
-            >We'll cover everything to take the anxiety out of long-range
-            journeys.</p
-            >
-            <ul>
-            <li>We provide charging network membership cards so you spend less time fiddling with logins</li>
-            <li>We'll help you plan your route and recommend the best spots to stop and charge</li>
-            </ul>
+    <div class="grid-container__item-span-3 grid-container">
+        <div class="grid-container__item-span-7">
+            <h3 class="color-purple-900">
+            <span class="color-purple-600">Everything</span> you could need,
+            including the kitchen sink
+            </h3>
+            <hr class="hr hr--yellow-500 hr--margin-small">
         </div>
+        <div class="grid-container__item-span-8">
+            <div class="pop-out rotate-262">
+            <div>
+                <h4 class="color-yellow-50">
+                <span class="color-orange-400">Low stress</span>
+                electric<br />adventures are here
+                </h4>
+                <hr class="hr hr--yellow-500 hr--short " />
+                <p class="color-yellow-50"
+                >We'll cover everything to take the pop-out out of long-range
+                journeys.</p
+                >
+                <ul>
+                <li>We provide charging network membership cards so you spend less time fiddling with logins</li>
+                <li>We'll help you plan your route and recommend the best spots to stop and charge</li>
+                </ul>
+            </div>
+            </div>
         </div>
+
     </div>
     <div class="grid-container__item-span-4 grid-container__item-start-5">
         <div class="grid-container align-items-top">
@@ -86,6 +97,15 @@ img: 'wild-drives-5.jpg'
                         <div class="specs-child">
                             <span>Two Double Beds</span>
                             <span>One in the pop-up roof, one below</span>
+                        </div>
+                    </div>
+
+                    <div class="specs">
+                        <div class="specs-child"><i class="icon-popup"></i></div>
+                        <div class="specs-child">
+                            <span>Pop Up Roof</span>
+                            <span
+                            >A scenic roof that lets in the breeze and the view</span>
                         </div>
                     </div>
 
@@ -129,15 +149,6 @@ img: 'wild-drives-5.jpg'
                         >Our only gas appliance, useful for those chilly
                         nights</span
                         >
-                    </div>
-                </div>
-
-                <div class="specs">
-                    <div class="specs-child"><i class="icon-popup"></i></div>
-                    <div class="specs-child">
-                        <span>Pop Up Roof</span>
-                        <span
-                        >A scenic roof that lets in the breeze and the view</span>
                     </div>
                 </div>
             </div>

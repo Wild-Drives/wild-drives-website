@@ -1,7 +1,48 @@
 ---
 layout: layouts/base.liquid
-title: Updates and news
-description: "Keep up with the latest news at Wild Drives"
+title: Our electric campervans
+description: "Our electric vans feature luxury and sustianable campervan interiors."
 bodyClass: range-background
 permalink: "/our-vans/index.html"
+excludeFromCollections: true
 ---
+{% render "site-header.liquid", logo: 'site-id-purple.svg', menu-link-color: 'purple-600', cta-color: 'purple-800' %}
+
+<main class="wrapper">
+    <div class="grid-container align-items-top">
+        <div class="grid-container__item-span-4">
+            <h1 class="color-purple-900 hero-text">Our <span class="color-purple-700">electric</span><br>
+                campers
+            </h1>
+            <hr class="hr hr--green-500 hr--margin-small">
+        </div>
+        <div class="grid-container__item-span-4">
+            {% Image "app/assets/img/buzz-01.jpeg", "Our new VW ID Buzz campervan against the blue sky", "image-rounded" %}
+        </div>
+    </div>
+
+    <div class="grid-container align-items-top">
+        <div class="grid-container__item-span-4">
+            <p class="h4 margin-bottom-1">We're one of the first all-electric campervan hire companies in the world.</p>
+            <p>Our vans feature luxury and sustinable campervan interiors, with everything you need for a wonderfully comfortable trip, including a toilet, and induction hob.</p>
+            <p>All Wild Drives campervans conversions by Love Campers use sustainable materials. All wood is FSC certified. The vans include a solar panel for electricity. Natural Fibre insulation is used in the vans, using sheep's wool or hemp. And we have beautiful bamboo surfaces! </p>
+        </div>
+        <div class="grid-container__item-span-4">
+            {%- for van in collections.buzz -%}
+            <div class="pop-out rotate-262">
+                <div>
+                    <span class="color-yellow-400">{{ van.data.titleOne }}</span>
+                    <h2 class="color-yellow-50">{{ van.data.titleTwo }}</span>
+                    <hr class="hr hr--yellow-500 hr--short " />
+                </div>
+                <div>
+
+                </div>
+            </div>
+            {%- endfor -%}
+        </div>
+    </div>
+
+    </div>
+    
+</main>
