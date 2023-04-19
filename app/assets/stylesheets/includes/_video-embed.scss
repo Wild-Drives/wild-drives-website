@@ -9,7 +9,8 @@
     overflow: hidden;
   }
   
-  .video-embed lite-youtube {
+  .video-embed lite-youtube,
+  .video-embed iframe {
     width: 100%;
     height: 100%;
     position: absolute;
