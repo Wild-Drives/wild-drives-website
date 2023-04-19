@@ -10,10 +10,10 @@
   }
   
   .socials i {
-    height: 3em;
-    width: 3em;
+    display: inline-block;
     border-radius: 0.25em;
     padding: 0.4em;
+    font-size: 1.3rem;
   }
   
   .socials a {
@@ -21,7 +21,8 @@
     color: var(--green-200);
     text-decoration: none;
     text-transform: none;
-    margin-left: 0.3em;
+    margin-left: 0.5rem;
+    font-weight: 700;
   }
   
   .socials a:hover {

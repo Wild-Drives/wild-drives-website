@@ -2,7 +2,7 @@
     width: 200px;
     display: inline-block;
     border-radius: 1em;
-    margin: 0.5em 0 2em;
+    margin: 0.5em 0 0;
     border: 1px solid var(--green-500);
     height: 7px;
 }
@@ -10,7 +10,7 @@
     width: 171px;
 }
 .hr--short {
-    margin: 0.3em 0 2em;
+    margin-top: 0.3em;
     height: 3px;
 }
 .hr--yellow-400 {
@@ -32,6 +32,6 @@
 .hr--margin-small {
     margin-bottom: 1em;
 }
-.hr--margin-none {
-    margin-bottom: 0;
+.hr--margin-large {
+    margin-bottom: 2em;
 }

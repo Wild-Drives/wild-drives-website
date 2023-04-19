@@ -48,7 +48,7 @@ eleventyComputed:
                 {% markdown %}{{ trip.about }}{% endmarkdown %}
                 <div class="margin-spacing-b">
                     <h2 class="color-green-900 ">Highlights</h2>
-                    <hr class="hr hr--yellow-500 hr--margin-none" />
+                    <hr class="hr hr--yellow-500 " />
                 <ul>
                 {% for hl in trip.highlights %}
                     <li>{% markdown-inline %}{{ hl }}{% endmarkdown-inline %}</li>
