@@ -7,9 +7,9 @@ type: website
 <html lang="en">
     <head>
         {% unless title %}
-            {% set title %}
+            {% capture title %}
                 {{ titleOne }} {{ titleTwo }}
-            {% endset %}
+            {% endcapture %}
         {% endunless %}
 
         <title>{{ title }} - Wild Drives</title>
