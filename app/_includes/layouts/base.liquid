@@ -1,12 +1,16 @@
 ---
-img: cover.png
+img: buzz-02.jpeg
 type: website
 ---
 
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        {% if titleOne %}
+        <title>{{ titleOne }} {{ titleTwo }} - Wild Drives</title>
+        {% else %}
         <title>{{ title }} - Wild Drives</title>
+        {% endif %}
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta name="title" content="{{ titleOne }} {{ titleTwo }}">
         <meta name="description" content="{{ description | strip_html }}">
