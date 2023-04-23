@@ -68,6 +68,8 @@ Bamboo products are organic, vegan and chemical-free, retaining many natural pro
 
 <div class="grid-container__item-span-4">
 We're so excited about this partnership and the benefits it brings to our customers. Whether you're embarking on a weekend getaway or a longer road trip, Wild Drives and Panda London have got you covered. We can't wait to see you well rested and out on the road!
+    
+All Wild Drive's customers get an exclusive 10% discount off their first order from Panda London.
 </div>
 
 </div>
