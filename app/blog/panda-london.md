@@ -17,7 +17,7 @@ tags: post
     
 At Wild Drives, we're always looking for ways to partner with companies that share our commitment to sustainability. That's why we're excited to announce our latest partnership with [Panda London,](https://pandalondon.com/) a company that produces sustainable bedding made out of bamboo.
 
-Bamboo is the perfect material for our campervan bedding because it's both eco-friendly and luxurious. It's incredibly soft and breathable, which means you'll stay cool and comfortable throughout the night. And because bamboo is a fast-growing, renewable resource, it's much more sustainable than traditional bedding materials like cotton or polyester.
+Bamboo is the perfect material for our campervan bedding because it's both eco-friendly and luxurious. It's incredibly soft and breathable, which means you'll stay cool and comfortable throughout the night. And because bamboo is a fast-growing, renewable resource, it's much more sustainable than traditional bedding materials like cotton or polyester. It doesn’t rely on any pesticides or herbicides and drinks a third less water than cotton.
 
 We're thrilled to be able to offer our customers the option to rent bamboo bedding during their Wild Drives campervan adventure. Here are just a few of the benefits you can expect.
 </div>
