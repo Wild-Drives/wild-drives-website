@@ -24,8 +24,10 @@ fromPrice: "£130"
         </h1>
         <hr class="hr hr--green-500 hr--right" />
         <p>
-        Eve is based on a 2021 Citreon E-Dispatch.
+        Eve is based on a 2021 Citreon E-Dispatch. With a pop-top roof she sleeps four. She's perfect for a sustainable summer getaway
         </p>
+        <p><strong>Available from £130 a night</strong></p>
+        <a href="/contact" class="cta cta--no-margin cta--orange cta--right-desktop-only">Request a booking</a>
     </div>
     <div class="grid-container__item-span-5">
         {% Image "app/assets/img/wild-drives-5.jpg", "A group of people enjoying the van and a picnic", "image-rounded rotate-143" %}
@@ -43,19 +45,7 @@ fromPrice: "£130"
         <div class="grid-container__item-span-8">
             <div class="pop-out rotate-262">
             <div class="rotate-262-reverse">
-                <h4 class="color-yellow-50">
-                <span class="color-orange-400">Low stress</span>
-                electric<br />adventures are here
-                </h4>
-                <hr class="hr hr--yellow-500 hr--short " />
-                <p class="color-yellow-50"
-                >We'll cover everything to take the pop-out out of long-range
-                journeys.</p
-                >
-                <ul>
-                <li>We provide charging network membership cards so you spend less time fiddling with logins</li>
-                <li>We'll help you plan your route and recommend the best spots to stop and charge</li>
-                </ul>
+                {% render "low-stress.liquid" %}
             </div>
             </div>
         </div>
@@ -81,7 +71,7 @@ fromPrice: "£130"
                     <div class="specs-child"><i class="icon-battery"></i></div>
                     <div class="specs-child">
                         <span>100KW charging</span>
-                        <span>Charge 0-80% in 40 mins</span>
+                        <span>Charge 5-80% in 40 mins</span>
                     </div>
                 </div>
 
@@ -89,24 +79,32 @@ fromPrice: "£130"
                     <div class="specs-child"><i class="icon-group"></i></div>
                     <div class="specs-child">
                         <span>5 Seats</span>
-                        <span>Three in the cab, two in the back</span>
+                        <span>Perfect for a family trip</span>
                     </div>
                 </div>
 
                 <div class="specs">
                     <div class="specs-child"><i class="icon-bed"></i></div>
                         <div class="specs-child">
-                            <span>Two Double Beds</span>
-                            <span>One in the pop-up roof, one below</span>
+                            <span>Sleeps four</span>
+                            <span>One rock and roll bed, one pop up roof</span>
                         </div>
                     </div>
 
                     <div class="specs">
                         <div class="specs-child"><i class="icon-popup"></i></div>
                         <div class="specs-child">
-                            <span>Pop Up Roof</span>
+                            <span>Pop up Roof</span>
                             <span
                             >A scenic roof that lets in the breeze and the view</span>
+                        </div>
+                    </div>
+
+                    <div class="specs">
+                        <div class="specs-child"><i class="icon-hob"></i></div>
+                        <div class="specs-child">
+                            <span>Induction Hob</span>
+                            <span>Cook without gas, powered solar energy. Pans, kettle, cutlery, and chopping board included.</span>
                         </div>
                     </div>
 
@@ -126,19 +124,26 @@ fromPrice: "£130"
                         </div>
                     </div>
 
+                    
+
                     <div class="specs">
-                        <div class="specs-child"><i class="icon-hob"></i></div>
+                        <div class="specs-child"><i class="icon-usb"></i></div>
                         <div class="specs-child">
-                            <span>Induction Hob</span>
-                            <span>Cook without gas, powered solar energy. Pans, kettle, cutlery, and chopping board included.</span>
+                            <span>USB-A Plugs (Five!)</span>
+                            <span>Charge all your devices off-grid</span>
                         </div>
                     </div>
+    
 
+            </div>
+            <div class="grid-container__item-span-4">
+                <h4 class="color-purple-900">Extra add-ons</h4>
+                <hr class="hr hr--yellow-500 hr--short hr--margin-small" />
                 <div class="specs">
-                    <div class="specs-child"><i class="icon-usb"></i></div>
+                    <div class="specs-child"><i class="icon-soap"></i></div>
                     <div class="specs-child">
-                        <span>USB-A Plugs (Five!)</span>
-                        <span>Charge all your devices off-grid</span>
+                        <span>Toilet</span>
+                        <span>A portable toilet with privacy tent</span>
                     </div>
                 </div>
 
@@ -147,28 +152,8 @@ fromPrice: "£130"
                     <div class="specs-child">
                         <span>Heater</span>
                         <span
-                        >Our only gas appliance, useful for those chilly
-                        nights</span
+                        >Take an electric heater or blanket with you</span
                         >
-                    </div>
-                </div>
-            </div>
-            <div class="grid-container__item-span-4">
-                <h4 class="color-purple-900">Extra add-ons</h4>
-                <hr class="hr hr--yellow-500 hr--short hr--margin-small" />
-                <div class="specs">
-                    <div class="specs-child"><i class="icon-shower"></i></div>
-                    <div class="specs-child">
-                        <span>Shower</span>
-                        <span>A simple shower-in-a-bag, heated by the sun</span>
-                    </div>
-                </div>
-                
-                <div class="specs">
-                    <div class="specs-child"><i class="icon-soap"></i></div>
-                    <div class="specs-child">
-                        <span>Toilet</span>
-                        <span>A portable toilet with privacy tent</span>
                     </div>
                 </div>
 
@@ -188,13 +173,6 @@ fromPrice: "£130"
                     </div>
                 </div>
 
-                <div class="specs">
-                    <div class="specs-child"><i class="icon-pizza"></i></div>
-                    <div class="specs-child">
-                        <span>Pizza Oven &amp; Ingredients</span>
-                        <span>Ooni pizza oven, gas included</span>
-                    </div>
-                </div>
 
                 <div class="specs">
                     <div class="specs-child"><i class="icon-popup"></i></div>
@@ -220,6 +198,7 @@ fromPrice: "£130"
                     </div>
                 </div>
             </div>
+            
 
         </div>
     </div>
