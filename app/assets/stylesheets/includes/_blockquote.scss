@@ -1,6 +1,6 @@
 
 blockquote {
-    font-family: "Recoleta-Bold", serif;
+    font-family: var(--heading-font);
     font-size: 2em;
     width: 80%;
     margin: 2em auto;
@@ -10,7 +10,7 @@ blockquote {
   }
   
   blockquote::before {
-    font-family: "Recoleta-Bold", serif;
+    font-family: var(--heading-font);
     content: "\201C";
     text-decoration: 4px underline;
     text-underline-offset: -0.3em;

@@ -340,7 +340,7 @@ main a:hover {
 }
 
 .link {
-  font-family: "Recoleta-Bold", serif;
+  font-family: var(--heading-font);
   text-decoration: none;
   text-underline-offset: 0.2em;
   text-transform: uppercase;
