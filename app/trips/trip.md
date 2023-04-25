@@ -29,7 +29,7 @@ eleventyComputed:
     <div class="container-33 text-align-center margin-spacing-b">
         <div class="item-1">
             <h2 class="h3">Length</h2>
-            <p>{{trip.nights}} days</p>
+            <p>{{trip.daysunit}} days</p>
         </div>
         <div class="item-2">
             <h2 class="h3">Distance</h2>
