@@ -50,8 +50,14 @@
     margin-top: -5rem!important;
   }
   .margin-top-neg-6 {
-    margin-top: -6rem!important;
-  }
+      margin-top: -6rem!important;
+    }
+@media screen and (min-width: 900px) {
+    .margin-top-neg-5-desktop-only {
+        margin-top: -5rem!important;
+        
+    }
+}
   .margin-bottom-1 {
     margin-bottom: 1rem!important;
   }

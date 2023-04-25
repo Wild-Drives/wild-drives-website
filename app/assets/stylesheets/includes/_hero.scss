@@ -4,10 +4,14 @@
   }
   
   .hero-image {
-    position: absolute;
-    left: 35%;
-    width: clamp(170px, 16.1805556vw, 220px);
-    z-index: -1;
+      position: absolute;
+      z-index: -1;
+      right: 0;
+      width: clamp(130px, 16.1805556vw, 220px);
+    @media screen and (min-width: 470px) {
+        left: 35%;
+        right: auto;
+    }
   }
   
   .hero-text {

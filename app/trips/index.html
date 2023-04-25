@@ -15,25 +15,28 @@ bodyClass: range-background
             <ul class="list-reset grid-container align-items-bottom">
                 {%- for trip in trips  -%}
                     <li class="grid-container__item-span-4">
-                        <a href="/trips/{{ trip.title | slugify }}" class="postcard rotate-011">
+                        <div class="postcard rotate-011">
                             <div class="postcard-content">
                                 <div class="postcard-content-row color-purple-900">
-                                    <h2 class="h4">{{ trip.titleOne }} {{ trip.titleTwo }}</h2>
-                                    <hr class="hr hr--yellow-500 hr--margin-small" />
+                                    <a href="/trips/{{ trip.title | slugify }}"><h2 class="h4 color-purple-900">{{ trip.titleOne }} {{ trip.titleTwo }}</h2>
+                                    <hr class="hr hr--yellow-500 hr--margin-small" /></a>
                                 </div>
                                 <div class="postcard-content-left color-purple-900">
                                     <strong>{{trip.daysunit}} days</strong>
-                                    <span>{{ trip.description }}</span>
+                                    <span>{{ trip.description }}</span><br />
+                                    <a href="/trips/{{ trip.title | slugify }}">Find out more<i class="icon-chevron color-orange-400"></i></a>
                                 </div>
                                 <div class="postcard-content-right">
                                     {% capture imageUrl %}app/assets/img/{{ trip.img }}{% endcapture %}
+                                    <a href="/trips/{{ trip.title | slugify }}">
                                     {% Image imageUrl trip.alt %}
+                                    </a>
                                 </div>
                             </div>
-                        </a>             
+                        </div>             
                     </li>
                 {%- endfor -%}
-                <li class="grid-container__item-span-2 grid-container__item-start-6 text-align-right">
+                <li class="grid-container__item-span-2 grid-container__item-start-6 desktop-align-right">
                     <h2 class="h4">More trips <br /> coming soon</h2>
                     <hr class="hr hr--yellow-500 hr--right" />
                     <p>We're researching and curating new trips all the time. Including Wales, Cornwall, Scotland, and France.</p> 

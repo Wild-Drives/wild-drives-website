@@ -7,50 +7,50 @@
     
 </div>
 
-<div class="grid-container margin-bottom-1">
+<div class="grid-container grid-container-mobile margin-bottom-1">
     <div class="van-spec grid-container__item-span-4">
-            <div class="van-spec__icon color-{{icon-color}}">
+            <div class="van-spec__icon color-{{color}}-400">
                 <i class="icon-bed"></i>
             </div>
             <div class="van-spec__text">
                 <div class="van-spec__text-top">Sleeps</div>
-                <div class="van-spec__text-middle">{{ van.data.sleeps}}</div>
+                <div class="van-spec__text-middle color-{{color}}-50">{{ van.data.sleeps}}</div>
             </div>
     </div>
     <div class="van-spec grid-container__item-span-4">
         
-            <div class="van-spec__icon color-{{icon-color}}">
+            <div class="van-spec__icon color-{{color}}-400">
                 <i class="icon-road"></i>
             </div>
             <div class="van-spec__text">
                 <div class="van-spec__text-top">Range</div>
-                <div class="van-spec__text-middle">{{ van.data.range}}</div>
-                <div class="van-spec__text-bottom">miles</div>
+                <div class="van-spec__text-middle color-{{color}}-50">{{ van.data.range}}</div>
+                <div class="van-spec__text-bottom color-{{color}}-200">miles</div>
             </div>
     </div>
     <div class="van-spec grid-container__item-span-4">
         
-            <div class="van-spec__icon color-{{icon-color}}">
-                <i class="icon-road"></i>
+            <div class="van-spec__icon color-{{color}}-400">
+                <i class="icon-battery"></i>
             </div>
             <div class="van-spec__text">
                 <div class="van-spec__text-top">Charge</div>
-                <div class="van-spec__text-middle">5-80%</div>
-                <div class="van-spec__text-bottom">{{ van.data.chargeTime }}</div>
+                <div class="van-spec__text-middle color-{{color}}-50">5-80%</div>
+                <div class="van-spec__text-bottom color-{{color}}-200">{{ van.data.chargeTime }}</div>
             </div>
     </div>
     <div class="van-spec grid-container__item-span-4">
-            <div class="van-spec__icon color-{{icon-color}}">
+            <div class="van-spec__icon color-{{color}}-400">
                 <i class="icon-trip"></i>
             </div>
             <div class="van-spec__text">
                 <div class="van-spec__text-top">From</div>
-                <div class="van-spec__text-middle">{{ van.data.fromPrice }}</div>
-                <div class="van-spec__text-bottom">per night</div>
+                <div class="van-spec__text-middle color-{{color}}-50">{{ van.data.fromPrice }}</div>
+                <div class="van-spec__text-bottom color-{{color}}-200">per night</div>
             </div>
         </div>
     </div>
-    <div class="text-align-right">
+    <div class="desktop-align-right">
         <a class="color-yellow-500" href="{{van.url}}">Learn more about {{van.data.name}} <i class="icon-chevron"></i></a>
     </div>
 

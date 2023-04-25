@@ -19,29 +19,30 @@ excludeFromCollections: true
         <div class="grid-container__item-span-6 grid-container__item-row-2">
             <p class="h4 margin-bottom-1">We're one of the first all-electric campervan hire companies in the world</p>
             <p>Our vans feature luxury and sustinable campervan interiors, with everything you need for a wonderfully comfortable trip, including a toilet, and induction hob.</p>
+            <p><a href="/trips" class="cta cta--no-margin cta--orange">Book now</a></p>
         </div>
         <div class="grid-container__item-span-6 grid-container__item-row-1">
             {% Image "app/assets/img/buzz-01.jpeg", "Our new VW ID Buzz campervan against the blue sky", "image-rounded" %}
         </div>
         <div class="grid-container__item-span-6 grid-container__item-row-2">
             {%- for van in collections.buzz -%}
-                <div class="pop-out pop-out--dark rotate-262 margin-top-neg-5">
+                <div class="pop-out pop-out--dark rotate-262 margin-top-neg-1 margin-top-neg-5-desktop-only">
                     <div class="rotate-262-reverse">
-                        {% render "van-listing.liquid", van: van, icon-color: 'purple-400' %}
+                        {% render "van-listing.liquid", van: van, icon-color: 'purple-400', color: 'purple' %}
                     </div>
                 </div>
             {%- endfor -%}
         </div>
     </div>
 
-    <div class="grid-container align-items-top margin-spacing-b">
+    <div class="grid-container grid-container-mobile align-items-top margin-spacing-b">
         <div class="grid-container__item-span-4">
             {% Image "app/assets/img/eve-picnic-01.jpg", "Our electric campervan Eve", "image-rounded" %}
 
             {%- for van in collections.eve -%}
                 <div class="pop-out rotate-262-reverse  margin-top-neg-1">
                     <div class="rotate-262">
-                        {% render "van-listing.liquid", van: van, icon-color: 'green-400' %}
+                        {% render "van-listing.liquid", van: van, icon-color: 'green-400', color: 'green' %}
                     </div>
                 </div>
             {%- endfor -%}
