@@ -1,5 +1,6 @@
 ---
 layout: layouts/blog-post.liquid
+date: 2023-04-19
 titleOne: Our luxury bamboo
 titleTwo: bedding
 bodyClass: eve-background

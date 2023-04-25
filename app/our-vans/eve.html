@@ -1,10 +1,18 @@
 ---
-layout: layouts/base.liquid
+layout: layouts/vans.liquid
+tags: ['vans', 'eve']
+permalink: "/campervan-eve/index.html"
 title: Meet Eve our electric campervan
 titleOne: Meet Eve
+date: 2022-06-01
 bodyClass: eve-background
 description: "Eve is our first electric campervan. Based on a new Citroen E-dispatch. 150 mile range, 0%-80% in 40 minutes."
 img: 'wild-drives-5.jpg'
+name: Eve
+sleeps: "4"
+range: "150"
+chargeTime: "40 minutes"
+fromPrice: "£130"
 ---
 {% render "site-header.liquid", logo: 'site-id-purple.svg', menu-link-color: 'purple-600', cta-color: 'purple-800' %}
 <main class="wrapper">
@@ -16,38 +24,36 @@ img: 'wild-drives-5.jpg'
         </h1>
         <hr class="hr hr--green-500 hr--right" />
         <p>
-        Eve is our very first campervan, based on a brand new Citreon
-        E-Dispatch.
+        Eve is based on a 2021 Citreon E-Dispatch. With a pop-top roof she sleeps four. She's perfect for a sustainable summer getaway
         </p>
+        <p><strong>Available from £130 a night</strong></p>
+        <a href="/contact" class="cta cta--no-margin cta--orange cta--right-desktop-only">Request a booking</a>
     </div>
     <div class="grid-container__item-span-5">
         {% Image "app/assets/img/wild-drives-5.jpg", "A group of people enjoying the van and a picnic", "image-rounded rotate-143" %}
     </div>
     </div>
+    <blockquote class="margin-vw-top-9">Eve is a fabulous campervan with added bonus of being fully electric. So much thought has gone into every bit of detail in the van itself and the entire experience. 
+        <span class="color-purple-500">Rebecca, Thomas and Boo</span>
+        <span class="color-green-500 font-bitter">Sept 2022</span>
+    </blockquote>
     <div class="grid-container align-items-top margin-spacing-a">
-    <div class="grid-container__item-span-3">
-        <h3 class="color-purple-900">
-        <span class="color-purple-600">Everything</span> you could need,
-        including the kitchen sink
-        </h3>
-        <hr class="hr hr--yellow-500 hr--margin-small">
-        <div class="anxiety rotate-262">
-        <div>
-            <h4 class="color-yellow-50">
-            <span class="color-orange-400">Low stress</span>
-            electric<br />adventures are here
-            </h4>
-            <hr class="hr hr--yellow-500 hr--short " />
-            <p class="color-yellow-50"
-            >We'll cover everything to take the anxiety out of long-range
-            journeys.</p
-            >
-            <ul>
-            <li>We provide charging network membership cards so you spend less time fiddling with logins</li>
-            <li>We'll help you plan your route and recommend the best spots to stop and charge</li>
-            </ul>
+    <div class="grid-container__item-span-3 grid-container">
+        <div class="grid-container__item-span-7">
+            <h3 class="color-purple-900">
+            <span class="color-purple-600">Everything</span> you could need,
+            including the kitchen sink
+            </h3>
+            <hr class="hr hr--yellow-500 hr--margin-small">
         </div>
+        <div class="grid-container__item-span-8">
+            <div class="pop-out rotate-262">
+            <div class="rotate-262-reverse">
+                {% render "low-stress.liquid" %}
+            </div>
+            </div>
         </div>
+
     </div>
     <div class="grid-container__item-span-4 grid-container__item-start-5">
         <div class="grid-container align-items-top">
@@ -69,7 +75,7 @@ img: 'wild-drives-5.jpg'
                     <div class="specs-child"><i class="icon-battery"></i></div>
                     <div class="specs-child">
                         <span>100KW charging</span>
-                        <span>Charge 0-80% in 40 mins</span>
+                        <span>Charge 5-80% in 40 mins</span>
                     </div>
                 </div>
 
@@ -77,15 +83,32 @@ img: 'wild-drives-5.jpg'
                     <div class="specs-child"><i class="icon-group"></i></div>
                     <div class="specs-child">
                         <span>5 Seats</span>
-                        <span>Three in the cab, two in the back</span>
+                        <span>Perfect for a family trip</span>
                     </div>
                 </div>
 
                 <div class="specs">
                     <div class="specs-child"><i class="icon-bed"></i></div>
                         <div class="specs-child">
-                            <span>Two Double Beds</span>
-                            <span>One in the pop-up roof, one below</span>
+                            <span>Sleeps four</span>
+                            <span>One rock and roll bed, one pop up roof</span>
+                        </div>
+                    </div>
+
+                    <div class="specs">
+                        <div class="specs-child"><i class="icon-popup"></i></div>
+                        <div class="specs-child">
+                            <span>Pop up Roof</span>
+                            <span
+                            >A scenic roof that lets in the breeze and the view</span>
+                        </div>
+                    </div>
+
+                    <div class="specs">
+                        <div class="specs-child"><i class="icon-hob"></i></div>
+                        <div class="specs-child">
+                            <span>Induction Hob</span>
+                            <span>Cook without gas, powered solar energy. Pans, kettle, cutlery, and chopping board included.</span>
                         </div>
                     </div>
 
@@ -105,19 +128,26 @@ img: 'wild-drives-5.jpg'
                         </div>
                     </div>
 
+                    
+
                     <div class="specs">
-                        <div class="specs-child"><i class="icon-hob"></i></div>
+                        <div class="specs-child"><i class="icon-usb"></i></div>
                         <div class="specs-child">
-                            <span>Induction Hob</span>
-                            <span>Cook without gas, powered solar energy. Pans, kettle, cutlery, and chopping board included.</span>
+                            <span>USB-A Plugs (Five!)</span>
+                            <span>Charge all your devices off-grid</span>
                         </div>
                     </div>
+    
 
+            </div>
+            <div class="grid-container__item-span-4">
+                <h4 class="color-purple-900">Extra add-ons</h4>
+                <hr class="hr hr--yellow-500 hr--short hr--margin-small" />
                 <div class="specs">
-                    <div class="specs-child"><i class="icon-usb"></i></div>
+                    <div class="specs-child"><i class="icon-soap"></i></div>
                     <div class="specs-child">
-                        <span>USB-A Plugs (Five!)</span>
-                        <span>Charge all your devices off-grid</span>
+                        <span>Toilet</span>
+                        <span>A portable toilet with privacy tent</span>
                     </div>
                 </div>
 
@@ -126,37 +156,8 @@ img: 'wild-drives-5.jpg'
                     <div class="specs-child">
                         <span>Heater</span>
                         <span
-                        >Our only gas appliance, useful for those chilly
-                        nights</span
+                        >Take an electric heater or blanket with you</span
                         >
-                    </div>
-                </div>
-
-                <div class="specs">
-                    <div class="specs-child"><i class="icon-popup"></i></div>
-                    <div class="specs-child">
-                        <span>Pop Up Roof</span>
-                        <span
-                        >A scenic roof that lets in the breeze and the view</span>
-                    </div>
-                </div>
-            </div>
-            <div class="grid-container__item-span-4">
-                <h4 class="color-purple-900">Extra add-ons</h4>
-                <hr class="hr hr--yellow-500 hr--short hr--margin-small" />
-                <div class="specs">
-                    <div class="specs-child"><i class="icon-shower"></i></div>
-                    <div class="specs-child">
-                        <span>Shower</span>
-                        <span>A simple shower-in-a-bag, heated by the sun</span>
-                    </div>
-                </div>
-                
-                <div class="specs">
-                    <div class="specs-child"><i class="icon-soap"></i></div>
-                    <div class="specs-child">
-                        <span>Toilet</span>
-                        <span>A portable toilet with privacy tent</span>
                     </div>
                 </div>
 
@@ -176,13 +177,6 @@ img: 'wild-drives-5.jpg'
                     </div>
                 </div>
 
-                <div class="specs">
-                    <div class="specs-child"><i class="icon-pizza"></i></div>
-                    <div class="specs-child">
-                        <span>Pizza Oven &amp; Ingredients</span>
-                        <span>Ooni pizza oven, gas included</span>
-                    </div>
-                </div>
 
                 <div class="specs">
                     <div class="specs-child"><i class="icon-popup"></i></div>
@@ -208,6 +202,7 @@ img: 'wild-drives-5.jpg'
                     </div>
                 </div>
             </div>
+            
 
         </div>
     </div>

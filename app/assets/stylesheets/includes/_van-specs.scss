@@ -1,0 +1,29 @@
+.van-spec {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+.van-spec__icon {
+    color: var(--purple-400);
+    [class^=icon-] {
+        font-size: 2.5rem;
+    }
+}
+.van-spec__text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
+.van-spec__text-top {
+    color: var(--yellow-50);
+}
+.van-spec__text-middle {
+    font-family: var(--heading-font);
+    color: var(--purple-50);
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.van-spec__text-bottom {
+    font-weight: 700;
+    color: var(--purple-200);
+}

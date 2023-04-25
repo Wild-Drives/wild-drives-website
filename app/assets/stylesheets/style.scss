@@ -19,6 +19,7 @@
 @import "includes/video-embed";
 @import "includes/forms";
 @import "includes/container";
+@import "includes/pop-out";
 @import "includes/hr";
 @import "includes/socials";
 @import "includes/wrapper";
@@ -27,24 +28,13 @@
 @import "includes/cta";
 @import "includes/logo-listing";
 @import "includes/image";
+@import "includes/specs";
 @import "includes/collapsible";
 @import "includes/list-reset";
+@import "includes/tw-integer";
+@import "includes/van-specs";
 @import "lite-youtube-embed/src/lite-yt-embed";
 
-
-
-.tw-integer {
-  font-family: "Recoleta-Black", serif;
-  font-size: 2em;
-  color: var(--purple-500);
-  display: block;
-}
-
-.tw-integer-top {
-  margin-bottom: -1.8em;
-  font-weight: 500;
-  display: block;
-}
 
 .tw-passengers {
   display: block;
@@ -170,53 +160,9 @@ main a:hover {
 .align-items-top {
   align-items: flex-start;
 }
-
-
-
-
-
-.specs {
-  display: flex;
-  line-height: 1.2;
-  margin-bottom: 1em;
+.align-items-bottom {
+  align-items: flex-end;
 }
-
-.specs-child span {
-  display: block;
-}
-
-.specs-child span:first-child {
-  font-family: "Recoleta-Black", Serif;
-  color: var(--purple-900);
-  font-weight: 900;
-}
-
-.specs-child span:last-child {
-  color: var(--neutral-500);
-}
-
-.anxiety {
-  background-color: var(--green-700);
-  border-radius: 3em;
-  padding: 1em 2em;
-  margin-top: 1em;
-}
-
-.anxiety div {
-  transform: rotate(-2.62deg);
-}
-
-.anxiety ul {
-  list-style-image: url("/assets/img/li-checkmark.svg");
-  padding-inline-start: 1em;
-}
-
-.anxiety ul li {
-  padding: 0 0 0.2em 0.1em;
-  color: var(--yellow-50);
-}
-
-
 
 
 .legal {
@@ -227,6 +173,8 @@ main a:hover {
   text-align: left;
   padding: 1em 0;
   border-top: 3px solid white;
+  display: flex;
+  gap: 0.5em;
 }
 
 
@@ -392,7 +340,7 @@ main a:hover {
 }
 
 .link {
-  font-family: "Recoleta-Bold", serif;
+  font-family: var(--heading-font);
   text-decoration: none;
   text-underline-offset: 0.2em;
   text-transform: uppercase;
@@ -400,6 +348,11 @@ main a:hover {
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1.25px;
+}
+.link--flex {
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
 }
 
 #mc_embed_signup .container {

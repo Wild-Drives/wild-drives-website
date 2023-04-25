@@ -1,5 +1,6 @@
 ---
 layout: layouts/blog-post.liquid
+date: 2022-12-01
 titleOne: Season one in
 titleTwo: review
 bodyClass: eve-background

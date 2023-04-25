@@ -1,0 +1,57 @@
+---
+layout: layouts/base.liquid
+title: Our electric campervans
+description: "Our electric vans feature luxury and sustianable campervan interiors."
+bodyClass: range-background
+permalink: "/our-vans/index.html"
+excludeFromCollections: true
+---
+{% render "site-header.liquid", logo: 'site-id-purple.svg', menu-link-color: 'purple-600', cta-color: 'purple-800' %}
+
+<main class="wrapper">
+    <div class="grid-container grid-container--12 align-items-top">
+        <div class="grid-container__item-span-6 grid-container__item-row-1">
+            <h1 class="color-purple-900 hero-text">Our <span class="color-purple-700">electric</span><br>
+                campers
+            </h1>
+            <hr class="hr hr--green-500 hr--margin-small">
+        </div>
+        <div class="grid-container__item-span-6 grid-container__item-row-2">
+            <p class="h4 margin-bottom-1">We're one of the first all-electric campervan hire companies in the world</p>
+            <p>Our vans feature luxury and sustinable campervan interiors, with everything you need for a wonderfully comfortable trip, including a toilet, and induction hob.</p>
+            <p><a href="/trips" class="cta cta--no-margin cta--orange">Book now</a></p>
+        </div>
+        <div class="grid-container__item-span-6 grid-container__item-row-1">
+            {% Image "app/assets/img/buzz-01.jpeg", "Our new VW ID Buzz campervan against the blue sky", "image-rounded" %}
+        </div>
+        <div class="grid-container__item-span-6 grid-container__item-row-2">
+            {%- for van in collections.buzz -%}
+                <div class="pop-out pop-out--dark rotate-262 margin-top-neg-1 margin-top-neg-5-desktop-only">
+                    <div class="rotate-262-reverse">
+                        {% render "van-listing.liquid", van: van, icon-color: 'purple-400', color: 'purple' %}
+                    </div>
+                </div>
+            {%- endfor -%}
+        </div>
+    </div>
+
+    <div class="grid-container grid-container-mobile align-items-top margin-spacing-b">
+        <div class="grid-container__item-span-4">
+            {% Image "app/assets/img/eve-picnic-01.jpg", "Our electric campervan Eve", "image-rounded" %}
+
+            {%- for van in collections.eve -%}
+                <div class="pop-out rotate-262-reverse  margin-top-neg-1">
+                    <div class="rotate-262">
+                        {% render "van-listing.liquid", van: van, icon-color: 'green-400', color: 'green' %}
+                    </div>
+                </div>
+            {%- endfor -%}
+        </div>
+        <div class="grid-container__item-span-4">
+            <p class="h4 margin-bottom-1">Go on an eco-adventure of a lifetime in one of our campervans</p>
+            <p>All Wild Drives campervans conversions by Love Campers use sustainable materials. All wood is FSC certified. The vans include a solar panel for electricity. Natural Fibre insulation is used in the vans, using sheep's wool or hemp. And we have beautiful bamboo surfaces!</p>
+            <p>Take our vans on a unique and unforgettable adventure. We'll provide a route with the best roads, the best places to charge, and the best places to camp</p>
+            <p><a href="/trips" class="cta cta--no-margin cta--orange">Discover our trips</a></p>
+        </div>
+    </div>
+</main>
