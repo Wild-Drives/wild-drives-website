@@ -55,7 +55,7 @@ eleventyComputed:
                 {% endfor %}
                 </ul>
                 </div>
-                <a href="/contact" class="cta cta--no-margin cta--orange cta--with-icon">
+                <a href="{{trip.bookingLink}}" class="cta cta--no-margin cta--orange cta--with-icon">
                     <i class="icon-trip"></i>Book This Trip
                 </a>
             </div>
@@ -135,7 +135,7 @@ eleventyComputed:
             </div>
         {%- endfor -%}
         <div class="margin-spacing-b">
-            <a href="/contact" class="cta cta--no-margin cta--orange cta--with-icon">
+            <a href="{{trip.bookingLink}}" class="cta cta--no-margin cta--orange cta--with-icon">
                 <i class="icon-trip"></i>Book This Trip
             </a>
             <p>{{ trip.moreinfo }}</p>
