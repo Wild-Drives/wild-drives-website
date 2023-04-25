@@ -16,50 +16,45 @@ img: 'wild-drives-4.jpg'
     <div class="hero-subtext">
         <div class="hero-subtext__inner">
             <p>Say <em>sayonara</em> to toxic fumes. Our vans are powered by electricity.</p>
-            <p>We're aiming to create the most sustainable and nature-friendly travel experience in the world.</p>
-            <p>Escape the crowds this summer.</p>
+            <p>Escape the crowds this summer with the most sustainable and nature-friendly travel experience in the world.</p>
         </div>
     </div>
-    <a href="https://www.quirkycampers.com/uk/campervan/301977/?wb-currency=GBP&ref=wilddrives" target="_blank" class="cta cta--with-icon">
-        <i class="icon-trip"></i>Book Your Trip
+    <a href="/contact" target="_blank" class="cta cta--with-icon">
+        <i class="icon-trip"></i>Request a booking
     </a>
 </section>
 
     <div class="grid-container margin-vw-top-8 align-items-top">
         <div class="grid-container__item-span-5">
-            {% Image "app/assets/img/wild-drives-5.jpg", "A group of people enjoying the van and a picnic", "rotate-22 image-rounded image-offset-left" %}
+            {% Image "app/assets/img/buzz-01.jpeg", "Our ID Buzz van driving through green fields", "rotate-22-reverse image-rounded image-offset-left" %}
         </div>
         <div class="grid-container__item-span-3">
-            <h2 class="color-purple-900"><br>Meet Eve,<br>
-                <span class="color-purple-600 headline-bold">She's electric.</span>
+            <h2 class="color-purple-900">Meet <span class="color-purple-600 headline-bold">Buzz,</span><br>
+                available to hire this summer
             </h2>
             <hr class="hr hr--yellow-500 hr">
-            <p>Eve is based on a 2021 Citroen E-dispatch with a range of <a href="/whats-the-real-range" class="secondary-link-style">150 miles</a>. You can charge her from 0%-80% in 40 minutes. </p>
-            <p>She's kitted out with a pop-up roof, 5 seats, two double beds, a fridge, a toilet, and an induction hob powered by solar panels.</p>
+            <p>With a two tone colour scheme you won't find anywhere else and a stunning conversion by Love Campers, we can't tell if this is a campervan or a work of art.</p>
+            <p>Based on the award-winning VW ID Buzz, she has a range of 200 miles and a charging speed of 5-80% in 30 minutes.</p>
             <span>
-                <a href="/campervan-eve" class="link"><i class="icon-charge color-orange-400"></i> learn more about our electric campervan<i class="icon-chevron color-orange-400"></i></a>
+                <a href="/campervans" class="link link--flex"><i class="icon-charge color-orange-400"></i> learn more about our electric campervans<i class="icon-chevron color-orange-400"></i></a>
             </span>
         </div>
     </div>
+    
+    <blockquote class="margin-vw-top-9">
+        It was my first time driving a fully electric vehicle, and also my first time driving a camperized van. I was quite nervous and intimidated, but when Lewis dropped off the van he went over everything and I hit the road feeling more confident.
+        <span class="color-purple-500">Julia</span>
+        <span class="color-green-500 font-bitter">March 2023</span>
+    </blockquote>
 
     
-    <blockquote class="margin-vw-top-9">Conclusion, Love, love, loved the van and van life. The fact it was an electric van made it so much more quiet and green. Large Solar roof was a winner and with a supersized leisure battery unbeatable. <span class="color-purple-500">Connie</span>
-        <span class="color-green-500 font-bitter">July 2022</span>
+    {% render "eco-adventure.liquid" %}
+    <blockquote class="margin-vw-top-9">
+        Eve is a fabulous campervan with added bonus of being fully electric. So much thought has gone into every bit of detail in the van itself and the entire experience. We spent 6 wonderful nights travelling around Suffolk and Norfolk and Eve didn’t fail to impress us along the way.
+        <span class="color-purple-500">Rebecca, Thomas and Boo</span>
+        <span class="color-green-500 font-bitter">Sept 2023</span>
     </blockquote>
-   
-    <h2 class="color-purple-800 margin-vw-top-11">Featured in</h2>
-    <hr class="hr hr--yellow-500 hr">
-    <div class="logo-listing">
-        <a class="logo-listing__item" href="https://www.telegraph.co.uk/cars/features/ev-transition-coming-campervans/" target="_blank">
-            {% Image "app/assets/img/the-telegraph.svg", "The Telegraph" %}
-        </a>
-        <a class="logo-listing__item logo-listing__item-narrow" href="https://inews.co.uk/inews-lifestyle/travel/saving-money-vanlifers-escaping-costs-energy-crisis-1853798" target="_blank">
-            <img src="/assets/img/i.svg" alt="inews paper" />
-        </a>
-        <a class="logo-listing__item" href="/blog/million-pound-motorhomes" target="_blank">
-            {% Image "app/assets/img/million-pound-motorhomes.png", "Million Pound Motorhomes" %}
-        </a>
-    </div>
+    {% render "fully-charged.liquid" %}
+    {% render "featured-in.liquid" %}
     {% render "newsletter.liquid" %}
-    {% render "follow-journey.liquid" %}
 </main>
