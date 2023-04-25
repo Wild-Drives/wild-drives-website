@@ -1,0 +1,56 @@
+
+<div class="margin-top-1">
+    {%-if van.data.subtitle -%}<span class="color-yellow-400">{{ van.data.subtitle }}</span>{%- endif -%}
+    <a href="{{van.url}}">
+        <h2 class="color-yellow-50">{{ van.data.name }}</h2>
+        </a><hr class="hr hr--yellow-500 hr--short hr--negative-top"/>
+    
+</div>
+
+<div class="grid-container margin-bottom-1">
+    <div class="van-spec grid-container__item-span-4">
+            <div class="van-spec__icon color-{{icon-color}}">
+                <i class="icon-bed"></i>
+            </div>
+            <div class="van-spec__text">
+                <div class="van-spec__text-top">Sleeps</div>
+                <div class="van-spec__text-middle">{{ van.data.sleeps}}</div>
+            </div>
+    </div>
+    <div class="van-spec grid-container__item-span-4">
+        
+            <div class="van-spec__icon color-{{icon-color}}">
+                <i class="icon-road"></i>
+            </div>
+            <div class="van-spec__text">
+                <div class="van-spec__text-top">Range</div>
+                <div class="van-spec__text-middle">{{ van.data.range}}</div>
+                <div class="van-spec__text-bottom">miles</div>
+            </div>
+    </div>
+    <div class="van-spec grid-container__item-span-4">
+        
+            <div class="van-spec__icon color-{{icon-color}}">
+                <i class="icon-road"></i>
+            </div>
+            <div class="van-spec__text">
+                <div class="van-spec__text-top">Charge</div>
+                <div class="van-spec__text-middle">5-80%</div>
+                <div class="van-spec__text-bottom">{{ van.data.chargeTime }}</div>
+            </div>
+    </div>
+    <div class="van-spec grid-container__item-span-4">
+            <div class="van-spec__icon color-{{icon-color}}">
+                <i class="icon-trip"></i>
+            </div>
+            <div class="van-spec__text">
+                <div class="van-spec__text-top">From</div>
+                <div class="van-spec__text-middle">{{ van.data.fromPrice }}</div>
+                <div class="van-spec__text-bottom">per night</div>
+            </div>
+        </div>
+    </div>
+    <div class="text-align-right">
+        <a class="color-yellow-500" href="{{van.url}}">Learn more about {{van.data.name}} <i class="icon-chevron"></i></a>
+    </div>
+

@@ -15,6 +15,16 @@
 .grid-container--12 {
     grid-template-columns: repeat(12, 1fr);
 }
+.grid-container__item-row-1 {
+    @media (min-width: 900px) {
+        grid-row: 1 / span 1;
+    }
+}
+.grid-container__item-row-2 {
+    @media (min-width: 900px) {
+        grid-row: 2 / span 2;
+    }
+}
 .grid-container__item-span-2 {
     grid-column: 1 / span 8;
     @media (min-width: 900px) {
