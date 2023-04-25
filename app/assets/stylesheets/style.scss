@@ -347,6 +347,11 @@ main a:hover {
   font-size: 16px;
   letter-spacing: 1.25px;
 }
+.link--flex {
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+}
 
 #mc_embed_signup .container {
   grid-row-gap: 0;
