@@ -20,6 +20,9 @@ eleventyComputed:
             </h1>
             <hr class="hr hr--green-500 hr" />
              {% markdown %}{{ trip.description }}{% endmarkdown %}
+             <a href="{{trip.bookingLink}}" class="cta cta--no-margin cta--orange cta--with-icon">
+                <i class="icon-trip"></i>Book This Trip
+            </a>
         </div>
         <div class="grid-container__item-span-4">
 {% capture imgUrl %}app/assets/img/{{ trip.img }}{% endcapture %}
