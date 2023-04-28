@@ -7,6 +7,7 @@ pagination:
 permalink: "trips/{{ trip.title | slugify }}/"
 bodyClass: eve-background
 templateEngineOverride: liquid
+img: trip.img
 eleventyComputed:
     title: "{{ trip.title }} trip"
     description: "{{ trip.description }}"
