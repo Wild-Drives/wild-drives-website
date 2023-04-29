@@ -8,20 +8,19 @@ img: 'wild-drives-4.jpg'
 {% render "site-header.liquid", logo: 'site-id.svg', menu-link-color: 'green-50', cta-color: 'yellow-500' %}
 <main class="wrapper">
 <section class="hero">
-    <img src="/assets/img/bolt.svg" alt="" class="hero-image">
-    <span class="color-purple-200 super-hero-text">Brighton homegrown</span>
-    <h1 class="color-yellow-100 hero-text">Electric <br>campervan <br>hire </h1>
-    </div>
-    <hr class="hr hr--yellow-400">
-    <div class="hero-subtext">
-        <div class="hero-subtext__inner color-green-50">
-            <p>Say <em>sayonara</em> to toxic fumes. Our vans are powered by electricity.</p>
-            <p>Escape the crowds this summer with the most sustainable and nature-friendly travel experience in the world.</p>
+        <img src="/assets/img/bolt.svg" alt="" class="hero-image">
+        <span class="color-purple-200 super-hero-text">Brighton homegrown</span>
+        <h1 class="color-yellow-100 hero-text">Electric <br>campervan <br>hire </h1>
+        <hr class="hr hr--yellow-400">
+        <div class="hero-subtext">
+            <div class="hero-subtext__inner color-green-50">
+                <p>Say <em>sayonara</em> to toxic fumes. Our vans are powered by electricity.</p>
+                <p>Escape the crowds this summer with the most sustainable and nature-friendly travel experience in the world.</p>
+            </div>
         </div>
-    </div>
-    <a href="/contact" class="cta cta--with-icon margin-top-1">
-        <i class="icon-trip"></i>Book now
-    </a>
+        <a href="/contact" class="cta cta--with-icon margin-top-1">
+            <i class="icon-trip"></i>Book now
+        </a>
 </section>
 
     <div class="grid-container margin-vw-top-8 align-items-top">
@@ -40,6 +39,8 @@ img: 'wild-drives-4.jpg'
             </span>
         </div>
     </div>
+
+    {% render "annoucing-s2.liquid" %}
     
     <blockquote class="margin-vw-top-9">
         It was my first time driving a fully electric vehicle, and also my first time driving a camperized van. I was quite nervous and intimidated, but when Lewis dropped off the van he went over everything and I hit the road feeling more confident.
@@ -54,7 +55,6 @@ img: 'wild-drives-4.jpg'
         <span class="color-purple-500">Rebecca, Thomas and Boo</span>
         <span class="color-green-500 font-bitter">Sept 2023</span>
     </blockquote>
-    {% render "fully-charged.liquid" %}
     {% render "featured-in.liquid" %}
     {% render "newsletter.liquid" %}
 </main>
