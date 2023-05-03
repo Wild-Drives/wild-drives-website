@@ -59,9 +59,9 @@ Lisa Baskott founded [2nd Line of Defence](https://2ndlineofdefence.com/) which 
 
 Denis Byrne is CEO of [Sussex Prisoners' Families](https://www.sussexprisonersfamilies.org.uk/) which works in courts, prisons, and communities to help families navigate the criminal justice system. The community interest company offers advice, advocacy, information, and emotional support to those in need. Such important and impactful work!
 
-{% blogHeading2 "Re-finding my own resiliance" %}
+{% blogHeading2 "Re-finding my own resilience" %}
 
-Pioneers, reminded me why I started Wild Drives in the first place, I felt like I had found a fresh reservoir of resiliance and motivation.
+Pioneers, reminded me why I started Wild Drives in the first place, I felt like I had found a fresh reservoir of resilience and motivation.
 
 Wild Drives was never going to be an instant success in year one. I knew that going in. It's a long game and I'm firmly focused on making the steps that will get us there.
 
