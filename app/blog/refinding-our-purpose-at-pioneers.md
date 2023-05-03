@@ -1,8 +1,8 @@
 ---
 layout: layouts/blog-post.liquid
 date: 2023-05-03
-titleOne: Refinding our purpose
-titleTwo: at Pioneers
+titleOne: Refinding our purpose at
+titleTwo: Pioneers
 bodyClass: eve-background
 description: "Founder <strong>Lewis Nyman</strong> reflects on his experience on the BRITE Pioneers programme"
 img: 'pioneers.jpg'
