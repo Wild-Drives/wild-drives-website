@@ -61,7 +61,7 @@ Denis Byrne is CEO of [Sussex Prisoners' Families](https://www.sussexprisonersfa
 
 {% blogHeading2 "Re-finding my own resiliance" %}
 
-Coming out of Pioneers, which reminded me why I started this business in the first place, I felt like I had found a fresh reservoir of resiliance and motivation.
+Pioneers, reminded me why I started Wild Drives in the first place, I felt like I had found a fresh reservoir of resiliance and motivation.
 
 Wild Drives was never going to be an instant success in year one. I knew that going in. It's a long game and I'm firmly focused on making the steps that will get us there.
 
