@@ -13,9 +13,10 @@ sleeps: "4"
 range: "150"
 chargeTime: "40 minutes"
 fromPrice: "£130"
+wheelbaseAcc: "2848789"
+wheelbaseId: "301977"
 ---
-{% render "site-header.liquid", logo: 'site-id-purple.svg', menu-link-color: 'purple-600', cta-color: 'purple-800' %}
-<main class="wrapper">
+
     <div class="grid-container align-items-top">
     <div class="grid-container__item-span-3 desktop-align-right">
         <h1 class="color-purple-900">
@@ -33,11 +34,12 @@ fromPrice: "£130"
         {% Image "app/assets/img/wild-drives-5.jpg", "A group of people enjoying the van and a picnic", "image-rounded rotate-143" %}
     </div>
     </div>
-    <blockquote class="margin-vw-top-9">Eve is a fabulous campervan with added bonus of being fully electric. So much thought has gone into every bit of detail in the van itself and the entire experience. 
-        <span class="color-purple-500">Rebecca, Thomas and Boo</span>
-        <span class="color-green-500 font-bitter">Sept 2022</span>
-    </blockquote>
-    <div class="grid-container align-items-top margin-spacing-a">
+
+    <h2 class="color-purple-900 text-align-center margin-top-3">Availability</h2>
+
+    <div class="flex-container flex-center no-margin" id="availability-calendar-container"></div>
+
+    <div class="grid-container align-items-top margin-spacing-b">
     <div class="grid-container__item-span-3 grid-container">
         <div class="grid-container__item-span-7">
             <h3 class="color-purple-900">
@@ -207,6 +209,12 @@ fromPrice: "£130"
         </div>
     </div>
     </div>
+
+    <blockquote class="margin-vw-top-9">Eve is a fabulous campervan with added bonus of being fully electric. So much thought has gone into every bit of detail in the van itself and the entire experience. 
+        <span class="color-purple-500">Rebecca, Thomas and Boo</span>
+        <span class="color-green-500 font-bitter">Sept 2022</span>
+    </blockquote>
+
     <div class="container container--no-margin">
     <div>
         <div class="postcard rotate-147">
@@ -296,4 +304,3 @@ fromPrice: "£130"
             <p>Eve is kitted out with their smooth, hypoallergenic sheets, orthopaedic Bamboo Topper and thermoregulating pillows to have you drifting off for a blissful kip wherever you park up.</p>
         </div>
     </div>
-</main>
