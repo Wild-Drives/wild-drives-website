@@ -27,7 +27,7 @@ This year we're back with another first. A stunning campervan conversion of the 
 
 <a href="/our-vans/buzz/" target="_blank" class="cta cta--no-margin cta--orange">Learn more and see availability</a>
 </div>
-<div class="grid-container__item-span-4 margin-top-neg-5">
+<div class="grid-container__item-span-4 margin-top-neg-5-desktop-only">
 {% capture imgUrl %}app/assets/img/{{ img }}{% endcapture %}
 {% Image imgUrl,alt, "image-rounded rotate-074-reverse" %}
 </div>
