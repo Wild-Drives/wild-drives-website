@@ -17,7 +17,7 @@ tags: post
 
 Hello fellow adventurers! I'm Lewis, the CEO and founder of Wild Drives.     
 
-I'm excited to share some news with you all. We've recently teamed up with [Waterhaul,](https://waterhaul.co/){:target="_blank"} an amazing company that's dedicated to cleaning up our oceans and reducing plastic waste.
+I'm excited to share some news with you all. We've recently teamed up with [Waterhaul,](https://waterhaul.co/) an amazing company that's dedicated to cleaning up our oceans and reducing plastic waste.
 
 At Wild Drives, we're all about promoting sustainable travel and leaving a positive impact on the places we visit. We believe that everyone can play a part in preserving our planet and its natural wonders for future generations. That's why we've decided to partner with Waterhaul to bring their fantastic products to our customers.
 
@@ -64,7 +64,7 @@ Just one more reason to take our amazing electric campervans for a Wild Drive!
 
 Sustainability is at the heart of Wild Drives. [Read about our mission](/about/) and read about our partnership with [Panda London.](/blog/panda-london/)
 
-[Find out more about Waterhaul and their litter picking kits.](https://waterhaul.co/){:target="_blank"}
+[Find out more about Waterhaul and their litter picking kits.](https://waterhaul.co/)
 
 </div>
 <div class="grid-container__item-span-3">
