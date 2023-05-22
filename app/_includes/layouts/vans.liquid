@@ -25,8 +25,28 @@ layout: layouts/base.liquid
         }
         wheelbase.addWidget(wheelbase.widgets.DateRange, "availability-calendar-container", {
             rentalId: {{ wheelbaseId }},
-            embedded: true,
             numberOfMonths: numberOfMonths
+        });
+        wheelbase.addWidget(wheelbase.widgets.Quote, "quote-container", {
+            rentalId: {{ wheelbaseId }}, //your rental ID
+            template: {
+            error: "{{error}}",
+            noQuote: "before-quote-entered",
+            quote: function(quote) {
+                return "quote received";
+            }
+            },
+            cssClasses: {
+                root: "quote-container",
+                lineItem: "wheelbase-line-item",
+                lineItemDescription: "wheelbase-line-item-description",
+                lineItemPrice: "wheelbase-line-item-price",
+                lineTotal: "wheelbase-line-total",
+                lineSubtotal: "wheelbase-line-subtotal",
+                lineTax: "wheelbase-line-tax",
+                lineServiceFee: "wheelbase-line-service-fee",
+                error: "wheelbase-quote-error"
+            }
         });
         wheelbase.start();
     </script>
