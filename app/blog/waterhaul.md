@@ -11,7 +11,7 @@ tags: post
 
 <div class="grid-container align-items-top margin-spacing-b">
 <div class="grid-container__item-span-3">
-{% Image "app/assets/img/waterhaul-products.jpg", "A select of waterhaul products, including sunglasses, litter pickers, and knives.", "image-rounded rotate-074-reverse" %}
+{% Image "app/assets/img/buzz-04.jpeg", "Buzz the electric campervan by the beach", "image-rounded rotate-074-reverse" %}
 </div>
 <div class="grid-container__item-span-4">
 
@@ -68,6 +68,6 @@ Sustainability is at the heart of Wild Drives. [Read about our mission](/about/)
 
 </div>
 <div class="grid-container__item-span-3">
-{% Image "app/assets/img/LOVE_3.jpg", "Wild Drives founder Lewis standing on the beach next to Buzz the electric campervan", "image-rounded rotate-074" %}
+{% Image "app/assets/img/LOV_3.jpg", "Wild Drives founder Lewis standing on the beach next to Buzz the electric campervan", "image-rounded rotate-074" %}
 </div>
 </div>
