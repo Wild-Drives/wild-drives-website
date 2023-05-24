@@ -68,6 +68,6 @@ Sustainability is at the heart of Wild Drives. [Read about our mission](/about/)
 
 </div>
 <div class="grid-container__item-span-3">
-{% Image "app/assets/img/eve-lamb.jpeg", "Eve the campervan driving along a country round, in the foreground is a lamb looking at the camera", "image-rounded rotate-074" %}
+{% Image "app/assets/img/LOVE_3.jpg", "Wild Drives founder Lewis standing on the beach next to Buzz the electric campervan", "image-rounded rotate-074" %}
 </div>
 </div>
