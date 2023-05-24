@@ -67,7 +67,7 @@ return `<div class="postcard ${classes}">
 </div>`
 });
 
-eleventyConfig.addShortcode("Image", async (src, alt, classes) => {
+eleventyConfig.addShortcode("Image", async (src, alt, classes, loading = 'lazy') => {
     if (!alt) {
       throw new Error(`Missing \`alt\` on myImage from: ${src}`);
     }
@@ -95,7 +95,7 @@ eleventyConfig.addShortcode("Image", async (src, alt, classes) => {
     const source = `<source type="image/webp" srcset="${srcset["webp"]}" >`;
 
     const img = `<img
-      loading="lazy"
+      loading="${loading}"
       alt="${alt}"
       src="${lowestSrc.url}"
       sizes='(min-width: 1024px) 1024px, 100vw'
