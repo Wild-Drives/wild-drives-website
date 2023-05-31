@@ -32,6 +32,13 @@ By renting an electric campervan from Wild Drives Ltd, the hirer agrees to the f
     3. not have more than two convictions with a maximum of 3 points per conviction.
     4. have not obtained a BA,DD or UT conviction
 4. The hirer must return the electric campervan on the date and time agreed upon in the rental agreement.
+4. The hirer is liable for any cost incurred for speeding or parking fines, congestion charges or any other offences committed against the road traffic act regulations.
+5. The hirer shall not tow any trailer or vehicle behind the hired vehicle.
+6. The hirer shall not carry more passengers than the seating capacity of the vehicle, as defined in the vehicle specifications or allow the vehicle to be overloaded.
+7. The hirer shall ensure that the driver and all passengers required by law to do so shall, at all times when the vehicle is being driven wear the seat belts provided.
+8. The hirer shall not use the vehicle to carry passengers or goods for hire or reward.
+9. Shall not, without written consent from Wild Drives Ltd, remove the vehicle from the UK mainland.
+
 
 ## 3. Payment
 
