@@ -50,6 +50,8 @@ By renting an electric campervan from Wild Drives Ltd, the hirer agrees to the f
 
 1. The electric campervan is comprehensively insured for the duration of the rental period.
 2. The insurance covers the hirer and any additional drivers named on the rental agreement.
+3. An excess charge of £500 applies for drivers aged 25 and over.
+3. An excess charge of £700 applies for drivers aged 23-24.
 3. The hirer is responsible for any damage to the electric campervan caused by negligent or reckless driving.
 4. The hirer is responsible for any damage to the interior of the electric campervan caused by misuse or negligence.
 5. In the event of a claim resulting from the use of cooking/heating appliances, a 25% coinsurance excess will apply, subject to a minimum excess of £500
