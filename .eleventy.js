@@ -72,7 +72,7 @@ eleventyConfig.addShortcode("Image", async (src, alt, classes, loading = 'lazy',
     if (!alt) {
       throw new Error(`Missing \`alt\` on myImage from: ${src}`);
     }
-    
+
     let stats = await Image(src, {
       widths: [320, 640, 960, 1200, 1800, 2400],
       formats: ["jpeg", "webp"],
@@ -86,14 +86,14 @@ eleventyConfig.addShortcode("Image", async (src, alt, classes, loading = 'lazy',
       (acc, format) => ({
         ...acc,
         [format]: stats[format].reduce(
-          (_acc, curr) => `${_acc} ${curr.srcset} ,`,
+          (_acc, curr) => `${_acc} ${curr.srcset},`,
           ""
         ),
       }),
       {}
     );
 
-    const source = `<source type="image/webp" srcset="${srcset["webp"]}" >`;
+    const source = `<source type="image/webp" sizes="${sizes}" srcset="${srcset["webp"]}" >`;
 
     const img = `<img
       loading="${loading}"

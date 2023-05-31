@@ -43,9 +43,7 @@
 * 3. Make sure the dialog has an opaque background.
 */
 .dialog__title {
-    @media screen and (max-width: $desktop) {
-        padding-right: 1rem;
-    }
+    padding-right: 3rem;
 }
 .dialog-content {
     text-align: left;
