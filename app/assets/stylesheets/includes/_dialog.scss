@@ -18,7 +18,7 @@
   *    dialog.
   */
  .dialog-container {
-   z-index: 2; /* 1 */
+   z-index: 2147483648; /* 1 */
    display: flex; /* 2 */
  }
  
@@ -42,6 +42,11 @@
 * 2. Make sure the dialog sits on top of the overlay.
 * 3. Make sure the dialog has an opaque background.
 */
+.dialog__title {
+    @media screen and (max-width: $desktop) {
+        padding-right: 1rem;
+    }
+}
 .dialog-content {
     text-align: left;
     margin: auto; /* 1 */
@@ -58,15 +63,16 @@
     overflow: hidden;
     right: 10px;
     top: 10px;
-    height: 44px;
-    width: 44px;
-    font-size: 30px;
+    font-size: 2.5rem;
+    height: 1.5em;
+    width: 1.5em;
     background: var(--green-700);
     color: var(--yellow-100);
     border-radius: 100%;
     border: 0;
     cursor: pointer;
     @media screen and (min-width: $desktop) {
+        font-size: 3rem;
         top: -20px;
         right: -20px;
 

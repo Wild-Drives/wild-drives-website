@@ -16,7 +16,7 @@
       &times;
     </button>
     <!-- 5. The dialog title -->
-    <h2 class="h3 color-purple-900" id="van-modal-title-id">Which <span class="color-purple-500">electric</span> camper do you want to hire?</h2>
+    <h2 class="h3 color-purple-900  dialog__title" id="van-modal-title-id">Which <span class="color-purple-500">electric</span> camper do you want to hire?</h2>
     <ul class="list-reset margin-top-05 margin-top-1-desktop-only container-33-33-33 align-items-top booking-modal-options">
     {%- for van in collections.vans -%}
     {% capture bookingUrl %}/our-vans/{{ van.data.name | slugify }}/book{% endcapture %}
@@ -26,7 +26,7 @@
     {% assign vanImg = "app/assets/img/LOV_26.jpg" %}
     {% endif %}
     <li><a class="booking-modal-options__option" href="{{bookingUrl}}">
-    {% Image vanImg, "A campervan in the woods", "booking-modal-options__image" %}
+    {% Image vanImg, "A campervan in the woods", "booking-modal-options__image", "lazy", "320px" %}
     <div>
     <div class="h5 margin-top-05-desktop-only">Book {{van.data.name}}</div>
     <small>Sleeps {{van.data.sleeps}}</small>

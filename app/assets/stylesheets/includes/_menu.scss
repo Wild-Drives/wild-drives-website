@@ -125,10 +125,11 @@
       background-color: #222;
       display: block;
     }
-    .menu > li a {
+    .menu__link {
       color: var(--yellow-50)!important;
       display: block;
       text-align: center;
+      width: 100%;
     }
     .menu > li:not(:last-child) {
       border-bottom: 1px solid #444;
