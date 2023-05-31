@@ -34,6 +34,7 @@ type: website
         <script defer src="/assets/js/jquery.js"></script>
         <script defer src="/assets/js/lite-yt-embed.js"></script>
         <script defer src="/assets/js/collapsible.js"></script>
+        <script defer src="/assets/js/a11y-dialog.js"></script>
 
         <link rel="manifest" href="/json/manifest.webmanifest">
         <link rel="icon" href="/favicon.ico" sizes="any">
@@ -78,6 +79,8 @@ type: website
         {{ content }}
         
         {% render 'site-footer.liquid' %}
+
+        {% include 'booking-modal' %}
 
         <!-- Start of HubSpot Embed Code -->
             <script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/139575796.js"></script>

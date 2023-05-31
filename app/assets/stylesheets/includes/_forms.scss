@@ -6,6 +6,13 @@ label,
     cursor: pointer;
 }
 
+button {
+    border: 0;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+}
+
 input[type="text"],
 input[type="email"],
 textarea,

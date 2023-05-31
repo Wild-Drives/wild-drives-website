@@ -25,6 +25,9 @@
     margin: 0 !important;
   }
   
+  .margin-top-05 {
+    margin-top: 0.5rem!important;
+  }
   .margin-top-1 {
     margin-top: 1rem!important;
   }
@@ -63,4 +66,37 @@
   }
   .margin-bottom-2 {
     margin-bottom: 2rem!important;
+  }
+
+  @media screen and (min-width: $desktop) {
+    .margin-top-05-desktop-only {
+        margin-top: 0.5rem!important;
+      }
+      .margin-top-1-desktop-only {
+        margin-top: 1rem!important;
+      }
+      .margin-top-2-desktop-only {
+        margin-top: 2rem!important;
+    }
+      .margin-top-3-desktop-only {
+        margin-top: 3rem!important;
+      }
+      .margin-top-neg-1-desktop-only {
+        margin-top: -1rem!important;
+      }
+      .margin-top-neg-2-desktop-only {
+        margin-top: -2rem!important;
+      }
+      .margin-top-neg-3-desktop-only {
+        margin-top: -3rem!important;
+      }
+      .margin-top-neg-4-desktop-only {
+        margin-top: -4rem!important;
+      }
+      .margin-top-neg-5-desktop-only {
+        margin-top: -5rem!important;
+      }
+      .margin-top-neg-6-desktop-only {
+          margin-top: -6rem!important;
+        }  
   }

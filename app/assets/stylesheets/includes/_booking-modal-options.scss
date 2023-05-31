@@ -1,0 +1,29 @@
+.booking-modal-options__option {
+    display: block;
+    border-radius: 1rem;
+    color: var(--orange-500);
+    text-decoration: none;
+    padding: 1rem;
+    &:hover {
+        background-color: var(--yellow-200);
+    }
+}
+
+
+.booking-modal-options__image {
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+@media screen and (max-width: $tablet) {
+    .booking-modal-options__option {
+        display: flex;
+        gap: 15px;
+        padding: 0;
+        align-items: center;
+    }
+    .booking-modal-options__image {
+        flex-basis: 150px;
+        flex-shrink: 0;
+    }
+}

@@ -1,0 +1,45 @@
+{% if van %}
+{% capture bookingUrl %}/our-vans/{{ van | slugify }}/book{% endcapture %}
+{% else %}
+{% assign bookingUrl = "/our-vans/book/" %}
+{% endif %}
+
+{% if van == "eve" %}
+{% assign vanImg = "app/assets/img/eve-01.jpg" %}
+{% else %}
+{% assign vanImg = "app/assets/img/LOV_26.jpg" %}
+{% endif %}
+
+  <!-- 1. The dialog container -->
+<div
+  data-a11y-dialog="{{prefix}}booking-modal"
+  id="{{prefix}}booking-modal"
+  aria-labelledby="{{prefix}}booking-modal-title-id"
+  aria-hidden="true"
+  class="dialog-container"
+>
+  <!-- 2. The dialog overlay -->
+  <div class="dialog-overlay" data-a11y-dialog-hide></div>
+  <!-- 3. The actual dialog -->
+  <div class="dialog-content" role="document">
+    <!-- 4. The close button -->
+    <button class="dialog-close" type="button" data-a11y-dialog-hide aria-label="Close dialog">
+      &times;
+    </button>
+    <!-- 5. The dialog title -->
+    <h2 class="h3 color-purple-900" id="{{prefix}}booking-modal-title-id">What <span class="color-purple-500">adventure</span> are you looking for?</h2>
+    <ul class="list-reset margin-top-05 margin-top-2-desktop-only container-33-33-33 align-items-top booking-modal-options">
+    <li><a class="booking-modal-options__option" href="{{bookingUrl}}">
+    {% Image vanImg, "A campervan in the woods", "booking-modal-options__image" %}
+    <div class="h5 margin-top-05">Just the van</div>
+    </a></li>
+    <li><a class="booking-modal-options__option" href="/trips">
+    {% Image "app/assets/img/anna-23.jpg", "Inside the van at sunrise, with a kettle", "booking-modal-options__image" %}
+    <div class="h5 margin-top-05">Pre-planned trip</div>
+    </a></li>
+    <li><a class="booking-modal-options__option" target="_blank" href="https://kp2o4rlm9fh.typeform.com/to/hQRwTBdi">
+    {% Image "app/assets/img/route-planning.jpg", "A group planning a road trip", "booking-modal-options__image" %}
+    <div class="h5 margin-top-05">Design a bespoke aventure</div>
+    </a></li>
+  </div>
+</div>
