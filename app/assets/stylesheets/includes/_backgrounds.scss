@@ -1,9 +1,9 @@
 
 .homepage-background {
     background-image: url("/assets/img/green-blob.svg"), url("/assets/img/purple-blob.svg");
-    background-size: clamp(850px, 77vw, 1380px), clamp(400px, 45vw, 1000px);
+    background-size: clamp(850px, 77vw, 1280px), clamp(400px, 50vw, 1200px);
     background-repeat: no-repeat;
-    background-position: top left, top right;
+    background-position: top -5vw left, top -5vw right;
 }
 
 .eve-background {

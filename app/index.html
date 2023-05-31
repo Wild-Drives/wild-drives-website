@@ -18,14 +18,12 @@ img: 'wild-drives-4.jpg'
                 <p>Escape the crowds this summer with the most sustainable and nature-friendly travel experience in the world.</p>
             </div>
         </div>
-        <a href="https://kp2o4rlm9fh.typeform.com/to/sW55IpW8" target="_blank" class="cta cta--with-icon margin-top-1">
-            <i class="icon-trip"></i>Book now
-        </a>
+        {% render 'booking-button', classes: "margin-top-1" %}
 </section>
 
     <div class="grid-container margin-vw-top-8 align-items-top">
         <div class="grid-container__item-span-5">
-            {% Image "app/assets/img/buzz-01.jpeg", "Our ID Buzz van driving through green fields", "rotate-22-reverse image-rounded image-offset-left" %}
+            {% Image "app/assets/img/buzz-01.jpeg", "Our ID Buzz van driving through green fields", "image-rounded image-offset-left" %}
         </div>
         <div class="grid-container__item-span-3">
             <h2 class="color-purple-900">Meet <span class="color-purple-600 headline-bold">Buzz,</span><br>

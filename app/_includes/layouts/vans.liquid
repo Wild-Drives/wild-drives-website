@@ -6,28 +6,3 @@ layout: layouts/base.liquid
 <main class="wrapper">
 {{ content }}
 </main>
-
-{% block pageBottom %}
-    <link rel="stylesheet" href="/assets/stylesheets/wheelbase.css">
-    <script type="text/javascript" src="https://d3cuf6g1arkgx6.cloudfront.net/sdk/1-5/wheelbase-widget.min.js"></script>
-    <script>
-        var wheelbase = Wheelbase({
-            accountId: {{ wheelbaseAcc }},
-            urlParams: true,
-            currency: 'GBP'
-        });
-        let numberOfMonths = 3;
-        if (window.screen.width <= 660) {
-            numberOfMonths = 1;
-        }
-        else if (window.screen.width <= 940) {
-            numberOfMonths = 2;
-        }
-        wheelbase.addWidget(wheelbase.widgets.DateRange, "availability-calendar-container", {
-            rentalId: {{ wheelbaseId }},
-            embedded: true,
-            numberOfMonths: numberOfMonths
-        });
-        wheelbase.start();
-    </script>
-{% endblock %}
