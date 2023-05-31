@@ -16,8 +16,8 @@ eleventyComputed:
 {% render "site-header-no-menu.liquid", logo: 'site-id-purple.svg' %}
 <main class="wrapper margin-spacing-a">
     <h1 class="color-purple-900">
-        Book
-        <span class="color-purple-700">{{ van.data.name }}</span>
+        Book 
+        <span class="color-purple-700">{{ van.data.name}}</span>
     </h1>
     <hr class="hr hr--green-500 hr--margin-small hr--right">
     <script type="text/javascript">
@@ -26,7 +26,6 @@ eleventyComputed:
         (function() {
           var script = document.createElement("script");
           script.src = "https://d3cuf6g1arkgx6.cloudfront.net/sdk/wheelbase.min.js";
-          script.async = true;
           var entry = document.getElementsByTagName("script")[0];
           entry.parentNode.insertBefore(script, entry);
         })();
