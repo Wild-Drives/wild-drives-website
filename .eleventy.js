@@ -14,7 +14,8 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("app/_headers");
     eleventyConfig.addPassthroughCopy({
         "node_modules/lite-youtube-embed/src/lite-yt-embed.js": "assets/js/lite-yt-embed.js",
-        "node_modules/jquery/dist/jquery.slim.js": "assets/js/jquery.js"
+        "node_modules/jquery/dist/jquery.slim.js": "assets/js/jquery.js",
+        "node_modules/a11y-dialog/dist/a11y-dialog.min.js": "assets/js/a11y-dialog.js"
     });
     eleventyConfig.addPlugin(sass, {
         sass: {
@@ -67,13 +68,13 @@ return `<div class="postcard ${classes}">
 </div>`
 });
 
-eleventyConfig.addShortcode("Image", async (src, alt, classes, loading = 'lazy') => {
+eleventyConfig.addShortcode("Image", async (src, alt, classes, loading = 'lazy', sizes = "(max-width: 320px) 320px, (max-width: 640px) 640px, (max-width: 960px) 960px, (max-width: 1200px) 1200px, (max-width: 1800px) 1800px, (max-width: 2400px) 2400px, 100vw") => {
     if (!alt) {
       throw new Error(`Missing \`alt\` on myImage from: ${src}`);
     }
 
     let stats = await Image(src, {
-      widths: [25, 320, 640, 960, 1200, 1800, 2400],
+      widths: [320, 640, 960, 1200, 1800, 2400],
       formats: ["jpeg", "webp"],
       urlPath: "/assets/img/",
       outputDir: "./_site/assets/img/",
@@ -85,20 +86,20 @@ eleventyConfig.addShortcode("Image", async (src, alt, classes, loading = 'lazy')
       (acc, format) => ({
         ...acc,
         [format]: stats[format].reduce(
-          (_acc, curr) => `${_acc} ${curr.srcset} ,`,
+          (_acc, curr) => `${_acc} ${curr.srcset},`,
           ""
         ),
       }),
       {}
     );
 
-    const source = `<source type="image/webp" srcset="${srcset["webp"]}" >`;
+    const source = `<source type="image/webp" sizes="${sizes}" srcset="${srcset["webp"]}" >`;
 
     const img = `<img
       loading="${loading}"
       alt="${alt}"
       src="${lowestSrc.url}"
-      sizes='(min-width: 1024px) 1024px, 100vw'
+      sizes="${sizes}"
       srcset="${srcset["jpeg"]}"
       width="${lowestSrc.width}"
       height="${lowestSrc.height}">`;

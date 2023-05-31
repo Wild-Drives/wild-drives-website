@@ -8,3 +8,7 @@
   for = "/assets/*"
   [headers.values]
     Access-Control-Allow-Origin = "*"
+
+[[redirects]]
+  from = "/campervan-eve/index.html"
+  to = "/our-vans/eve/index.html"

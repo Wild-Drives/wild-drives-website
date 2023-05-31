@@ -1,7 +1,6 @@
 ---
 layout: layouts/vans.liquid
 tags: ['vans', 'eve']
-permalink: "/campervan-eve/index.html"
 title: Meet Eve our electric campervan
 titleOne: Meet Eve
 date: 2022-06-01
@@ -28,16 +27,12 @@ wheelbaseId: "301977"
         Eve is based on a 2021 Citreon E-Dispatch. With a pop-top roof she sleeps four. She's perfect for a sustainable summer getaway
         </p>
         <p><strong>Available from £130 a night</strong></p>
-        <a href="https://kp2o4rlm9fh.typeform.com/to/sW55IpW8#campervan=eve" target="_blank" class="cta cta--no-margin cta--orange cta--right-desktop-only">Request a booking</a>
+        {% render 'booking-button', van: "eve", classes: "cta--right-desktop-only" %}
     </div>
     <div class="grid-container__item-span-5">
         {% Image "app/assets/img/wild-drives-5.jpg", "A group of people enjoying the van and a picnic", "image-rounded rotate-143" %}
     </div>
     </div>
-
-    <h2 class="color-purple-900 text-align-center margin-top-3">Availability</h2>
-
-    <div class="flex-container flex-center no-margin" id="availability-calendar-container"></div>
 
     <div class="grid-container align-items-top margin-spacing-b">
     <div class="grid-container__item-span-3 grid-container">

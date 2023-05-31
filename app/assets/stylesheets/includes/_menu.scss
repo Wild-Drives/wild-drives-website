@@ -8,7 +8,7 @@
     z-index: 2;
   }
   
-  .menu > li > a > i {
+  .menu__link > i {
     vertical-align: sub;
     text-decoration: none;
     padding-right: 0.25em;
@@ -19,7 +19,7 @@
     overflow: hidden;
   }
   
-  .menu > li > a {
+  .menu__link {
     font-family: "Recoleta-Black", serif;
     font-size: 1.14em;
     text-decoration: none;
@@ -27,14 +27,15 @@
     padding: 0;
     line-height: 2.5em;
     text-transform: none;
+    cursor: pointer;
   }
   
-  .menu > li > a:hover {
+  .menu__link:hover {
     text-decoration: 2px underline;
     text-underline-offset: 2px;
   }
   
-  .menu > li > a:active {
+  .menu__link:active {
     text-decoration: underline 2px dotted;
   }
   
@@ -124,10 +125,11 @@
       background-color: #222;
       display: block;
     }
-    .menu > li a {
+    .menu__link {
       color: var(--yellow-50)!important;
       display: block;
       text-align: center;
+      width: 100%;
     }
     .menu > li:not(:last-child) {
       border-bottom: 1px solid #444;

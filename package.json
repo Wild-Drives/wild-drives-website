@@ -19,6 +19,7 @@
   "homepage": "https://github.com/lewisnyman/wild-drives-website#readme",
   "dependencies": {
     "@11ty/eleventy-img": "^2.0.1",
+    "a11y-dialog": "^7.5.2",
     "eleventy-sass": "^2.2.1",
     "jquery": "^3.6.4",
     "lite-youtube-embed": "^0.2.0",

@@ -1,0 +1,36 @@
+---
+layout: layouts/base.liquid
+pagination:
+    data: collections.vans
+    size: 1
+    alias: van
+permalink: "/our-vans/{{ van.data.name | slugify }}/book/"
+bodyClass: range-background
+templateEngineOverride: liquid
+img: van.img
+eleventyComputed:
+    title: "Book {{ van.data.name }} our electric campervan"
+    description: "View available dates and book {{ van.data.name }} instantly "
+---
+
+{% render "site-header-no-menu.liquid", logo: 'site-id-purple.svg' %}
+<main class="wrapper margin-spacing-a">
+    <h1 class="color-purple-900">
+        Book 
+        <span class="color-purple-700">{{ van.data.name}}</span>
+    </h1>
+    <hr class="hr hr--green-500 hr--margin-small hr--right">
+    <script type="text/javascript">
+        var Outdoorsy = Outdoorsy || {};
+        Outdoorsy.color = "583f72";
+        (function() {
+          var script = document.createElement("script");
+          script.src = "https://d3cuf6g1arkgx6.cloudfront.net/sdk/wheelbase.min.js";
+          var entry = document.getElementsByTagName("script")[0];
+          entry.parentNode.insertBefore(script, entry);
+        })();
+    </script>
+    
+    <div id="outdoorsy-book-now-container" data-rental="{{van.data.wheelbaseId}}" data-color="583f72"></div>
+</main>
+
