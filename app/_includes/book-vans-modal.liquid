@@ -1,0 +1,33 @@
+
+  <!-- 1. The dialog container -->
+<div
+  data-a11y-dialog="book-eve"
+  id="book-eve"
+  aria-labelledby="book-eve-title-id"
+  aria-hidden="true"
+  class="dialog-container"
+>
+  <!-- 2. The dialog overlay -->
+  <div class="dialog-overlay" data-a11y-dialog-hide></div>
+  <!-- 3. The actual dialog -->
+  <div class="dialog-content" role="document">
+    <!-- 4. The close button -->
+    <button class="dialog-close" type="button" data-a11y-dialog-hide aria-label="Close dialog">
+      &times;
+    </button>
+    <!-- 5. The dialog title -->
+    <h2 class="h3 color-purple-900  dialog__title" id="book-eve-title-id">Which <span class="color-purple-500">electric</span> camper do you want to hire?</h2>
+    <script type="text/javascript">
+        var Outdoorsy = Outdoorsy || {};
+        Outdoorsy.color = "583f72";
+        (function() {
+          var script = document.createElement("script");
+          script.src = "https://d3cuf6g1arkgx6.cloudfront.net/sdk/wheelbase.min.js";
+          var entry = document.getElementsByTagName("script")[0];
+          entry.parentNode.insertBefore(script, entry);
+        })();
+    </script>
+    
+    <div id="outdoorsy-book-now-container" data-rental="{{van.data.wheelbaseId}}" data-color="583f72"></div>
+  </div>
+</div>
