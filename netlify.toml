@@ -10,5 +10,5 @@
     Access-Control-Allow-Origin = "*"
 
 [[redirects]]
-  from = "/campervan-eve/index.html"
-  to = "/our-vans/eve/index.html"
+  from = "/campervan-eve"
+  to = "/our-vans/eve"
