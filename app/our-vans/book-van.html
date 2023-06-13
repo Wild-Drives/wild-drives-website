@@ -20,17 +20,21 @@ eleventyComputed:
         <span class="color-purple-700">{{ van.data.name}}</span>
     </h1>
     <hr class="hr hr--green-500 hr--margin-small hr--right">
-    <script type="text/javascript">
-        var Outdoorsy = Outdoorsy || {};
-        Outdoorsy.color = "583f72";
-        (function() {
-          var script = document.createElement("script");
-          script.src = "https://d3cuf6g1arkgx6.cloudfront.net/sdk/wheelbase.min.js";
-          var entry = document.getElementsByTagName("script")[0];
-          entry.parentNode.insertBefore(script, entry);
-        })();
-    </script>
+
+<script src="/assets/js/iframe-resizer.js"></script>
+<iframe src="https://checkout.wheelbasepro.com/reserve/{{van.data.wheelbaseId}}?color=583f72" width="100%" id="iFrameResizer0" scrolling="no" style="border: none; width: 1px; min-width: 100%;"></iframe>
+<script type="text/javascript">
+    // var Outdoorsy = Outdoorsy || {};
+    // Outdoorsy.color = "583f72";
+    // (function() {
+    //   var script = document.createElement("script");
+    //   script.src = "https://d3cuf6g1arkgx6.cloudfront.net/sdk/wheelbase.min.js";
+    //   var entry = document.getElementsByTagName("script")[0];
+    //   entry.parentNode.insertBefore(script, entry);
+    // })();
+    iFrameResize({ log: true }, '#iFrameResizer0')
+</script>
     
-    <div id="outdoorsy-book-now-container" data-rental="{{van.data.wheelbaseId}}" data-color="583f72"></div>
+    <!-- <div id="outdoorsy-book-now-container" data-rental="{{van.data.wheelbaseId}}" data-color="583f72"></div> -->
 </main>
 
