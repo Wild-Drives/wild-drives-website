@@ -41,6 +41,10 @@ type: website
         <link rel="icon" href="/favicon.svg" type="image/svg+xml">
         <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
+        {%- for van in collections.vans -%}
+        <link rel="prefetch" href="https://checkout.wheelbasepro.com/reserve/{{van.data.wheelbaseId}}?color=583f72" />
+        {%- endfor -%}
+
         <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y6D6NPR50K"></script>
         <script>
