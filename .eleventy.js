@@ -15,7 +15,8 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy({
         "node_modules/lite-youtube-embed/src/lite-yt-embed.js": "assets/js/lite-yt-embed.js",
         "node_modules/jquery/dist/jquery.slim.js": "assets/js/jquery.js",
-        "node_modules/a11y-dialog/dist/a11y-dialog.min.js": "assets/js/a11y-dialog.js"
+        "node_modules/a11y-dialog/dist/a11y-dialog.min.js": "assets/js/a11y-dialog.js",
+        "node_modules/iframe-resizer/js/iframeResizer.min.js": "assets/js/iframe-resizer.js"
     });
     eleventyConfig.addPlugin(sass, {
         sass: {
