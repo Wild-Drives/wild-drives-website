@@ -21,6 +21,7 @@
     "@11ty/eleventy-img": "^2.0.1",
     "a11y-dialog": "^7.5.2",
     "eleventy-sass": "^2.2.1",
+    "iframe-resizer": "^4.3.6",
     "jquery": "^3.6.4",
     "lite-youtube-embed": "^0.2.0",
     "markdown-it-anchor": "^8.6.5",
