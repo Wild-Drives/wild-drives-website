@@ -85,4 +85,3 @@ What Car? named the ID Buzz as Best Large Electric Car of the year… and declar
 
 {% render "follow-journey.liquid" %}
 </main>
-    
