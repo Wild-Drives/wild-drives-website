@@ -1,8 +1,10 @@
+require('dotenv').config();
 const Image = require("@11ty/eleventy-img");
 const sass = require("eleventy-sass");
 const postcss = require("postcss");
 const autoprefixer = require("autoprefixer");
 const markdownIt = require("markdown-it");
+const embedCloudinary = require('eleventy-plugin-embed-cloudinary');
 
 module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("app/assets/fonts");
@@ -68,6 +70,12 @@ return `<div class="postcard ${classes}">
     </div>
 </div>`
 });
+
+eleventyConfig.addPlugin(embedCloudinary, {
+    apiKey: process.env.CLOUDINARY_API_KEY,
+    apiSecret: process.env.CLOUDINARY_API_SECRET,
+    cloudName: process.env.CLOUDINARY_CLOUD_NAME
+  });
 
 eleventyConfig.addShortcode("Image", async (src, alt, classes, loading = 'lazy', sizes = "(max-width: 320px) 320px, (max-width: 640px) 640px, (max-width: 960px) 960px, (max-width: 1200px) 1200px, (max-width: 1800px) 1800px, (max-width: 2400px) 2400px, 100vw") => {
     if (!alt) {

@@ -20,6 +20,7 @@
   "dependencies": {
     "@11ty/eleventy-img": "^2.0.1",
     "a11y-dialog": "^7.5.2",
+    "dotenv": "^16.1.4",
     "eleventy-sass": "^2.2.1",
     "iframe-resizer": "^4.3.6",
     "jquery": "^3.6.4",
@@ -30,6 +31,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
     "autoprefixer": "^10.4.13",
+    "eleventy-plugin-embed-cloudinary": "^1.0.2",
     "nodemon": "^2.0.19",
     "postcss": "^8.4.21"
   }
