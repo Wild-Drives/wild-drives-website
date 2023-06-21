@@ -51,7 +51,7 @@ Both Wild Drives and Panda London are committed to reducing our impact on the en
 
 Panda London’s bamboo is grown in specially designated, sustainable forests. The Forest Stewardship Council monitors the farming process so that new bamboo shoots can grow and the forest can quickly be replenished.
 
-All Wild Drives campervans conversions by [Love Campers](https://www.lovecampers.co.uk/) use sustainable materials. All wood is FSC certified. The vans include a solar panel for electricity. Natural Fibre insulation is used in the vans, using sheep's wool or hemp. And we have beautiful bamboo surfaces!
+All Wild Drives campervans conversions use sustainable materials. All wood is FSC certified. The vans include a solar panel for electricity. Natural Fibre insulation is used in the vans, using sheep's wool or hemp. And we have beautiful bamboo surfaces!
 
 By hiring a Wild Drives campervan, you’re supporting more sustainable practices in so many ways.
 
