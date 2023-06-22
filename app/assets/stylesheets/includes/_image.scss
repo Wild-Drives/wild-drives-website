@@ -14,3 +14,7 @@ img {
     position: relative;
     left: -20px;
 }
+
+a:hover img {
+    opacity: 0.8;
+}
