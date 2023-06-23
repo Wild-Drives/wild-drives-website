@@ -1,4 +1,4 @@
-{% if van %}
+{% if van == "eve" or van == "buzz" %}
 {% capture bookingElement %}<a class="booking-modal-options__option" href="/our-vans/{{ van | slugify }}/book">{% endcapture %}
 {% assign closeBookingElement = "</a>" %}
 {% else %}
