@@ -10,11 +10,15 @@ excludeFromCollections: true
 
 <main class="wrapper">
     <div class="grid-container grid-container--12 align-items-top">
-        <div class="grid-container__item-span-8 grid-container__item-row-1">
+        <div class="grid-container__item-span-8">
             <h1 class="color-purple-900 hero-text">Our <span class="color-purple-700">electric</span><br>
                 campervans
             </h1>
             <hr class="hr hr--green-500 hr--margin-small">
+            <h4>All our campervans are available to collect from sunny Brighton, Sussex. Jump in one of our vans and go find that horizon!</h4>
+        </div>
+        <div class="grid-container__item-span-4 grid-container__item-start-7">
+            {% Image "app/assets/img/LOV_26.jpg", "Our new VW ID Buzz campervan in a forest", "image-rounded mask-3" %}
         </div>
     </div>
 
@@ -22,7 +26,7 @@ excludeFromCollections: true
         <div class="grid-container__item-span-4">
             {%- for van in collections.buzz -%}
             <a href="{{van.url}}">
-                {% Image "app/assets/img/LOV_26.jpg", "Our new VW ID Buzz campervan in a forest", "image-rounded" %}
+                {% Image "app/assets/img/LOV_28.jpg", "A read view shot of our ID Buzz van in the woods. You can see the interior.", "image-rounded" %}
             </a>
                 <div class="pop-out pop-out--dark rotate-262  margin-top-neg-1">
                     <div class="rotate-262-reverse">
