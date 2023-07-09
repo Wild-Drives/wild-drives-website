@@ -1,8 +1,8 @@
 {% if van == "eve" or van == "buzz" %}
-{% capture bookingElement %}<a class="booking-modal-options__option" href="/our-vans/{{ van | slugify }}/book">{% endcapture %}
+{% capture bookingElement %}<a class="booking-modal-options__option plausible-event-name=Modal+Van+{{ van | slugify }}+Click" href="/our-vans/{{ van | slugify }}/book">{% endcapture %}
 {% assign closeBookingElement = "</a>" %}
 {% else %}
-{% capture bookingElement %}<button class="booking-modal-options__option" type="button" data-a11y-dialog-show="van-modal">{% endcapture %}
+{% capture bookingElement %}<button class="booking-modal-options__option plausible-event-name=Modal+Vans+Click" type="button" data-a11y-dialog-show="van-modal">{% endcapture %}
 {% assign closeBookingElement = "</button>" %}
 {% endif %}
 
@@ -37,7 +37,7 @@
     <div class="h5 margin-top-05">Just the van</div>
     {{ closeBookingElement }}
     </li>
-    <li><a class="booking-modal-options__option" href="/trips">
+    <li><a class="booking-modal-options__option plausible-event-name=Modal+Trips+Click"" href="/trips">
     {% Image "app/assets/img/anna-23.jpg", "Inside the van at sunrise, with a kettle", "booking-modal-options__image", "lazy", "(min-width: 900px) 220px, 150px" %}
     <div class="h5 margin-top-05">Pre-planned trip</div>
     </a></li>

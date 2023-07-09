@@ -25,7 +25,7 @@
     {% else %}
     {% assign vanImg = "app/assets/img/LOV_26.jpg" %}
     {% endif %}
-    <li><a class="booking-modal-options__option" href="{{bookingUrl}}">
+    <li><a class="booking-modal-options__option plausible-event-name=Modal+Van+{{ van.data.name | slugify }}+Click" href="{{bookingUrl}}">
     {% Image vanImg, "A campervan in the woods", "booking-modal-options__image", "lazy", "320px" %}
     <div>
     <div class="h5 margin-top-05-desktop-only">Book {{van.data.name}}</div>
