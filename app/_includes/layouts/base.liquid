@@ -34,16 +34,11 @@ type: website
         <script defer src="/assets/js/jquery.js"></script>
         <script defer src="/assets/js/lite-yt-embed.js"></script>
         <script defer src="/assets/js/collapsible.js"></script>
-        <script defer src="/assets/js/a11y-dialog.js"></script>
 
         <link rel="manifest" href="/json/manifest.webmanifest">
         <link rel="icon" href="/favicon.ico" sizes="any">
         <link rel="icon" href="/favicon.svg" type="image/svg+xml">
         <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-
-        {%- for van in collections.vans -%}
-        <link rel="prefetch" href="https://checkout.wheelbasepro.com/reserve/{{van.data.wheelbaseId}}?color=583f72" />
-        {%- endfor -%}
 
         <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y6D6NPR50K"></script>
@@ -97,8 +92,6 @@ type: website
         {{ content }}
         
         {% render 'site-footer.liquid' %}
-
-        {% include 'booking-modal' %}
 
         <!-- Start of HubSpot Embed Code -->
             <script type="text/javascript" id="hs-script-loader" async defer src="https://js-eu1.hs-scripts.com/139575796.js"></script>
