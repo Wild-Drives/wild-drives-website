@@ -14,5 +14,13 @@
   to = "/our-vans/eve"
 
 [[redirects]]
+  from = "/our-vans"
+  to = "/electric-campervans"
+
+[[redirects]]
+  from = "/our-vans/*"
+  to = "/electric-campervans/:splat"
+
+[[redirects]]
   from = "/million-pound-homes"
   to = "/blog/million-pound-motorhomes"
