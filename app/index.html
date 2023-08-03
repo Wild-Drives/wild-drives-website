@@ -15,42 +15,58 @@ img: 'wild-drives-4.jpg'
         <hr class="hr hr--yellow-400">
         <div class="hero-subtext">
             <div class="hero-subtext__inner color-green-50">
-                <p>Say <em>sayonara</em> to toxic fumes. Our vans are powered by electricity.</p>
-                <p>Escape the crowds this summer with the most sustainable and nature-friendly travel experience in the world.</p>
+                <p>Say soon long to toxic fumes. Our vans are powered by electricity.</p>
+                <p>Escape the crowds this summer with quietest, smoothest, and greenest adventure in the world.</p>
             </div>
         </div>
         {% render 'booking-button', classes: "margin-top-1" %}
 </section>
 
-    <div class="grid-container margin-vw-top-8 align-items-top">
-        <div class="grid-container__item-span-5">
-            {% Image "app/assets/img/buzz-01.jpeg", "Our ID Buzz van driving through green fields", "image-rounded image-offset-left" %}
-        </div>
-        <div class="grid-container__item-span-3">
-            <h2 class="color-purple-900">Meet <span class="color-purple-600 headline-bold">Buzz,</span><br>
-                available to hire this summer
-            </h2>
-            <hr class="hr hr--yellow-500 hr">
-            <p>With a two tone colour scheme you won't find anywhere else and a stunning sustainable conversion, we can't tell if this is a campervan or a work of art.</p>
-            <p>Based on the award-winning <strong>VW ID Buzz,</strong> she has a range of 200 miles and a charging speed of 5-80% in 30 minutes.</p>
-            <span>
-                <a href="/our-vans" class="link link--flex"><i class="icon-charge color-orange-400"></i> learn more about our electric campervans<i class="icon-chevron color-orange-400"></i></a>
-            </span>
-        </div>
+<div class="grid-container grid-container-mobile align-items-top margin-spacing-b">
+    <div class="grid-container__item-span-4">
+        {%- for van in collections.buzz -%}
+        <a href="{{van.url}}">
+            {% Image "app/assets/img/LOV_28.jpg", "A read view shot of our ID Buzz van in the woods. You can see the interior.", "image-rounded" %}
+        </a>
+            <div class="pop-out pop-out--dark rotate-262  margin-top-neg-1">
+                <div class="rotate-262-reverse">
+                    {% render "van-listing.liquid", van: van, icon-color: 'purple-400', color: 'purple' %}
+                </div>
+            </div>
+        {%- endfor -%}
     </div>
-    <blockquote class="margin-vw-top-9">
-        It was my first time driving a fully electric vehicle, and also my first time driving a camperized van. I was quite nervous and intimidated, but when Lewis dropped off the van he went over everything and I hit the road feeling more confident.
-        <span class="color-purple-500">Julia</span>
-        <span class="color-green-500 font-bitter">March 2023</span>
-    </blockquote>
+    <div class="grid-container__item-span-4">  
+        {%- for van in collections.eve -%}
+        <a href="{{van.url}}">
+            {% Image "app/assets/img/eve-picnic-01.jpg", "Our electric campervan Eve", "image-rounded" %}
+        </a>
+            <div class="pop-out rotate-262-reverse  margin-top-neg-1">
+                <div class="rotate-262">
+                    {% render "van-listing.liquid", van: van, icon-color: 'green-400', color: 'green' %}
+                </div>
+            </div>
+        {%- endfor -%}
+    </div>
     
-    {% render "annoucing-s2.liquid" %}
     
-    <blockquote class="margin-vw-top-9">
-        Eve is a fabulous campervan with added bonus of being fully electric. So much thought has gone into every bit of detail in the van itself and the entire experience. We spent 6 wonderful nights travelling around Suffolk and Norfolk and Eve didn’t fail to impress us along the way.
-        <span class="color-purple-500">Rebecca, Thomas and Boo</span>
-        <span class="color-green-500 font-bitter">Sept 2023</span>
-    </blockquote>
-    {% render "featured-in.liquid" %}
+</div>
+
+<div class="grid-container align-items-top margin-spacing-a">
+
+    <div class="grid-container__item-span-6">
+        <p class="h4 margin-bottom-1"> All our campervans are available to collect from sunny Brighton, Sussex. Jump in one of our vans and go find that horizon!</p>
+        <p class="h4 margin-bottom-1">They feature luxurious and sustainable interiors, with everything you need for a cracking adventure, including a toilet, and induction hob.</p>
+    </div>
+    <div class="grid-container__item-span-2">
+        {% include 'booking-button' %}
+    </div>
+</div>
+
+{% render "featured-in.liquid" %}
+<blockquote class="margin-vw-top-9">
+    Eve is a fabulous campervan with added bonus of being fully electric. So much thought has gone into every bit of detail in the van itself and the entire experience. We spent 6 wonderful nights travelling around Suffolk and Norfolk and Eve didn’t fail to impress us along the way.
+    <span class="color-purple-500">Rebecca, Thomas and Boo</span>
+    <span class="color-green-500 font-bitter">Sept 2022</span>
+</blockquote>
     {% render "newsletter.liquid" %}
 </main>
