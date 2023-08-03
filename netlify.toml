@@ -11,11 +11,15 @@
 
 [[redirects]]
   from = "/campervan-eve"
-  to = "/our-vans/eve"
+  to = "/electric-campervans/eve"
 
 [[redirects]]
   from = "/our-vans"
-  to = "/electric-campervans"
+  to = "/"
+
+[[redirects]]
+  from = "/electric-campervans"
+  to = "/"
 
 [[redirects]]
   from = "/our-vans/*"
