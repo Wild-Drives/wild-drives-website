@@ -25,7 +25,7 @@ Wild Drives is one of the first all-electric campervan hire companies in the wor
 
 This year we're back with another first. A stunning campervan conversion of the award-winning VW ID Buzz for hire in the UK this summer from £150 per day!
 
-<a href="/our-vans/buzz/" target="_blank" class="cta cta--no-margin cta--orange">Learn more and see availability</a>
+<a href="/electric-campervans/buzz/" target="_blank" class="cta cta--no-margin cta--orange">Learn more and see availability</a>
 </div>
 <div class="grid-container__item-span-4 margin-top-neg-5-desktop-only">
 {% capture imgUrl %}app/assets/img/{{ img }}{% endcapture %}

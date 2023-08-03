@@ -15,14 +15,14 @@ img: 'wild-drives-4.jpg'
         <hr class="hr hr--yellow-400">
         <div class="hero-subtext">
             <div class="hero-subtext__inner color-green-50">
-                <p>Say soon long to toxic fumes. Our vans are powered by electricity.</p>
+                <p>Say so long to toxic fumes. These campervans are powered by electricity.</p>
                 <p>Escape the crowds this summer with quietest, smoothest, and greenest adventure in the world.</p>
             </div>
         </div>
         {% render 'booking-button', classes: "margin-top-1" %}
 </section>
 
-<div class="grid-container grid-container-mobile align-items-top margin-spacing-b">
+<div id="electric-campervans" class="grid-container grid-container-mobile align-items-top margin-spacing-b">
     <div class="grid-container__item-span-4">
         {%- for van in collections.buzz -%}
         <a href="{{van.url}}">
