@@ -106,9 +106,14 @@ eleventyConfig.addShortcode("Image", async (src, alt, classes, loading = 'lazy',
     return `<div class="${classes}"><picture> ${source} ${img} </picture></div>`;
   });
 
+  eleventyConfig.addFilter('log', value => {
+    console.log(value)
+})
+
   return {
     dir: {
       input: "app"
     }
   }
 };
+

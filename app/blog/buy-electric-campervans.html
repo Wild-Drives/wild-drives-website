@@ -1,0 +1,74 @@
+---
+layout: layouts/blog-post.liquid
+date: 2023-08-10
+titleOne: Buy our ex-hire electric campervans
+bodyClass: eve-background
+description: "Own one of our ground-breaking and head turning electric campervans as we refresh our fleet. Second hand. Available in August and September."
+img: 'LOV_6.jpg'
+alt: "Our VW ID Buzz electric campervan in the woods"
+tags: post
+---
+
+<div class="margin-spacing-b">
+
+At the end of our second year of business, we've decided it's the best time to refresh our fleet and plan ahead for the future. This summer, you'll be able to purchase both of our electric campervans that have been available for hire.
+
+</div>
+
+{%- for van in collections.vans -%}
+<div class="grid-container align-items-top margin-spacing-b">
+<div class="grid-container__item-span-5">
+<h2>{{ van.data.model }} electric campervan for sale</h2>
+<p>{{ van.data.description }}</p>
+<ul>
+    <li>Sleeps {{ van.data.sleeps }}</li>
+    <li>{{ van.data.range}} mile range</li>
+    <li>Charges 5-80% in {{ van.data.chargeTime }}</li>
+</ul>
+<a class="cta cta--no-margin cta--orange cta--with-icon plausible-event-name=Buy+{{van.data.name}}+Button+Click" href="{{van.data.eBayLink}}" target="_blank">
+    <i class="icon-arrow"></i> View {{ van.data.name }}'s listing
+    </a>
+    
+
+</div>
+<div class="grid-container__item-span-3">
+<a href="{{van.data.ebay}}">
+    {% capture imgUrl %}app/assets/img/{{ van.data.img }}{% endcapture %}
+    {% Image imgUrl, van.data.alt, "rotate-143  image-rounded", "lazy" %}
+</a>
+</div>
+</div>
+{%- endfor -%}
+
+<div class="grid-container align-items-top margin-spacing-a">
+<div class="grid-container__item-span-8">
+{% blogHeading2 "Go as far as you please in these premium electric campervans" %}
+</div>
+<div class="grid-container__item-span-5">
+<p>Both of the base vehicles for our vans, Citroen's E-Dispatch and Volkswagen's ID Buzz, are award winning electric campervans with premium range and charging speeds.</p>
+
+<p>Our customers have driven these vans as far as Cornwall, North Wales, Lake District, Scotland, France, and Switzerland on their adventures. You can go as far as your please with a low impact on your surroundings.</p>
+
+</div>
+<div class="grid-container__item-span-3">
+{% Image "app/assets/img/route-planning.jpg", "Planning a route around a table", "image-rounded rotate-074" %}
+</div>
+</div>
+
+<div class="grid-container align-items-top margin-spacing-a">
+<div class="grid-container__item-span-8">
+{% blogHeading2 "Luxurious and sustainable conversions" %}
+</div>
+<div class="grid-container__item-span-5">
+
+<p>As well as being powered by electricity. All Wild Drives campervans conversions use sustainable materials. All wood is FSC certified. The vans include a solar panel for electricity. Natural Fibre insulation is used in the vans, using sheep's wool or hemp. And we have beautiful bamboo surfaces!</p>
+
+<p>Both campervans feature an electric induction hob for speedy gas-free cooking.</p>
+
+</div>
+<div class="grid-container__item-span-3">
+{% Image "app/assets/img/LOV_7.jpg", "The interior of our VW ID Buzz electric campervan", "image-rounded rotate-074" %}
+</div>
+</div>
+
+</div>
