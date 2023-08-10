@@ -1,7 +1,5 @@
 ---
 layout: layouts/base.liquid
-img: 'wild-drives-4.jpg'
-alt: 'Wild Drives founder Lewis hanging out and smiling in the van'
 ---
 {% render "site-header.liquid", logo: 'site-id-purple.svg', menu-link-color: 'purple-600', cta-color: 'purple-800' %}
 <main class="wrapper">
@@ -15,8 +13,10 @@ alt: 'Wild Drives founder Lewis hanging out and smiling in the van'
             <p class="h3 color-green-900">{{ description }}</p>
         </div>
         <div>
-            {% capture imgUrl %}app/assets/img/{{ img }}{% endcapture %}
-            {% Image imgUrl, alt, "rotate-143  image-rounded", "eager" %}
+            {% if img %}
+                {% capture imgUrl %}app/assets/img/{{ img }}{% endcapture %}
+                {% Image imgUrl, alt, "rotate-143  image-rounded", "eager" %}
+            {% endif %}
         </div>
     </div>
 
