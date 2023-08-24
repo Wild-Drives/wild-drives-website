@@ -25,11 +25,14 @@ At the end of our second year of business, we've decided it's the best time to r
     <li>{{ van.data.range}} mile range</li>
     <li>Charges 5-80% in {{ van.data.chargeTime }}</li>
 </ul>
+{% if van.data.sold %}
+    <strong>{{ van.data.name }} has been sold</strong>
+{% else %}
 <a class="cta cta--no-margin cta--orange cta--with-icon plausible-event-name=Buy+{{van.data.name}}+Button+Click" href="{{van.data.eBayLink}}" target="_blank">
     <i class="icon-arrow"></i> View {{ van.data.name }}'s listing
     </a>
-    
 
+{% endif %}
 </div>
 <div class="grid-container__item-span-3">
 <a href="{{van.data.ebay}}">
