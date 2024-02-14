@@ -33,3 +33,20 @@
   .flex-child-25 {
     flex: 25%;
   }
+
+  .flex-container-vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 2rem;
+  }
+
+  .align-items-top {
+    align-items: flex-start!important;
+  }
+  .align-items-bottom {
+    align-items: flex-end!important;
+  }
+  .align-items-stretch {
+    align-items: stretch!important;
+  }
