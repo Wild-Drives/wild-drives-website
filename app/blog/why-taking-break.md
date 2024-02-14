@@ -2,7 +2,6 @@
 layout: layouts/blog-post.liquid
 date: 2024-02-14
 titleOne: Why I'm taking a break from Wild Drives
-titleTwo: 
 bodyClass: eve-background
 description: "Founder Lewis Nyman outlines his decision to put Wild Drives into hibernation"
 img: 'sunset-01-sq.jpg'
@@ -11,7 +10,8 @@ tags: post
 ---
 
 
-<div class="tw-60 margin-spacing-a">
+<div class="grid-container align-items-stretch margin-spacing-a">
+<div class="grid-container__item-span-4">
 
 Last year, I made the decision to put Wild Drives into hibernation.
 
@@ -50,7 +50,11 @@ Safe travels!
 
 Lewis
 Wild Drives CEO & Founder 
-
-{% Image "app/assets/img/sunset-03.jpg", "Eve on a cliff top, in front of a sunset", "image-rounded rotate-22" %}
+</div>
+<div class="grid-container__item-span-4 flex-container-vertical">
+{% Image "app/assets/img/sunset-04.jpg", "Lewis cleaning his sunglasses for some reason", "image-rounded" %}
+{% Image "app/assets/img/sunset-02.jpg", "Lewis packing up the van", "image-rounded" %}
+{% Image "app/assets/img/sunset-03.jpg", "Eve on a cliff top, in front of a sunset", "image-rounded" %}
+</div>
 </div>
 
